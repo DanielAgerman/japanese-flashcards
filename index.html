@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"/>
 <title>Flashcards</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
 :root{--bg-primary:#111827;--text-primary:#f9fafb;--text-secondary:#d1d5db}
-body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var(--text-primary);overflow:hidden; display:flex; flex-direction:column; height:100vh;}
+body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var(--text-primary);overflow:hidden; display:flex; flex-direction:column; height:100vh; height:100dvh;}
 .font-jp{font-family:'Noto Sans JP',sans-serif}
 #main-content-wrapper{
   display:flex;
@@ -16,21 +17,22 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
   position: relative;
   overflow: hidden;
 }
-#tab-controls{flex-shrink:0;border-bottom:1px solid #374151}
-.tab-btn{padding:0.75rem 1.25rem;color:var(--text-secondary);font-weight:600;border-bottom:2px solid transparent;outline:none;}
+#tab-controls{flex-shrink:0;border-bottom:1px solid #374151; display:flex; overflow-x:auto; white-space:nowrap; -webkit-overflow-scrolling:touch;}
+.tab-btn{padding:0.6rem 0.9rem;color:var(--text-secondary);font-weight:600;font-size:0.875rem;border-bottom:2px solid transparent;outline:none; flex-shrink:0;}
 .tab-btn.active{color:var(--text-primary);border-bottom-color:#4f46e5}
 .tab-content{flex-grow:1;overflow-y:auto}
-#japanese-word{line-height:1.2;font-size:clamp(2rem,8vw,6rem);padding:0.3em 0.55em;border-radius:0.4em;display:inline-block;transition:color 0.2s,background-color 0.2s;}
-#kana-reading{font-size:clamp(1.5rem,4vw,2.5rem);line-height:1.2;color:var(--text-secondary);margin-top:.5rem}
+#japanese-word{line-height:1.2;font-size:clamp(2.2rem,10vw,4.5rem);padding:0.3em 0.55em;border-radius:0.4em;display:inline-block;transition:color 0.2s,background-color 0.2s; text-align:center;}
+#kana-reading{font-size:clamp(1.2rem,5vw,2rem);line-height:1.2;color:var(--text-secondary);margin-top:.5rem}
 #english-translation{
-  line-height:1.6;
-  max-height:50vh;
+  line-height:1.5;
+  max-height:40vh;
   overflow-y:auto;
-  margin-top:1.5rem;
+  margin-top:1rem;
   white-space:pre-wrap;
   word-break:break-word;
-  font-size: 1.125rem;
+  font-size: 1.1rem;
   color: var(--text-secondary);
+  text-align: center;
 }
 #english-translation[contenteditable="true"],
 #japanese-word[contenteditable="true"] {
@@ -40,31 +42,27 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
   border-radius: 6px;
   padding: 0.5rem;
 }
-.grade-btn{color:#fff;font-weight:bold;padding:.3rem .2rem;border-radius:.4rem;font-size:.44rem;background:#374151;line-height: 1.3; transition: transform 0.1s ease;}
-.grade-btn:hover{background:#4b5563}
+.grade-btn{color:#fff;font-weight:bold;padding:0.75rem 0.5rem;border-radius:0.75rem;font-size:0.9rem;line-height: 1.2; transition: transform 0.1s ease, filter 0.1s ease;}
+.grade-btn:active{transform: scale(0.96);}
 .grade-btn-pop {
-  transform: scale(1.1);
-  filter: brightness(1.5);
+  transform: scale(1.05);
+  filter: brightness(1.4);
 }
-.grade-1 { background-color: #ef4444; }
-.grade-2 { background-color: #f97316; }
-.grade-3 { background-color: #eab308; }
-.grade-4 { background-color: #8b5cf6; }
-.grade-5 { background-color: #10b981; }
-.grade-6 { background-color: #06b6d4; }
-.grade-7 { background-color: #3b82f6; }
-.grade-8 { background-color: #22c55e; }
-.grade-btn:hover { filter: brightness(1.2); }
-.btn-neutral{background:#374151;color:var(--text-primary);font-weight:600; padding: 0.25rem 0.5rem; border-radius: 0.5rem; font-size: 0.75rem; cursor: pointer;}
+.grade-1 { background-color: #ef4444; } /* V.Hard -1.00 */
+.grade-2 { background-color: #f97316; } /* Hard -0.38 */
+.grade-3 { background-color: #8b5cf6; } /* Diff -0.10 */
+.grade-4 { background-color: #10b981; } /* Norm +0.10 */
+.grade-5 { background-color: #3b82f6; } /* Easy +0.38 */
+.grade-6 { background-color: #22c55e; } /* V.Easy +1.00 */
+
+.btn-neutral{background:#374151;color:var(--text-primary);font-weight:600; padding: 0.4rem 0.8rem; border-radius: 0.5rem; font-size: 0.85rem; cursor: pointer;}
 .btn-neutral:hover{background:#4b5563}
-.btn-neutral-label { background:#374151; color:var(--text-primary); font-weight:600; padding: 0.25rem 0.5rem; border-radius: 0.5rem; font-size: 0.75rem; cursor:pointer;}
-.btn-neutral-label:hover { background:#4b5563; }
+.btn-neutral-label { background:#374151; color:var(--text-primary); font-weight:600; padding: 0.4rem 0.8rem; border-radius: 0.5rem; font-size: 0.85rem; cursor:pointer;}
 #delete-card-btn {
   background-color: #991b1b;
   font-size: 0.75rem;
   padding: 0.25rem 0.5rem;
 }
-#delete-card-btn:hover { background-color: #ef4444; }
 
 .text-score-blue { color: #3b82f6; }
 .text-score-green { color: #22c55e; }
@@ -77,31 +75,27 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1.5rem;
+  padding: 0.25rem 0.75rem;
   background: #1f2937;
   border-bottom: 1px solid #374151;
   flex-shrink: 0;
 }
-#global-controls {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-}
 #session-tools {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 #voice-select {
   background: #374151;
   border: none;
   border-radius: 0.5rem;
-  padding: 0.25rem 0.5rem;
-  font-size: 0.875rem;
+  padding: 0.25rem 0.4rem;
+  font-size: 0.75rem;
+  max-width: 110px;
 }
 #bottom-bar {
   flex-shrink: 0;
-  padding: 0.75rem;
+  padding: 1rem 0.75rem calc(1rem + env(safe-area-inset-bottom));
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,11 +105,10 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
   color: white;
   font-weight: 700;
   font-size: 1.25rem;
-  padding: 1rem 3rem;
+  padding: 0.85rem 2.5rem;
   border-radius: 0.75rem;
-}
-#play-btn:hover {
-  background: #4338ca;
+  width: 100%;
+  max-width: 320px;
 }
 #play-btn:disabled {
   opacity: 0.5;
@@ -131,53 +124,36 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
   font-size: 0.875rem;
   width: 100%;
 }
-.input-style:focus {
-  outline: none;
-  border-color: #4f46e5;
-  box-shadow: 0 0 0 2px #4f46e5;
-}
 
 #previous-card-box {
-  width: 200px;
-  min-width: 200px;
+  width: 100%;
+  max-width: 340px;
   background: #1f2937;
   border-radius: 0.5rem;
-  padding: 0.75rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-  z-index: 10;
+  padding: 0.4rem 0.75rem;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   text-align: center;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   border: 1px solid #374151;
   opacity: 0;
   transition: opacity 0.3s ease;
+  flex-shrink: 0;
 }
 #previous-word {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 1.2;
 }
 .score-display {
-  font-size: 0.875rem;
+  font-size: 0.8rem;
   font-weight: 600;
-  margin-top: 0.25rem;
 }
 .delta-positive { color: #22c55e; }
 .delta-negative { color: #ef4444; }
 .delta-neutral { color: #9ca3af; }
-.grad-marker {
-  margin-top: 0.4rem;
-  font-size: 0.7rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.25rem;
-  border-top: 1px solid #374151;
-  padding-top: 0.35rem;
-}
 
 #confirm-modal {
   position: fixed;
@@ -201,91 +177,41 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
 #confirm-box {
   background: #1f2937;
   border-radius: 0.75rem;
-  padding: 1.5rem;
-  width: 90%;
-  max-width: 400px;
+  padding: 1.25rem;
+  width: 85%;
+  max-width: 360px;
   text-align: center;
   border: 1px solid #374151;
-  transform: scale(0.95);
-  transition: transform 0.2s ease;
-}
-#confirm-modal.visible #confirm-box {
-  transform: scale(1);
 }
 #confirm-message {
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--text-primary);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
 }
-#confirm-buttons {
-  display: flex;
-  gap: 0.75rem;
-}
-#confirm-btn-yes, #confirm-btn-no {
-  flex-grow: 1;
-  padding: 0.6rem;
-  border-radius: 0.5rem;
-  font-weight: 700;
-  cursor: pointer;
-}
-#confirm-btn-yes {
-  background-color: #dc2626;
-  color: white;
-}
-#confirm-btn-yes:hover { background-color: #b91c1c; }
-#confirm-btn-no {
-  background-color: #4b5563;
-  color: white;
-}
-#confirm-btn-no:hover { background-color: #6b7280; }
+#confirm-buttons { display: flex; gap: 0.75rem; }
+#confirm-btn-yes, #confirm-btn-no { flex-grow: 1; padding: 0.6rem; border-radius: 0.5rem; font-weight: 700; }
+#confirm-btn-yes { background-color: #dc2626; color: white; }
+#confirm-btn-no { background-color: #4b5563; color: white; }
 
-/* --- Cards Tab --- */
-#cards-container {
-  display: none;
-  flex-direction: column;
-  height: 100%;
-  overflow: hidden;
-}
-#cards-count { font-size: 0.75rem; color: #6b7280; white-space: nowrap; }
-#cards-list-wrapper { flex-grow: 1; overflow-y: auto; }
-#burned-list-wrapper { flex-grow: 1; overflow-y: auto; }
-#burned-container { display: none; flex-direction: column; height: 100%; overflow: hidden; }
-#unseen-list-wrapper { flex-grow: 1; overflow-y: auto; }
-#unseen-container { display: none; flex-direction: column; height: 100%; overflow: hidden; }
-#cards-list { list-style: none; padding: 0.5rem 1rem; margin: 0; display: flex; flex-direction: column; gap: 0.35rem; }
-#unseen-list { list-style: none; padding: 0.5rem 1rem; margin: 0; display: flex; flex-direction: column; gap: 0.35rem; }
+/* --- Cards Browser Tabs --- */
+#cards-container, #burned-container, #unseen-container { display: none; flex-direction: column; height: 100%; overflow: hidden; }
+#cards-list-wrapper, #burned-list-wrapper, #unseen-list-wrapper { flex-grow: 1; overflow-y: auto; }
+#cards-list, #unseen-list, #burned-list { list-style: none; padding: 0.5rem; margin: 0; display: flex; flex-direction: column; gap: 0.35rem; }
 .card-row {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-  padding: 0.55rem 0.85rem;
+  gap: 0.5rem;
+  padding: 0.5rem 0.65rem;
   border-radius: 0.5rem;
   background: #1f2937;
   border: 1px solid #374151;
-  transition: background 0.12s;
 }
-.card-row:hover { background: #263248; }
-.card-row-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
-.card-row-word { font-family: 'Noto Sans JP', sans-serif; font-size: 1rem; font-weight: 600; flex: 0 0 auto; min-width: 6rem; }
-.card-row-desc { font-size: 0.78rem; color: #6b7280; flex-grow: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.card-row-meta { display: flex; flex-direction: column; align-items: flex-end; flex-shrink: 0; gap: 0.1rem; }
-.card-row-score { font-size: 0.8rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+.card-row-word { font-family: 'Noto Sans JP', sans-serif; font-size: 0.95rem; font-weight: 600; min-width: 4.5rem; }
+.card-row-desc { font-size: 0.75rem; color: #9ca3af; flex-grow: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.card-row-meta { display: flex; flex-direction: column; align-items: flex-end; flex-shrink: 0; }
 .card-row-level { font-size: 0.65rem; color: #6b7280; }
 .card-row-cooldown { font-size: 0.65rem; color: #9ca3af; font-style: italic; }
-.status-burned  { color: #38bdf8; }
-.status-good    { color: #22c55e; }
-.status-okay    { color: #eab308; }
-.status-bad     { color: #ef4444; }
-.status-unseen  { color: #6b7280; }
-.dot-burned  { background: #38bdf8; }
-.dot-good    { background: #22c55e; }
-.dot-okay    { background: #eab308; }
-.dot-bad     { background: #ef4444; }
-.dot-unseen  { background: #6b7280; }
-.legend-row { display: flex; flex-wrap: wrap; gap: 0.75rem; padding: 0.5rem 1.25rem; border-bottom: 1px solid #374151; flex-shrink: 0; }
-.legend-item { display: flex; align-items: center; gap: 0.35rem; font-size: 0.72rem; color: #9ca3af; }
-.legend-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
 </style>
 </head>
 <body class="bg-gray-900 text-gray-50">
@@ -301,188 +227,148 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
   </nav>
 
   <div id="session-tools">
-    <select id="voice-select" class="ml-2 bg-black/40 text-white text-xs rounded px-1"></select>
+    <select id="voice-select"></select>
   </div>
 </div>
 
 <main id="main-content-wrapper">
   <div id="flashcard-container" class="tab-content" style="display: block;">
-    <div id="initial-message" class="flex flex-col items-center justify-center h-full text-center p-10">
-      <h2 class="mt-4 text-xl text-gray-300">No cards in deck.</h2>
-      <p class="mt-2 text-sm text-gray-500">Load a <strong class="text-gray-400">vocab.txt</strong> (one word per line) to set which words are in rotation.<br>Descriptions are looked up automatically from your loaded <strong class="text-gray-400">descriptions.txt</strong>.</p>
+    <div id="initial-message" class="flex flex-col items-center justify-center h-full text-center p-6">
+      <h2 class="text-lg text-gray-300">Loading cards...</h2>
     </div>
-    <div id="session-complete-message" class="hidden flex-col items-center justify-center h-full text-center p-10">
-      <h2 class="mt-4 text-2xl font-bold text-gray-100">Hand Complete!</h2>
+    <div id="session-complete-message" class="hidden flex-col items-center justify-center h-full text-center p-6">
+      <h2 class="text-2xl font-bold text-gray-100">Hand Complete!</h2>
       <p class="text-gray-400 mt-2">All due cards have been studied.</p>
     </div>
 
-    <div id="active-card" class="h-full hidden py-4 px-8 flex flex-col justify-between relative">
+    <div id="active-card" class="h-full hidden py-3 px-4 flex flex-col justify-between items-center relative select-none">
         
-        <div id="previous-card-box" class="hidden">
-            <div class="flex flex-col justify-center items-center">
-                <div id="previous-word" class="font-jp text-gray-100"></div>
-                <div class="score-display">
-                    <span id="previous-delta" class="font-mono"></span>
-                    Score <span id="previous-score" class="font-mono"></span>
-                </div>
-            </div>
+      <div id="previous-card-box" class="hidden">
+        <div id="previous-word" class="font-jp"></div>
+        <div class="score-display">
+          <span id="previous-delta" class="font-mono"></span>
+          (Score: <span id="previous-score" class="font-mono"></span>)
         </div>
+      </div>
 
-      <div class="flex flex-col flex-grow max-w-4xl mx-auto w-full items-center min-h-0">
-        <div id="main-word-area" class="flex-grow flex flex-col items-center justify-center relative w-full overflow-y-auto">
-          <h4 id="current-score-display" class="font-bold text-2xl mb-2 hidden"></h4>
+      <div class="flex flex-col flex-grow w-full items-center min-h-0 justify-center" id="card-touch-zone">
+        <div id="main-word-area" class="flex-grow flex flex-col items-center justify-center relative w-full overflow-y-auto cursor-pointer">
+          <h4 id="current-score-display" class="font-bold text-lg mb-1 hidden"></h4>
           <h2 id="japanese-word" class="font-jp font-bold"></h2>
           <h3 id="kana-reading" class="font-jp hidden"></h3>
           <div class="relative w-full">
             <div id="english-translation" class="hidden"></div>
-            <button id="delete-card-btn" class="absolute top-0 right-0 mt-6 mr-2 btn-neutral text-white !py-1 !px-2 z-20 hidden">Delete</button>
+            <button id="delete-card-btn" class="absolute top-0 right-0 mt-2 mr-2 btn-neutral text-white hidden">Delete</button>
           </div>
         </div>
         
-        <div id="card-controls" class="mt-6 w-full flex-shrink-0">
+        <div id="card-controls" class="mt-4 w-full flex-shrink-0">
           <div class="flex items-center justify-center">
-            <button id="show-answer-btn" class="btn-neutral px-6 py-3 rounded-xl font-semibold">Show Answer</button>
+            <button id="show-answer-btn" class="btn-neutral w-full py-3.5 rounded-xl font-semibold text-base shadow-lg bg-indigo-600 hover:bg-indigo-500 text-white">Tap to Show Answer</button>
           </div>
           
-          <div id="edit-controls" class="hidden mt-4 flex items-center justify-center space-x-2">
-            <button id="edit-description-btn" class="btn-neutral px-4 py-2 rounded-lg font-semibold">Edit</button>
-            <button id="save-description-btn" class="btn-neutral px-4 py-2 rounded-lg font-semibold hidden">Save</button>
+          <div id="edit-controls" class="hidden mt-2 flex items-center justify-center space-x-2">
+            <button id="edit-description-btn" class="btn-neutral px-3 py-1.5 rounded-lg text-xs font-semibold">Edit</button>
+            <button id="save-description-btn" class="btn-neutral px-3 py-1.5 rounded-lg text-xs font-semibold hidden">Save</button>
           </div>
         </div>
       </div>
     </div>
-    
   </div>
   
-  <div id="settings-container" class="tab-content p-8 max-w-2xl mx-auto" style="display: none;">
-    <h2 class="text-3xl font-bold mb-6 text-gray-100">App Settings</h2>
-    
-    <div class="space-y-6">
+  <div id="settings-container" class="tab-content p-6 max-w-md mx-auto" style="display: none;">
+    <h2 class="text-2xl font-bold mb-4 text-gray-100">App Settings</h2>
+    <div class="space-y-4">
       <div>
-        <label for="setting-hand-size" class="block text-sm font-medium text-gray-300 mb-1">Hand Size</label>
+        <label for="setting-hand-size" class="block text-xs font-medium text-gray-300 mb-1">Hand Size</label>
         <input type="number" id="setting-hand-size" min="1" class="input-style">
-        <p class="text-xs text-gray-500 mt-1">Number of cards in a review hand. (Default: 6)</p>
       </div>
-      
       <div>
-        <label for="setting-grad-score" class="block text-sm font-medium text-gray-300 mb-1">Graduation Score</label>
+        <label for="setting-grad-score" class="block text-xs font-medium text-gray-300 mb-1">Graduation Score</label>
         <input type="number" id="setting-grad-score" min="1" class="input-style">
-        <p class="text-xs text-gray-500 mt-1">Score a card needs to reach to graduate and start cooldown. (Default: 10)</p>
       </div>
-      
       <div>
-        <label for="setting-modifier" class="block text-sm font-medium text-gray-300 mb-1">Base Score Modifier</label>
+        <label for="setting-modifier" class="block text-xs font-medium text-gray-300 mb-1">Base Score Modifier</label>
         <input type="number" step="0.1" id="setting-modifier" min="0.1" class="input-style">
-        <p class="text-xs text-gray-500 mt-1">Controls grading "steepness". All scores are based on this. (Default: 0.4 for normalized grades -1.0 to +1.0)</p>
       </div>
-      
       <div>
-        <label for="setting-weighting" class="block text-sm font-medium text-gray-300 mb-1">Review Weighting Exponent</label>
+        <label for="setting-weighting" class="block text-xs font-medium text-gray-300 mb-1">Review Weighting Exponent</label>
         <input type="number" step="0.1" id="setting-weighting" min="0" class="input-style">
-        <p class="text-xs text-gray-500 mt-1">Higher values strongly prioritize showing lowest-score cards within your hand. (Default: 1)</p>
       </div>
-
       <div>
-        <label for="setting-quick-learn" class="block text-sm font-medium text-gray-300 mb-1">Quick Learn Threshold (views)</label>
+        <label for="setting-quick-learn" class="block text-xs font-medium text-gray-300 mb-1">Quick Learn Threshold</label>
         <input type="number" id="setting-quick-learn" min="1" class="input-style">
-        <p class="text-xs text-gray-500 mt-1">If a card graduates in this many views or fewer, it levels up. (Default: 5)</p>
       </div>
-
       <div>
-        <label for="setting-struggle" class="block text-sm font-medium text-gray-300 mb-1">Struggle Threshold (views)</label>
+        <label for="setting-struggle" class="block text-xs font-medium text-gray-300 mb-1">Struggle Threshold</label>
         <input type="number" id="setting-struggle" min="1" class="input-style">
-        <p class="text-xs text-gray-500 mt-1">If a card takes this many views or more to graduate, it levels down. (Default: 8)</p>
       </div>
-
       <div>
-        <label for="setting-min-cooldown" class="block text-sm font-medium text-gray-300 mb-1">Min Cooldown (hours)</label>
+        <label for="setting-min-cooldown" class="block text-xs font-medium text-gray-300 mb-1">Min Cooldown (hours)</label>
         <input type="number" id="setting-min-cooldown" min="1" class="input-style">
-        <p class="text-xs text-gray-500 mt-1">Shortest cooldown a card can receive after graduating. (Default: 24)</p>
       </div>
-
       <div>
-        <label for="setting-max-cooldown" class="block text-sm font-medium text-gray-300 mb-1">Max Cooldown (hours)</label>
+        <label for="setting-max-cooldown" class="block text-xs font-medium text-gray-300 mb-1">Max Cooldown (hours)</label>
         <input type="number" id="setting-max-cooldown" min="1" class="input-style">
-        <p class="text-xs text-gray-500 mt-1">Cooldown applied to cards at max level (just before burn). (Default: 350)</p>
       </div>
-
       <div>
-        <label for="setting-burn-level" class="block text-sm font-medium text-gray-300 mb-1">Mastery Level</label>
+        <label for="setting-burn-level" class="block text-xs font-medium text-gray-300 mb-1">Mastery Level</label>
         <input type="number" id="setting-burn-level" min="1" class="input-style">
-        <p class="text-xs text-gray-500 mt-1">Cards that reach this level get mastered and removed from active review. (Default: 5)</p>
       </div>
     </div>
   </div>
   
-  <!-- Cards Browser Tab -->
-  <div id="cards-container" class="tab-content">
-    <div id="cards-list-wrapper">
-      <ul id="cards-list"></ul>
-    </div>
-  </div>
+  <div id="cards-container" class="tab-content"><div id="cards-list-wrapper"><ul id="cards-list"></ul></div></div>
+  <div id="unseen-container" class="tab-content"><div id="unseen-list-wrapper"><ul id="unseen-list"></ul></div></div>
+  <div id="burned-container" class="tab-content"><div id="burned-list-wrapper"><ul id="burned-list"></ul></div></div>
 
-  <!-- Unseen Tab -->
-  <div id="unseen-container" class="tab-content" style="display:none;">
-    <div id="unseen-list-wrapper">
-      <ul id="unseen-list"></ul>
-    </div>
-  </div>
-
-  <!-- Mastered Tab -->
-  <div id="burned-container" class="tab-content">
-    <div class="legend-row">
-      <div class="legend-item"><div class="legend-dot dot-burned"></div>Mastered — retired from review</div>
-    </div>
-    <div id="burned-list-wrapper">
-      <ul id="burned-list"></ul>
-    </div>
-  </div>
-
-  <!-- Data Tab -->
-  <div id="data-container" class="tab-content p-8 max-w-2xl mx-auto" style="display:none;">
-    <h2 class="text-3xl font-bold mb-6 text-gray-100">Data</h2>
-    <div class="space-y-8">
-      <div>
-        <h3 class="text-lg font-semibold text-gray-200 mb-3">Vocabulary &amp; Descriptions</h3>
-        <div class="flex flex-wrap gap-3">
-          <label for="vocab-loader" class="btn-neutral-label">📥 Import Vocab</label>
-          <input type="file" id="vocab-loader" accept=".txt" class="hidden">
-          <label for="descriptions-loader" class="btn-neutral-label">📥 Import Descriptions</label>
-          <input type="file" id="descriptions-loader" accept=".txt" class="hidden">
-          <button id="download-vocab-btn" class="btn-neutral">📤 Export Vocab</button>
-          <button id="download-descriptions-btn" class="btn-neutral">📤 Export Descriptions</button>
-        </div>
+  <div id="data-container" class="tab-content p-6 max-w-md mx-auto" style="display:none;">
+    <h2 class="text-2xl font-bold mb-4 text-gray-100">Data</h2>
+    <div class="space-y-6">
+      <div class="flex flex-wrap gap-2">
+        <label for="vocab-loader" class="btn-neutral-label">📥 Import Vocab</label>
+        <input type="file" id="vocab-loader" accept=".txt" class="hidden">
+        <label for="descriptions-loader" class="btn-neutral-label">📥 Import Descriptions</label>
+        <input type="file" id="descriptions-loader" accept=".txt" class="hidden">
       </div>
-      <div>
-        <h3 class="text-lg font-semibold text-gray-200 mb-3">Progress</h3>
-        <div class="flex flex-wrap gap-3">
-          <button id="export-progress-btn" class="btn-neutral">📤 Export Progress</button>
-          <label for="import-progress-input" class="btn-neutral-label">📥 Import Progress</label>
-          <input type="file" id="import-progress-input" accept="application/json" class="hidden">
-        </div>
+      <div class="flex flex-wrap gap-2">
+        <button id="export-progress-btn" class="btn-neutral">📤 Export Progress</button>
+        <label for="import-progress-input" class="btn-neutral-label">📥 Import Progress</label>
+        <input type="file" id="import-progress-input" accept="application/json" class="hidden">
       </div>
-      <div style="border-top: 1px solid #374151; padding-top: 1.5rem;">
-        <h3 class="text-lg font-semibold text-red-400 mb-2">Danger Zone</h3>
-        <p class="text-xs text-gray-500 mb-3">Permanently clears all saved data including vocabulary, descriptions, progress, and settings. This cannot be undone.</p>
-        <button id="clear-cache-btn" style="background-color:#7f1d1d;color:white;font-weight:600;padding:0.5rem 1rem;border-radius:0.5rem;font-size:0.875rem;cursor:pointer;">🗑️ Clear All Save Data</button>
+      <div style="border-top: 1px solid #374151; padding-top: 1rem;">
+        <button id="clear-cache-btn" style="background-color:#7f1d1d;color:white;font-weight:600;padding:0.5rem 1rem;border-radius:0.5rem;font-size:0.85rem;">🗑️ Clear All Save Data</button>
       </div>
     </div>
   </div>
 
-  <div id="bottom-bar">      <button id="play-btn" class="disabled:opacity-60" disabled>Play</button>
+  <div id="bottom-bar">
+    <button id="play-btn" class="disabled:opacity-60" disabled>Play</button>
   </div>
 </main>
 
-<!-- Grading buttons: fixed to bottom of screen -->
-<div id="grading-buttons" class="hidden grid grid-cols-8 gap-1" style="position:fixed;bottom:0.35rem;left:0;right:0;padding:0 0.5rem;z-index:50;">
-  <button data-grade="1" data-key="a" class="grade-btn grade-1">V.Hard<span class="block text-xs opacity-70" data-delta-label="1">-1.00</span></button>
-  <button data-grade="2" data-key="s" class="grade-btn grade-2">Hard<span class="block text-xs opacity-70" data-delta-label="2">-0.50</span></button>
-  <button data-grade="3" data-key="d" class="grade-btn grade-3">Chall<span class="block text-xs opacity-70" data-delta-label="3">-0.25</span></button>
-  <button data-grade="4" data-key="f" class="grade-btn grade-4">Diff<span class="block text-xs opacity-70" data-delta-label="4">-0.10</span></button>
-  <button data-grade="5" data-key="j" class="grade-btn grade-5">Norm<span class="block text-xs opacity-70" data-delta-label="5">+0.10</span></button>
-  <button data-grade="6" data-key="k" class="grade-btn grade-6">Okay<span class="block text-xs opacity-70" data-delta-label="6">+0.25</span></button>
-  <button data-grade="7" data-key="l" class="grade-btn grade-7">Easy<span class="block text-xs opacity-70" data-delta-label="7">+0.50</span></button>
-  <button data-grade="8" data-key=";" class="grade-btn grade-8">V.Easy<span class="block text-xs opacity-70" data-delta-label="8">+1.00</span></button>
+<!-- Thumb-Optimized 2x3 Grid Grading Buttons -->
+<div id="grading-buttons" class="hidden fixed bottom-0 left-0 right-0 grid grid-cols-2 gap-2.5 p-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))] bg-gray-900/95 backdrop-blur-md border-t border-gray-800 z-50">
+  <button data-grade="1" class="grade-btn grade-1 flex items-center justify-between px-4">
+    <span>V.Hard</span><span class="font-mono text-xs opacity-80" data-delta-label="1">-1.00</span>
+  </button>
+  <button data-grade="6" class="grade-btn grade-6 flex items-center justify-between px-4">
+    <span>V.Easy</span><span class="font-mono text-xs opacity-80" data-delta-label="6">+1.00</span>
+  </button>
+
+  <button data-grade="2" class="grade-btn grade-2 flex items-center justify-between px-4">
+    <span>Hard</span><span class="font-mono text-xs opacity-80" data-delta-label="2">-0.38</span>
+  </button>
+  <button data-grade="5" class="grade-btn grade-5 flex items-center justify-between px-4">
+    <span>Easy</span><span class="font-mono text-xs opacity-80" data-delta-label="5">+0.38</span>
+  </button>
+
+  <button data-grade="3" class="grade-btn grade-3 flex items-center justify-between px-4">
+    <span>Diff</span><span class="font-mono text-xs opacity-80" data-delta-label="3">-0.10</span>
+  </button>
+  <button data-grade="4" class="grade-btn grade-4 flex items-center justify-between px-4">
+    <span>Norm</span><span class="font-mono text-xs opacity-80" data-delta-label="4">+0.10</span>
+  </button>
 </div>
 
 <div id="confirm-modal">
@@ -498,15 +384,15 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
 <script>
 let vocabulary=[], currentWord=null, srsStats=new Map(), currentHand = [];
 let sessionScores = new Map();
-let forcedPriorityKeys = new Set(); // manually-added cards that should jump the unseen queue
+let forcedPriorityKeys = new Set();
 let gradedThisSession = new Set();
 let lastGradedWord = null;
 let lastGradedScore = null;
 let lastScoreDelta = null;
-let lastGraduationLevelChange = null; // null=not graduated, -1=down, 0=same, 1=up
+let lastGraduationLevelChange = null;
 let lastGraduatedFromLevel = 0;
 let lastGraduatedToLevel = 0;
-let descriptionsMap = new Map(); // word -> description text, loaded from descriptions.txt
+let descriptionsMap = new Map();
 
 const LS_KEYS={
   VOCABULARY: 'cachedVocabulary',
@@ -537,8 +423,6 @@ const dom={
   descriptionsLoader:document.getElementById('descriptions-loader'),
   exportBtn:document.getElementById('export-progress-btn'),
   importInput:document.getElementById('import-progress-input'),
-  downloadDescriptionsBtn:document.getElementById('download-descriptions-btn'),
-  downloadVocabBtn:document.getElementById('download-vocab-btn'),
   playBtn:document.getElementById('play-btn'),
   initialMessage:document.getElementById('initial-message'),
   sessionCompleteMessage:document.getElementById('session-complete-message'),
@@ -573,6 +457,7 @@ const dom={
   previousDelta: document.getElementById('previous-delta'),
   
   mainWordArea: document.getElementById('main-word-area'),
+  cardTouchZone: document.getElementById('card-touch-zone'),
   
   editControls: document.getElementById('edit-controls'),
   editDescriptionBtn: document.getElementById('edit-description-btn'),
@@ -590,6 +475,7 @@ const dom={
   unseenContainer: document.getElementById('unseen-container'),
   unseenList: document.getElementById('unseen-list'),
 };
+
 let confirmCallback = null;
 function showConfirmModal(message, onConfirm) {
   dom.confirmMessage.textContent = message;
@@ -600,18 +486,10 @@ function hideConfirmModal() {
   dom.confirmModal.classList.remove('visible');
   confirmCallback = null;
 }
-dom.confirmBtnYes.addEventListener('click', () => {
-  if (confirmCallback) {
-    confirmCallback();
-  }
-  hideConfirmModal();
-});
+dom.confirmBtnYes.addEventListener('click', () => { if (confirmCallback) confirmCallback(); hideConfirmModal(); });
 dom.confirmBtnNo.addEventListener('click', hideConfirmModal);
 
-function saveSettings() {
-  localStorage.setItem(LS_KEYS.SETTINGS, JSON.stringify(settings));
-}
-
+function saveSettings() { localStorage.setItem(LS_KEYS.SETTINGS, JSON.stringify(settings)); }
 function loadSettings() {
   const s = localStorage.getItem(LS_KEYS.SETTINGS);
   settings = s ? { ...DEFAULT_SETTINGS, ...JSON.parse(s) } : { ...DEFAULT_SETTINGS };
@@ -633,9 +511,10 @@ function populateSettingsUI() {
 
 function updateGradingButtonLabels() {
   const m = settings.baseScoreModifier;
-  const deltas = {1: -10*m, 2: -5*m, 3: -2.5*m, 4: -1*m, 5: 1*m, 6: 2.5*m, 7: 5*m, 8: 10*m};
+  // 6 Grades: 1: -1.0, 2: -0.38 (comb 2&3), 3: -0.10, 4: +0.10, 5: +0.38 (comb 6&7), 6: +1.0
+  const deltas = {1: -10*m, 2: -3.75*m, 3: -1*m, 4: 1*m, 5: 3.75*m, 6: 10*m};
   
-  for (let i = 1; i <= 8; i++) {
+  for (let i = 1; i <= 6; i++) {
     const label = dom.gradingButtons.querySelector(`[data-delta-label="${i}"]`);
     if (label) {
       const value = deltas[i];
@@ -648,7 +527,7 @@ let availableVoices=[], chosenVoice=null;
 function populateVoiceDropdown(){
   const sel=dom.voiceSelect;
   sel.innerHTML='';
-  const def=document.createElement('option');def.value='';def.textContent='System Default';sel.appendChild(def);
+  const def=document.createElement('option');def.value='';def.textContent='Voice';sel.appendChild(def);
   availableVoices.forEach(v=>{const o=document.createElement('option');o.value=v.name;o.textContent=v.name;sel.appendChild(o);});
   const saved=localStorage.getItem(LS_KEYS.VOICE)||'';sel.value=saved;chosenVoice=saved;
   sel.onchange=()=>{chosenVoice=sel.value;localStorage.setItem(LS_KEYS.VOICE,chosenVoice);}
@@ -657,127 +536,53 @@ function setupVoices(){availableVoices=speechSynthesis.getVoices();populateVoice
 if("speechSynthesis" in window){speechSynthesis.onvoiceschanged=setupVoices;setupVoices();}
 function speak(txt){if(!txt)return;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(txt);u.lang="ja-JP";if(chosenVoice){const v=availableVoices.find(v=>v.name===chosenVoice);if(v)u.voice=v;}speechSynthesis.speak(u)}
 
-// ── Word colour assignment ──────────────────────────────────────────────────
-// 64 colours generated across the full hue wheel in 4 passes (varying
-// saturation and lightness) — all legible on the dark #111827 background.
 const WORD_COLORS = [
-  // Pass 1: sat 85%, light 65% — vivid
   'hsl(0,85%,65%)',   'hsl(23,85%,65%)',  'hsl(45,85%,65%)',  'hsl(68,85%,65%)',
   'hsl(90,85%,65%)',  'hsl(113,85%,65%)', 'hsl(135,85%,65%)', 'hsl(158,85%,65%)',
   'hsl(180,85%,65%)', 'hsl(203,85%,65%)', 'hsl(225,85%,65%)', 'hsl(248,85%,65%)',
-  'hsl(270,85%,65%)', 'hsl(293,85%,65%)', 'hsl(315,85%,65%)', 'hsl(338,85%,65%)',
-  // Pass 2: sat 70%, light 72% — lighter, offset hues
-  'hsl(11,70%,72%)',  'hsl(34,70%,72%)',  'hsl(56,70%,72%)',  'hsl(79,70%,72%)',
-  'hsl(101,70%,72%)', 'hsl(124,70%,72%)', 'hsl(146,70%,72%)', 'hsl(169,70%,72%)',
-  'hsl(191,70%,72%)', 'hsl(214,70%,72%)', 'hsl(236,70%,72%)', 'hsl(259,70%,72%)',
-  'hsl(281,70%,72%)', 'hsl(304,70%,72%)', 'hsl(326,70%,72%)', 'hsl(349,70%,72%)',
-  // Pass 3: sat 100%, light 60% — fully saturated
-  'hsl(7,100%,60%)',  'hsl(30,100%,60%)', 'hsl(52,100%,60%)', 'hsl(75,100%,60%)',
-  'hsl(97,100%,60%)', 'hsl(120,100%,60%)','hsl(142,100%,60%)','hsl(165,100%,60%)',
-  'hsl(187,100%,60%)','hsl(210,100%,60%)','hsl(232,100%,60%)','hsl(255,100%,60%)',
-  'hsl(277,100%,60%)','hsl(300,100%,60%)','hsl(322,100%,60%)','hsl(345,100%,60%)',
-  // Pass 4: sat 60%, light 78% — soft, pale
-  'hsl(6,60%,78%)',   'hsl(28,60%,78%)',  'hsl(51,60%,78%)',  'hsl(73,60%,78%)',
-  'hsl(96,60%,78%)',  'hsl(118,60%,78%)', 'hsl(141,60%,78%)', 'hsl(163,60%,78%)',
-  'hsl(186,60%,78%)', 'hsl(208,60%,78%)', 'hsl(231,60%,78%)', 'hsl(253,60%,78%)',
-  'hsl(276,60%,78%)', 'hsl(298,60%,78%)', 'hsl(321,60%,78%)', 'hsl(343,60%,78%)',
+  'hsl(270,85%,65%)', 'hsl(293,85%,65%)', 'hsl(315,85%,65%)', 'hsl(338,85%,65%)'
 ];
-
 function wordColorIndex(word) {
-  // Simple djb2-style hash for consistent colour per word
   let hash = 5381;
-  for (let i = 0; i < word.length; i++) {
-    hash = ((hash << 5) + hash) ^ word.charCodeAt(i);
-    hash = hash >>> 0; // keep unsigned 32-bit
-  }
+  for (let i = 0; i < word.length; i++) { hash = ((hash << 5) + hash) ^ word.charCodeAt(i); hash = hash >>> 0; }
   return hash % WORD_COLORS.length;
 }
-
-function getWordColor(word) {
-  return WORD_COLORS[wordColorIndex(word)];
-}
-
+function getWordColor(word) { return WORD_COLORS[wordColorIndex(word)]; }
 function getWordBgColor(word) {
-  // Parse hue from e.g. 'hsl(180,85%,65%)' and return complementary dark bg
   const hsl = WORD_COLORS[wordColorIndex(word)];
   const h = parseInt(hsl.match(/hsl\((\d+)/)[1], 10);
-  const complementH = (h + 180) % 360;
-  return `hsl(${complementH},80%,20%)`;
+  return `hsl(${(h + 180) % 360},80%,20%)`;
 }
-// ────────────────────────────────────────────────────────────────────────────
 
-// Parse descriptions.txt — returns a Map of word -> description string
 function parseDescriptionsFile(text) {
   const map = new Map();
   const regex = /(.+?)-\s*\{([\s\S]*?)\}/g;
   let match;
   while ((match = regex.exec(text)) !== null) {
     const word = match[1].trim();
-    if (!word) continue;
-    map.set(word, match[2].trim());
+    if (word) map.set(word, match[2].trim());
   }
   return map;
 }
 
-// Parse vocab.txt — returns array of word strings (one per non-empty line)
-function parseVocabFile(text) {
-  return text.split('\n').map(l => l.trim()).filter(Boolean);
-}
-
-function saveDescriptions() {
-  localStorage.setItem(LS_KEYS.DESCRIPTIONS, JSON.stringify(Array.from(descriptionsMap.entries())));
-}
+function parseVocabFile(text) { return text.split('\n').map(l => l.trim()).filter(Boolean); }
+function saveDescriptions() { localStorage.setItem(LS_KEYS.DESCRIPTIONS, JSON.stringify(Array.from(descriptionsMap.entries()))); }
 function loadDescriptions() {
   const j = localStorage.getItem(LS_KEYS.DESCRIPTIONS);
   if (j) { descriptionsMap = new Map(JSON.parse(j)); return true; }
   return false;
 }
 
-// Build vocabulary array from the current descriptionsMap and a list of word strings
 function buildVocabularyFromWords(words) {
   return words.map(word => {
-    const description = descriptionsMap.get(word)
-      ?? vocabulary.find(v => v.displayWord === word)?.description
-      ?? '';
+    const description = descriptionsMap.get(word) ?? vocabulary.find(v => v.displayWord === word)?.description ?? '';
     return { displayWord: word, audioWord: word, description };
-  });
-}
-
-// Called when vocab.txt is loaded — sets which words are in rotation
-function handleVocabLoad(files) {
-  const file = files[0]; if (!file) return;
-  file.text().then(t => {
-    const words = parseVocabFile(t);
-    localStorage.setItem(LS_KEYS.VOCAB_WORDS, JSON.stringify(words));
-    applyVocabWords(words);
-  });
-}
-
-// Called when descriptions.txt is loaded — updates descriptions for all active vocab
-function handleDescriptionsLoad(files) {
-  const file = files[0]; if (!file) return;
-  file.text().then(t => {
-    descriptionsMap = parseDescriptionsFile(t);
-    saveDescriptions();
-    // Refresh descriptions on currently loaded vocabulary
-    for (const v of vocabulary) {
-      const desc = descriptionsMap.get(v.displayWord);
-      if (desc !== undefined) v.description = desc;
-    }
-    saveVocabulary();
-    if (currentWord) {
-      const desc = descriptionsMap.get(currentWord.displayWord);
-      if (desc !== undefined) currentWord.description = desc;
-    }
-    alert(`Descriptions loaded: ${descriptionsMap.size} entries found.`);
   });
 }
 
 function applyVocabWords(words) {
   vocabulary = buildVocabularyFromWords(words);
   let changed = false;
-  // Don't delete srsStats for words no longer in vocab — just leave them
-  // dormant so progress is preserved if they're added back later.
   for (const v of vocabulary) {
     if (!srsStats.has(v.displayWord)) {
       srsStats.set(v.displayWord, { level: 0, currentViews: 0 });
@@ -793,32 +598,21 @@ function saveSrsStats(){localStorage.setItem(LS_KEYS.SRS_STATS,JSON.stringify(Ar
 function loadSrsStats(){let j=localStorage.getItem(LS_KEYS.SRS_STATS);if(j){srsStats=new Map(JSON.parse(j))}}
 function saveVocabulary() {
   try {
-    // Optimize storage: strip out descriptions if they already match descriptionsMap
     const optimizedVocab = vocabulary.map(v => {
       const mappedDesc = descriptionsMap.get(v.displayWord);
-      if (mappedDesc && mappedDesc === v.description) {
-        return { displayWord: v.displayWord, audioWord: v.audioWord }; // Leave out description to save huge amounts of space
-      }
+      if (mappedDesc && mappedDesc === v.description) return { displayWord: v.displayWord, audioWord: v.audioWord };
       return v;
     });
     localStorage.setItem(LS_KEYS.VOCABULARY, JSON.stringify(optimizedVocab));
-  } catch (e) {
-    console.error(e);
-    alert("Storage limit reached! Your browser couldn't save the new vocab list. Try reducing the size of your text files.");
-  }
+  } catch (e) { console.error(e); }
 }
 function loadVocabulary() {
   const j = localStorage.getItem(LS_KEYS.VOCABULARY);
   if (j) {
     vocabulary = JSON.parse(j);
-    // Re-apply descriptionsMap so descriptions survive page refresh
     for (const v of vocabulary) {
       const desc = descriptionsMap.get(v.displayWord);
-      if (desc !== undefined) {
-        v.description = desc;
-      } else if (!v.description) {
-        v.description = ''; // Fallback to prevent crashes if description is missing entirely
-      }
+      v.description = desc !== undefined ? desc : (v.description || '');
     }
     setVocabularyData();
     return true;
@@ -827,7 +621,6 @@ function loadVocabulary() {
 }
 
 function getSessionScore(key){ return (sessionScores.get(key) ?? 3.0); }
-
 function getScoreColorClass(score) {
   if (score >= settings.graduationScore) return 'text-score-blue';
   if (score >= settings.graduationScore * 0.66) return 'text-score-green';
@@ -841,7 +634,7 @@ function triggerButtonPop(grade) {
   const btn = dom.gradingButtons.querySelector(`[data-grade="${grade}"]`);
   if (btn) {
     btn.classList.add('grade-btn-pop');
-    setTimeout(() => btn.classList.remove('grade-btn-pop'), 100);
+    setTimeout(() => btn.classList.remove('grade-btn-pop'), 120);
   }
 }
 
@@ -853,42 +646,15 @@ function updatePreviousCardDisplay() {
     const vocabItem = vocabulary.find(v => v.displayWord === lastGradedWord);
     dom.previousWord.textContent = vocabItem ? vocabItem.displayWord : 'N/A';
     dom.previousWord.style.color = vocabItem ? getWordColor(vocabItem.displayWord) : '';
-    dom.previousWord.style.backgroundColor = vocabItem ? getWordBgColor(vocabItem.displayWord) : '';
-    dom.previousWord.style.borderRadius = vocabItem ? '0.3em' : '';
-    dom.previousWord.style.padding = vocabItem ? '0.1em 0.35em' : '';
     
     let deltaClass = 'delta-neutral';
     if (lastScoreDelta > 0.01) deltaClass = 'delta-positive';
     else if (lastScoreDelta < -0.01) deltaClass = 'delta-negative';
 
     const deltaText = (lastScoreDelta > 0 ? '+' : '') + lastScoreDelta.toFixed(2).replace(/\.00$/, '');
-    const scoreText = lastGradedScore.toFixed(1);
-
     dom.previousDelta.className = `font-mono ${deltaClass}`;
     dom.previousDelta.textContent = deltaText;
-    dom.previousScore.textContent = scoreText;
-
-    // Graduation marker
-    let gradEl = dom.previousCardBox.querySelector('.grad-marker');
-    if (lastGraduationLevelChange !== null) {
-      if (!gradEl) {
-        gradEl = document.createElement('div');
-        gradEl.className = 'grad-marker';
-        dom.previousCardBox.appendChild(gradEl);
-      }
-      const prevLevel = lastGraduatedFromLevel;
-      const newLevel = lastGraduatedToLevel;
-      const color = lastGraduationLevelChange > 0 ? '#22c55e' : lastGraduationLevelChange < 0 ? '#ef4444' : '#9ca3af';
-      const cooldownMs = getCooldownDuration(newLevel);
-      const cooldownH = Math.round(cooldownMs / 3600000);
-      const cooldownStr = cooldownH >= 24 ? `${Math.floor(cooldownH/24)}d ${cooldownH%24}h` : `${cooldownH}h`;
-      const isBurned = newLevel >= settings.burnLevel;
-      const statusLabel = isBurned ? '🔥 Burned!' : `Next in ${cooldownStr}`;
-      gradEl.innerHTML = `<span style="color:${color};font-weight:700">${prevLevel} → ${newLevel}</span><span style="color:#9ca3af;margin-left:0.4rem">${statusLabel}</span>`;
-    } else {
-      if (gradEl) gradEl.remove();
-    }
-
+    dom.previousScore.textContent = lastGradedScore.toFixed(1);
   } else {
     dom.previousCardBox.classList.add('hidden');
     dom.previousCardBox.style.opacity = '0';
@@ -898,7 +664,6 @@ function updatePreviousCardDisplay() {
 function toggleDescriptionEdit(isEditing) {
   dom.englishTranslation.contentEditable = isEditing ? 'true' : 'false';
   dom.japaneseWord.contentEditable = isEditing ? 'true' : 'false';
-  
   if (isEditing) {
     dom.editDescriptionBtn.classList.add('hidden');
     dom.saveDescriptionBtn.classList.remove('hidden');
@@ -930,10 +695,6 @@ function displayCardFront(){
   dom.sessionCompleteMessage.classList.add("hidden");
   dom.activeCard.classList.remove("hidden");
   dom.currentScoreDisplay.classList.add("hidden");
-  
-  dom.mainWordArea.classList.add('justify-center');
-  dom.mainWordArea.classList.remove('justify-start');
-  
   updatePreviousCardDisplay();
 }
     
@@ -946,86 +707,49 @@ function displayCardBack(){
   
   const score = getSessionScore(currentWord.displayWord);
   dom.currentScoreDisplay.textContent = `Score: ${score.toFixed(1)}`;
-  dom.currentScoreDisplay.className = `font-bold text-2xl mb-2 ${getScoreColorClass(score)}`;
+  dom.currentScoreDisplay.className = `font-bold text-lg mb-1 ${getScoreColorClass(score)}`;
   dom.currentScoreDisplay.classList.remove("hidden");
 
-  dom.mainWordArea.classList.remove('justify-center');
-  dom.mainWordArea.classList.add('justify-start');
-
   toggleDescriptionEdit(false);
-  
-  const textToSpeak = getReadingFromDescription(currentWord.displayWord, currentWord.description);
-  speak(textToSpeak);
+  speak(getReadingFromDescription(currentWord.displayWord, currentWord.description));
 }
 
 function getCooldownDuration(level) {
   const maxLevel = Math.max(1, settings.burnLevel - 1);
   const t = Math.min(1, Math.max(0, level / maxLevel));
-  const hours = settings.minCooldownHours + t * (settings.maxCooldownHours - settings.minCooldownHours);
-  return hours * 3600 * 1000;
+  return (settings.minCooldownHours + t * (settings.maxCooldownHours - settings.minCooldownHours)) * 3600 * 1000;
 }
-
-function isOnCooldown(stats) {
-  if (!stats || !stats.cooldownStartedAt) return false;
-  return Date.now() < stats.cooldownStartedAt + getCooldownDuration(stats.level);
-}
-
-function cooldownEndsAt(stats) {
-  if (!stats || !stats.cooldownStartedAt) return 0;
-  return stats.cooldownStartedAt + getCooldownDuration(stats.level);
-}
+function isOnCooldown(stats) { return stats && stats.cooldownStartedAt && Date.now() < stats.cooldownStartedAt + getCooldownDuration(stats.level); }
+function cooldownEndsAt(stats) { return (stats && stats.cooldownStartedAt) ? stats.cooldownStartedAt + getCooldownDuration(stats.level) : 0; }
 
 function getPrioritizedDeck(excludeKey = null) {
   const notOnCooldown = vocabulary.filter(v => {
-    if (v.displayWord === excludeKey) return false;
-    if (currentHand.includes(v.displayWord)) return false;
+    if (v.displayWord === excludeKey || currentHand.includes(v.displayWord)) return false;
     const stats = srsStats.get(v.displayWord);
     if (stats && (stats.level || 0) >= settings.burnLevel) return false;
     if (isOnCooldown(stats)) return false;
     return true;
   });
-
-  // Prefer cards that have been seen before (have a cooldownStartedAt or currentViews > 0 or level > 0)
-  // Only include unseen cards if there are no due seen cards at all
   const seenDue = notOnCooldown.filter(v => {
     const stats = srsStats.get(v.displayWord);
     return forcedPriorityKeys.has(v.displayWord) || (stats && (stats.cooldownStartedAt || (stats.currentViews || 0) > 0 || (stats.level || 0) > 0));
   });
-
-  const byMostOverdue = (a, b) => {
-    const aEnds = cooldownEndsAt(srsStats.get(a.displayWord));
-    const bEnds = cooldownEndsAt(srsStats.get(b.displayWord));
-    return aEnds - bEnds; // cards with an earlier (or no) cooldown end come first
-  };
-
-  return (seenDue.length > 0 ? seenDue : notOnCooldown).sort(byMostOverdue);
+  return (seenDue.length > 0 ? seenDue : notOnCooldown).sort((a, b) => cooldownEndsAt(srsStats.get(a.displayWord)) - cooldownEndsAt(srsStats.get(b.displayWord)));
 }
 
 function pickNewHand() {
   const priorityDeck = getPrioritizedDeck();
-
-  if (priorityDeck.length === 0) {
-    const unmasteredCount = vocabulary.length;
-    if (unmasteredCount === 0) {
-      showConfirmModal("No cards in deck. Load a vocab.txt file?", () => dom.vocabLoader.click());
-    }
-    return;
-  }
-
+  if (priorityDeck.length === 0) return;
   currentHand = priorityDeck.slice(0, settings.handSize).map(v => v.displayWord);
-
   sessionScores.clear();
   gradedThisSession.clear();
-  for (const key of currentHand) {
-    sessionScores.set(key, 3.0);
-  }
+  for (const key of currentHand) sessionScores.set(key, 3.0);
 }
 
 function refillHand(graduatedKey = null) {
   while (currentHand.length < settings.handSize) {
     const priorityDeck = getPrioritizedDeck(graduatedKey);
     if (priorityDeck.length === 0) break;
-
     const newCardKey = priorityDeck[0].displayWord;
     currentHand.push(newCardKey);
     sessionScores.set(newCardKey, 3.0);
@@ -1033,25 +757,13 @@ function refillHand(graduatedKey = null) {
 }
 
 function showNextCard() {
-  if (currentHand.length === 0) {
-    endHand();
-    return;
-  }
-
+  if (currentHand.length === 0) { endHand(); return; }
   let availableHand = currentHand.filter(key => key !== currentWord?.displayWord);
-  
-  if (availableHand.length === 0 && currentHand.length > 0) {
-    availableHand = [...currentHand];
-  }
-
-  if (availableHand.length === 0) {
-    endHand();
-    return;
-  }
+  if (availableHand.length === 0 && currentHand.length > 0) availableHand = [...currentHand];
+  if (availableHand.length === 0) { endHand(); return; }
 
   const scoredHand = availableHand.map(key => ({ key, score: getSessionScore(key) }));
   const maxScore = Math.max(...scoredHand.map(c => c.score), 1.0);
-  
   let totalWeight = 0;
   const weightedList = scoredHand.map(c => {
     const weight = (maxScore - c.score + 1) ** settings.reviewWeightingExponent;
@@ -1061,67 +773,25 @@ function showNextCard() {
 
   let r = Math.random() * totalWeight;
   let chosenKey = weightedList[weightedList.length - 1].key;
-
   for (const card of weightedList) {
     r -= card.weight;
-    if (r <= 0) {
-      chosenKey = card.key;
-      break;
-    }
+    if (r <= 0) { chosenKey = card.key; break; }
   }
-  
   currentWord = vocabulary.find(v => v.displayWord === chosenKey);
   displayCardFront();
 }
 
-function forceGraduate() {
-  if (!currentWord) return;
-  const key = currentWord.displayWord;
-  let st = srsStats.get(key) || { level: 0, currentViews: 0 };
-  forcedPriorityKeys.delete(key);
-
-  // Force level up — user explicitly signalled they know this cold
-  const previousLevel = st.level || 0;
-  st.level = previousLevel + 1;
-
-  st.cooldownStartedAt = Date.now();
-  delete st.cooldownUntil;
-  st.currentViews = 0;
-
-  lastGradedWord = key;
-  gradedThisSession.add(key);
-  lastGradedScore = settings.graduationScore + 1;
-  lastScoreDelta = settings.graduationScore + 1 - getSessionScore(key);
-  lastGraduationLevelChange = 1;
-  lastGraduatedFromLevel = previousLevel;
-  lastGraduatedToLevel = st.level;
-
-  sessionScores.set(key, settings.graduationScore + 1);
-  srsStats.set(key, st);
-  saveSrsStats();
-
-  triggerButtonPop(8);
-  currentHand = currentHand.filter(k => k !== key);
-  sessionScores.delete(key);
-  refillHand(key);
-  showNextCard();
-}
-
 function gradeCard(g){
   if(!currentWord) return;
-  
   triggerButtonPop(g);
-
   const key = currentWord.displayWord;
   let st = srsStats.get(key) || { level: 0, currentViews: 0 };
-  
   st.currentViews = (st.currentViews || 0) + 1;
   forcedPriorityKeys.delete(key);
   
   let currentScore = getSessionScore(key);
-  
   const m = settings.baseScoreModifier;
-  const deltas = {1: -10*m, 2: -5*m, 3: -2.5*m, 4: -1*m, 5: 1*m, 6: 2.5*m, 7: 5*m, 8: 10*m};
+  const deltas = {1: -10*m, 2: -3.75*m, 3: -1*m, 4: 1*m, 5: 3.75*m, 6: 10*m};
   const delta = deltas[g] || 0;
 
   lastGradedWord = key;
@@ -1129,33 +799,18 @@ function gradeCard(g){
   const newScore = Math.max(0, currentScore + delta);
   lastGradedScore = newScore;
   lastScoreDelta = delta;
-  lastGraduationLevelChange = null;
 
   sessionScores.set(key, newScore);
   
   let graduated = false;
   if (newScore >= settings.graduationScore) {
-    
     let previousLevel = st.level || 0;
-    let levelChange = 0;
-    if (st.currentViews <= settings.quickLearnThreshold) {
-      st.level = previousLevel + 1;
-      levelChange = 1;
-    } else if (st.currentViews >= settings.struggleThreshold) {
-      st.level = Math.max(0, previousLevel - 1);
-      levelChange = previousLevel > 0 ? -1 : 0;
-    } else {
-      st.level = previousLevel;
-      levelChange = 0;
-    }
+    if (st.currentViews <= settings.quickLearnThreshold) st.level = previousLevel + 1;
+    else if (st.currentViews >= settings.struggleThreshold) st.level = Math.max(0, previousLevel - 1);
     
     st.cooldownStartedAt = Date.now();
-    delete st.cooldownUntil;
     st.currentViews = 0;
     graduated = true;
-    lastGraduationLevelChange = levelChange;
-    lastGraduatedFromLevel = previousLevel;
-    lastGraduatedToLevel = st.level;
   }
   
   srsStats.set(key, st);
@@ -1167,7 +822,6 @@ function gradeCard(g){
     sessionScores.delete(graduatedKey);
     refillHand(graduatedKey);
   }
-  
   showNextCard();
 }
 
@@ -1175,10 +829,8 @@ function playHand(){
   lastGradedWord = null;
   lastGradedScore = null;
   lastScoreDelta = null;
-  lastGraduationLevelChange = null;
   dom.previousCardBox.classList.add('hidden');
   dom.previousCardBox.style.opacity = '0';
-  
   pickNewHand();
   if (currentHand.length === 0) {
     dom.initialMessage.classList.add("hidden");
@@ -1188,12 +840,10 @@ function playHand(){
     dom.playBtn.innerText = "Check for Due Cards";
     return;
   }
-  
   dom.initialMessage.classList.add("hidden");
   dom.sessionCompleteMessage.classList.add("hidden");
   dom.activeCard.classList.remove("hidden");
   dom.playBtn.classList.add("hidden");
-  
   showNextCard();
 }
 
@@ -1208,11 +858,8 @@ function endHand(){
   currentWord = null;
 }
 
-
 function setVocabularyData() {
-  const unmasteredCount = vocabulary.length;
-  dom.playBtn.disabled = (unmasteredCount === 0);
-  
+  dom.playBtn.disabled = (vocabulary.length === 0);
   if (vocabulary.length === 0) {
     dom.initialMessage.classList.remove('hidden');
     dom.sessionCompleteMessage.classList.add('hidden');
@@ -1224,133 +871,21 @@ function setVocabularyData() {
   }
 }
 
-function setVocabularyFromText(t){
-  // Legacy single-file path: treat input as descriptions file and use all words as vocab
-  descriptionsMap = parseDescriptionsFile(t);
-  saveDescriptions();
-  const words = Array.from(descriptionsMap.keys());
-  localStorage.setItem(LS_KEYS.VOCAB_WORDS, JSON.stringify(words));
-  applyVocabWords(words);
-}
-
-function addNewCard() {
-  let baseKey = "New Word";
-  let newKey = baseKey;
-  let i = 0;
-  while (vocabulary.some(v => v.displayWord === newKey)) {
-    i++;
-    newKey = `${baseKey} ${i}`;
+// Tap anywhere on the card to flip answer
+dom.cardTouchZone.addEventListener('click', (e) => {
+  if (e.target.closest('button') || e.target.closest('[contenteditable="true"]')) return;
+  if (!dom.activeCard.classList.contains('hidden') && !dom.showAnswerBtn.classList.contains('hidden')) {
+    displayCardBack();
   }
-  
-  const displayWord = newKey;
-  const audioWord = displayWord;
-  const description = "Click to edit description...";
-  
-  const newVocab = { displayWord, audioWord, description };
-  
-  vocabulary.unshift(newVocab);
-  srsStats.set(displayWord, { level: 0, currentViews: 0 });
-  forcedPriorityKeys.add(displayWord);
-  
-  saveSrsStats();
-  saveVocabulary();
-  setVocabularyData();
-  
-  alert(`Added placeholder card: "${displayWord}". It has been placed at the FRONT of your deck to ensure it appears in your next session.`);
-}
-
-function removeCard(key) {
-  if (!key) return;
-  
-  vocabulary = vocabulary.filter(v => v.displayWord !== key);
-  srsStats.delete(key);
-  
-  if (currentWord && currentWord.displayWord === key) {
-    currentHand = currentHand.filter(k => k !== key);
-    sessionScores.delete(key);
-    currentWord = null;
-    showNextCard();
-  }
-  
-  saveSrsStats();
-  saveVocabulary();
-}
-
-function downloadDescriptions() {
-  let fileContent = "";
-  for (const v of vocabulary) {
-    fileContent += `${v.displayWord}-\n{\n${v.description.trim()}\n}\n\n`;
-  }
-  const b = new Blob([fileContent], { type: "text/plain;charset=utf-8" });
-  const a = document.createElement("a");
-  a.href = URL.createObjectURL(b);
-  a.download = "descriptions.txt";
-  a.click();
-  URL.revokeObjectURL(a.href);
-}
-
-function downloadVocab() {
-  const words = vocabulary.map(v => v.displayWord).join('\n');
-  const b = new Blob([words], { type: "text/plain;charset=utf-8" });
-  const a = document.createElement("a");
-  a.href = URL.createObjectURL(b);
-  a.download = "vocab.txt";
-  a.click();
-  URL.revokeObjectURL(a.href);
-}
-
-dom.vocabLoader.addEventListener("change", e => handleVocabLoad(e.target.files));
-dom.descriptionsLoader.addEventListener("change", e => handleDescriptionsLoad(e.target.files));
-dom.exportBtn.addEventListener("click",()=>{
-  let dataToExport = Array.from(srsStats.entries()).map(([key, stats]) => {
-    return [key, { level: stats.level ?? 0, currentViews: stats.currentViews ?? 0, cooldownStartedAt: stats.cooldownStartedAt }];
-  });
-  let d = JSON.stringify({ srsStats: dataToExport });
-  const b=new Blob([d],{type:"application/json"});
-  const a=document.createElement("a");
-  a.href=URL.createObjectURL(b);
-  a.download="progress.json";
-  a.click();
-  URL.revokeObjectURL(a.href);
 });
-dom.importInput.addEventListener("change",e=>{
-  const f=e.target.files[0];if(!f)return;
-  f.text().then(t=>{
-    try {
-      const j=JSON.parse(t);
-      if(j&&Array.isArray(j.srsStats)){
-        srsStats=new Map(j.srsStats);
-        saveSrsStats();
-        runDataMigration();
-      }
-    } catch (err) {
-      showConfirmModal("Error parsing progress file.", ()=>{});
-    }
-  });
-});
-
-dom.clearCacheBtn.addEventListener("click", () => {
-  showConfirmModal("Clear ALL save data? This cannot be undone.", () => {
-    Object.values(LS_KEYS).forEach(key => localStorage.removeItem(key));
-    localStorage.removeItem('cachedText');
-    location.reload();
-  });
-});
-dom.downloadDescriptionsBtn.addEventListener("click", downloadDescriptions);
-dom.downloadVocabBtn.addEventListener("click", downloadVocab);
 
 dom.playBtn.addEventListener("click", playHand);
 dom.showAnswerBtn.addEventListener("click", displayCardBack);
 dom.gradingButtons.querySelectorAll("button").forEach(btn=>btn.addEventListener("click",()=>gradeCard(parseInt(btn.dataset.grade))));
 
+// Keyboard support (1-6 keys for 6 grades)
 document.addEventListener("keydown",e=>{
-  if (dom.confirmModal.classList.contains('visible')) {
-    if (e.key === 'Enter') dom.confirmBtnYes.click();
-    if (e.key === 'Escape') dom.confirmBtnNo.click();
-    return;
-  }
   if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.closest('[contenteditable="true"]')) return;
-  
   if(e.code==="Space"){
     e.preventDefault();
     if(!dom.activeCard.classList.contains('hidden')) {
@@ -1359,32 +894,11 @@ document.addEventListener("keydown",e=>{
       playHand();
     }
   }
-
-  // ; on first sight = force graduate + level up (user knows it cold)
-  // ; on subsequent sights = normal V.Easy (grade 8) via gradeCard
-  if (e.key === ';' && !dom.activeCard.classList.contains('hidden') && currentWord) {
-    e.preventDefault();
-    const isFirstTime = !gradedThisSession.has(currentWord.displayWord);
-    if (isFirstTime) {
-      forceGraduate();
-    } else {
-      gradeCard(8);
-    }
-    return;
-  }
-  
-  const b=[...dom.gradingButtons.querySelectorAll("button")].find(x=>x.dataset.key===e.key);
-  
-  if(b && !dom.activeCard.classList.contains('hidden') && currentWord) {
-    gradeCard(parseInt(b.dataset.grade));
+  if (!dom.activeCard.classList.contains('hidden') && currentWord) {
+    const keyMap = {'1':1, '2':2, '3':3, '4':4, '5':5, '6':6, 'a':1, 's':2, 'd':3, 'f':4, 'j':5, 'k':6};
+    if (keyMap[e.key]) gradeCard(keyMap[e.key]);
   }
 });
-
-dom.tabBtnCards = document.getElementById('tab-btn-cards');
-dom.tabBtnBurned = document.getElementById('tab-btn-burned');
-dom.tabBtnUnseen = document.getElementById('tab-btn-unseen');
-dom.tabBtnData = document.getElementById('tab-btn-data');
-dom.dataContainer = document.getElementById('data-container');
 
 function switchTab(active) {
   dom.tabBtnDeck.classList.toggle('active', active === 'deck');
@@ -1408,344 +922,35 @@ dom.tabBtnUnseen.addEventListener('click', () => { switchTab('unseen'); initUnse
 dom.tabBtnBurned.addEventListener('click', () => { switchTab('burned'); initBurnedTab(); });
 dom.tabBtnSettings.addEventListener('click', () => { switchTab('settings'); populateSettingsUI(); });
 dom.tabBtnData.addEventListener('click', () => switchTab('data'));
-const CARDS_PAGE = 40;
-let cardsRenderedCount = 0;
-let cardsSortedItems = [];
-let burnedRenderedCount = 0;
-let burnedSortedItems = [];
-let unseenRenderedCount = 0;
-let unseenSortedItems = [];
 
-function buildCardsSortedItems() {
-  const now = Date.now();
-  cardsSortedItems = vocabulary.map(v => {
-    const stats = srsStats.get(v.displayWord) || { level: 0, currentViews: 0 };
-    const onCooldown = isOnCooldown(stats);
-    const level = stats.level || 0;
-    const isBurned = level >= settings.burnLevel;
-    if (isBurned) return null;
-    const hasHistory = level > 0 || (stats.currentViews || 0) > 0 || stats.cooldownStartedAt;
-    if (!hasHistory && !sessionScores.has(v.displayWord)) return null; // unseen → goes to unseen tab
-    const inSession = sessionScores.has(v.displayWord);
-    const score = inSession ? sessionScores.get(v.displayWord) : null;
-    return { v, stats, score, level, inSession, onCooldown };
-  }).filter(Boolean).sort((a, b) => {
-    // Soonest due first: due-now cards before on-cooldown cards
-    const aEnd = a.onCooldown ? cooldownEndsAt(a.stats) : 0;
-    const bEnd = b.onCooldown ? cooldownEndsAt(b.stats) : 0;
-    if (!a.onCooldown && b.onCooldown) return -1;
-    if (a.onCooldown && !b.onCooldown) return 1;
-    if (a.onCooldown && b.onCooldown) return aEnd - bEnd;
-    return b.level - a.level;
-  });
-}
-
-function buildUnseenSortedItems() {
-  unseenSortedItems = vocabulary.map(v => {
-    const stats = srsStats.get(v.displayWord) || { level: 0, currentViews: 0 };
-    const level = stats.level || 0;
-    const hasHistory = level > 0 || (stats.currentViews || 0) > 0 || stats.cooldownStartedAt;
-    if (hasHistory || sessionScores.has(v.displayWord)) return null;
-    return { v, stats, level };
-  }).filter(Boolean);
-}
-
-function buildBurnedSortedItems() {
-  burnedSortedItems = vocabulary.map(v => {
-    const stats = srsStats.get(v.displayWord) || { level: 0, currentViews: 0 };
-    const onCooldown = isOnCooldown(stats);
-    const level = stats.level || 0;
-    if (level < settings.burnLevel) return null;
-    return { v, stats, level, onCooldown };
-  }).filter(Boolean).sort((a, b) => a.level - b.level);
-}
-
-function makeCardRow({ v, stats, score, level, inSession, onCooldown }) {
-  const li = document.createElement('li');
-  li.className = 'card-row';
-  const cooldownStr = onCooldown
-    ? (() => { const diff = cooldownEndsAt(stats) - Date.now(); const h = Math.floor(diff/3600000); const d = Math.floor(h/24); return d > 0 ? `due in ${d}d ${h%24}h` : `due in ${h}h`; })()
-    : 'due now';
-  li.innerHTML = `<div class="card-row-word" style="color:${getWordColor(v.displayWord)}">${v.displayWord}</div><div class="card-row-desc">${v.description.replace(/\n/g,' ')}</div><div class="card-row-meta"><span class="card-row-level">Lv ${level}</span><span class="card-row-cooldown">${cooldownStr}</span></div>`;
-  return li;
-}
-
-function makeUnseenRow({ v }) {
-  const li = document.createElement('li');
-  li.className = 'card-row';
-  li.innerHTML = `<div class="card-row-word" style="color:${getWordColor(v.displayWord)}">${v.displayWord}</div><div class="card-row-desc">${v.description.replace(/\n/g,' ')}</div><div class="card-row-meta"><span class="card-row-level" style="color:#6b7280">unseen</span></div>`;
-  return li;
-}
-
-function makeBurnedRow({ v, stats, level, onCooldown }) {
-  const li = document.createElement('li');
-  li.className = 'card-row';
-  let cooldownStr = 'mastered';
-  if (onCooldown) {
-    const diff = cooldownEndsAt(stats) - Date.now();
-    const h = Math.floor(diff / 3600000);
-    const d = Math.floor(h / 24);
-    cooldownStr = d > 0 ? `due in ${d}d ${h % 24}h` : `due in ${h}h`;
+async function fetchDefaultFiles() {
+  try {
+    const descRes = await fetch('descriptions.txt', { cache: 'no-store' });
+    if (descRes.ok) {
+      const descText = await descRes.text();
+      descriptionsMap = parseDescriptionsFile(descText);
+      saveDescriptions();
+    }
+    const vocabRes = await fetch('vocab.txt', { cache: 'no-store' });
+    if (vocabRes.ok) {
+      const vocabText = await vocabRes.text();
+      const words = parseVocabFile(vocabText);
+      localStorage.setItem(LS_KEYS.VOCAB_WORDS, JSON.stringify(words));
+      applyVocabWords(words);
+    }
+  } catch (err) {
+    console.log("Using cached local data:", err);
   }
-  li.innerHTML = `<div class="card-row-dot dot-burned"></div><div class="card-row-word" style="color:${getWordColor(v.displayWord)}">${v.displayWord}</div><div class="card-row-desc">${v.description.replace(/\n/g,' ')}</div><div class="card-row-meta">${level ? `<span class="card-row-level">Lv ${level}</span>` : ''}<span class="card-row-cooldown">${cooldownStr}</span></div>`;
-  return li;
 }
 
-function cardsLoadMore() {
-  const end = Math.min(cardsRenderedCount + CARDS_PAGE, cardsSortedItems.length);
-  const frag = document.createDocumentFragment();
-  for (let i = cardsRenderedCount; i < end; i++) frag.appendChild(makeCardRow(cardsSortedItems[i]));
-  dom.cardsList.appendChild(frag);
-  cardsRenderedCount = end;
-}
-
-function burnedLoadMore() {
-  const end = Math.min(burnedRenderedCount + CARDS_PAGE, burnedSortedItems.length);
-  const frag = document.createDocumentFragment();
-  for (let i = burnedRenderedCount; i < end; i++) frag.appendChild(makeBurnedRow(burnedSortedItems[i]));
-  dom.burnedList.appendChild(frag);
-  burnedRenderedCount = end;
-}
-
-function unseenLoadMore() {
-  const end = Math.min(unseenRenderedCount + CARDS_PAGE, unseenSortedItems.length);
-  const frag = document.createDocumentFragment();
-  for (let i = unseenRenderedCount; i < end; i++) frag.appendChild(makeUnseenRow(unseenSortedItems[i]));
-  dom.unseenList.appendChild(frag);
-  unseenRenderedCount = end;
-}
-
-function initCardsTab() {
-  buildCardsSortedItems();
-  dom.cardsList.innerHTML = '';
-  cardsRenderedCount = 0;
-  cardsLoadMore();
-}
-
-function initBurnedTab() {
-  buildBurnedSortedItems();
-  dom.burnedList.innerHTML = '';
-  burnedRenderedCount = 0;
-  burnedLoadMore();
-}
-
-function initUnseenTab() {
-  buildUnseenSortedItems();
-  dom.unseenList.innerHTML = '';
-  unseenRenderedCount = 0;
-  unseenLoadMore();
-}
-
-dom.cardsListWrapper = document.getElementById('cards-list-wrapper');
-dom.cardsListWrapper.addEventListener('scroll', () => {
-  const el = dom.cardsListWrapper;
-  if (el.scrollTop + el.clientHeight >= el.scrollHeight - 200 && cardsRenderedCount < cardsSortedItems.length) {
-    cardsLoadMore();
-  }
-});
-
-dom.burnedListWrapper = document.getElementById('burned-list-wrapper');
-dom.burnedListWrapper.addEventListener('scroll', () => {
-  const el = dom.burnedListWrapper;
-  if (el.scrollTop + el.clientHeight >= el.scrollHeight - 200 && burnedRenderedCount < burnedSortedItems.length) {
-    burnedLoadMore();
-  }
-});
-
-dom.unseenListWrapper = document.getElementById('unseen-list-wrapper');
-dom.unseenListWrapper.addEventListener('scroll', () => {
-  const el = dom.unseenListWrapper;
-  if (el.scrollTop + el.clientHeight >= el.scrollHeight - 200 && unseenRenderedCount < unseenSortedItems.length) {
-    unseenLoadMore();
-  }
-});
-
-// settings listeners
-
-dom.settingHandSize.addEventListener('input', () => {
-  settings.handSize = Math.max(1, parseFloat(dom.settingHandSize.value)) || DEFAULT_SETTINGS.handSize;
-  saveSettings();
-});
-dom.settingGradScore.addEventListener('input', () => {
-  settings.graduationScore = Math.max(1, parseFloat(dom.settingGradScore.value)) || DEFAULT_SETTINGS.graduationScore;
-  saveSettings();
-});
-dom.settingModifier.addEventListener('input', () => {
-    settings.baseScoreModifier = Math.max(0.1, parseFloat(dom.settingModifier.value)) || DEFAULT_SETTINGS.baseScoreModifier;
-    saveSettings();
-    updateGradingButtonLabels();
-});
-dom.settingWeighting.addEventListener('input', () => {
-    const val = parseFloat(dom.settingWeighting.value);
-    if (!isNaN(val) && val >= 0) {
-      settings.reviewWeightingExponent = val;
-      saveSettings();
-    }
-});
-dom.settingQuickLearn.addEventListener('input', () => {
-  settings.quickLearnThreshold = Math.max(1, parseInt(dom.settingQuickLearn.value)) || DEFAULT_SETTINGS.quickLearnThreshold;
-  saveSettings();
-});
-dom.settingStruggle.addEventListener('input', () => {
-  settings.struggleThreshold = Math.max(1, parseInt(dom.settingStruggle.value)) || DEFAULT_SETTINGS.struggleThreshold;
-  saveSettings();
-});
-dom.settingMinCooldown.addEventListener('input', () => {
-  settings.minCooldownHours = Math.max(1, parseFloat(dom.settingMinCooldown.value)) || DEFAULT_SETTINGS.minCooldownHours;
-  saveSettings();
-});
-dom.settingMaxCooldown.addEventListener('input', () => {
-  settings.maxCooldownHours = Math.max(1, parseFloat(dom.settingMaxCooldown.value)) || DEFAULT_SETTINGS.maxCooldownHours;
-  saveSettings();
-});
-dom.settingBurnLevel.addEventListener('input', () => {
-  settings.burnLevel = Math.max(1, parseInt(dom.settingBurnLevel.value)) || DEFAULT_SETTINGS.burnLevel;
-  saveSettings();
-});
-
-dom.editDescriptionBtn.addEventListener('click', () => {
-  toggleDescriptionEdit(true);
-});
-
-dom.saveDescriptionBtn.addEventListener('click', () => {
-  if (currentWord) {
-    const oldKey = currentWord.displayWord;
-    const newKey = dom.japaneseWord.innerText.trim();
-    const newDesc = dom.englishTranslation.innerText;
-    
-    currentWord.description = newDesc;
-    descriptionsMap.set(newKey || oldKey, newDesc);
-    saveDescriptions();
-    
-    if (newKey && newKey !== oldKey && !vocabulary.some(v => v.displayWord === newKey && v !== currentWord)) {
-      currentWord.displayWord = newKey;
-      currentWord.audioWord = newKey;
-      
-      const stats = srsStats.get(oldKey);
-      srsStats.delete(oldKey);
-      if (stats) srsStats.set(newKey, stats);
-      else srsStats.set(newKey, { level: 0, currentViews: 0 });
-      
-      const handIndex = currentHand.indexOf(oldKey);
-      if (handIndex !== -1) currentHand[handIndex] = newKey;
-      
-      const sessionScore = sessionScores.get(oldKey);
-      sessionScores.delete(oldKey);
-      if(sessionScore !== undefined) sessionScores.set(newKey, sessionScore);
-      
-    } else {
-        dom.japaneseWord.innerText = oldKey;
-    }
-    
-    saveSrsStats();
-    saveVocabulary();
-  }
-  toggleDescriptionEdit(false);
-});
-
-dom.deleteCardBtn.addEventListener('click', () => {
-    if (currentWord) {
-        showConfirmModal(`Delete "${currentWord.displayWord}" permanently?`, () => {
-            removeCard(currentWord.displayWord);
-        });
-    }
-});
-
-function runDataMigration() {
-    // V6: clamp any cooldownStartedAt so the card expires at most maxCooldownHours from now.
-    // This fixes cards that had absurdly long countdowns due to the old exponential formula
-    // being used during the V5 migration back-calculation.
-    if (!localStorage.getItem(LS_KEYS.MIGRATION_V6)) {
-        const now = Date.now();
-        let statsChanged = false;
-        for (const [, stats] of srsStats.entries()) {
-            if (stats.cooldownStartedAt) {
-                const duration = getCooldownDuration(stats.level || 0);
-                const endsAt = stats.cooldownStartedAt + duration;
-                const maxEndsAt = now + duration;
-                if (endsAt > maxEndsAt) {
-                    stats.cooldownStartedAt = now; // reset graduation time to now; expires in correct duration
-                    statsChanged = true;
-                }
-            }
-        }
-        if (statsChanged) saveSrsStats();
-        localStorage.setItem(LS_KEYS.MIGRATION_V6, 'true');
-    }
-
-    if (localStorage.getItem(LS_KEYS.MIGRATION_V4)) {
-        // V4 already done — run V5 (cooldownUntil -> cooldownStartedAt) if needed
-        if (!localStorage.getItem(LS_KEYS.MIGRATION_V5)) {
-            let statsChanged = false;
-            for (const [, stats] of srsStats.entries()) {
-                if (stats.hasOwnProperty('cooldownUntil')) {
-                    // Back-calculate when the cooldown started from the stored end time
-                    const duration = getCooldownDuration(stats.level || 0);
-                    stats.cooldownStartedAt = stats.cooldownUntil - duration;
-                    delete stats.cooldownUntil;
-                    statsChanged = true;
-                }
-            }
-            if (statsChanged) saveSrsStats();
-            localStorage.setItem(LS_KEYS.MIGRATION_V5, 'true');
-        }
-        return;
-    }
-    
-    let statsChanged = false;
-    for (const [key, stats] of srsStats.entries()) {
-        if (stats.hasOwnProperty('stars')) {
-            stats.level = stats.stars;
-            delete stats.stars;
-            statsChanged = true;
-        }
-        if (!stats.hasOwnProperty('level')) {
-            stats.level = 0;
-            statsChanged = true;
-        }
-        if (!stats.hasOwnProperty('currentViews')) {
-            stats.currentViews = 0;
-            statsChanged = true;
-        }
-        if (stats.hasOwnProperty('masteryScore')) {
-            delete stats.masteryScore;
-            statsChanged = true;
-        }
-        if (stats.hasOwnProperty('lastUpdated')) {
-            delete stats.lastUpdated;
-            statsChanged = true;
-        }
-    }
-    
-    if (statsChanged) {
-        saveSrsStats();
-    }
-    localStorage.setItem(LS_KEYS.MIGRATION_V4, 'true');
-}
-
-function init(){
+async function init(){
   loadSettings();
   loadSrsStats();
   loadDescriptions();
-  runDataMigration();
-
+  await fetchDefaultFiles();
   if (!loadVocabulary()) {
-    // Try loading from new split storage
     const cachedVocabWords = localStorage.getItem(LS_KEYS.VOCAB_WORDS);
-    if (cachedVocabWords) {
-      const words = JSON.parse(cachedVocabWords);
-      applyVocabWords(words);
-    } else {
-      // Legacy: old single-file cachedText
-      const cachedText = localStorage.getItem('cachedText');
-      if (cachedText) {
-        setVocabularyFromText(cachedText);
-        localStorage.removeItem('cachedText');
-      } else {
-        dom.initialMessage.classList.remove('hidden');
-        dom.sessionCompleteMessage.classList.add('hidden');
-      }
-    }
+    if (cachedVocabWords) applyVocabWords(JSON.parse(cachedVocabWords));
   }
 }
 init();
