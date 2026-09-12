@@ -948,11 +948,12 @@ async function init(){
   loadSettings();
   loadSrsStats();
   loadDescriptions();
+  
+  // Load cached cards first so the screen renders instantly offline
+  loadVocabulary();
+
+  // Fetch the latest vocab and descriptions from GitHub server
   await fetchDefaultFiles();
-  if (!loadVocabulary()) {
-    const cachedVocabWords = localStorage.getItem(LS_KEYS.VOCAB_WORDS);
-    if (cachedVocabWords) applyVocabWords(JSON.parse(cachedVocabWords));
-  }
 }
 init();
 </script>
