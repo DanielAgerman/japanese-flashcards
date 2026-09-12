@@ -925,13 +925,14 @@ dom.tabBtnData.addEventListener('click', () => switchTab('data'));
 
 async function fetchDefaultFiles() {
   try {
-    const descRes = await fetch('descriptions.txt', { cache: 'no-store' });
+    // Fetch directly from GitHub Raw CDN for instant updates (0 delay)
+    const descRes = await fetch('https://raw.githubusercontent.com/DanielAgerman/japanese-flashcards/main/descriptions.txt', { cache: 'no-store' });
     if (descRes.ok) {
       const descText = await descRes.text();
       descriptionsMap = parseDescriptionsFile(descText);
       saveDescriptions();
     }
-    const vocabRes = await fetch('vocab.txt', { cache: 'no-store' });
+    const vocabRes = await fetch('https://raw.githubusercontent.com/DanielAgerman/japanese-flashcards/main/vocab.txt', { cache: 'no-store' });
     if (vocabRes.ok) {
       const vocabText = await vocabRes.text();
       const words = parseVocabFile(vocabText);
