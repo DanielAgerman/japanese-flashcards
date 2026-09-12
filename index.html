@@ -10,13 +10,7 @@
 :root{--bg-primary:#111827;--text-primary:#f9fafb;--text-secondary:#d1d5db}
 body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var(--text-primary);overflow:hidden; display:flex; flex-direction:column; height:100vh; height:100dvh;}
 .font-jp{font-family:'Noto Sans JP',sans-serif}
-#main-content-wrapper{
-  display:flex;
-  flex-direction:column;
-  flex-grow:1;
-  position: relative;
-  overflow: hidden;
-}
+#main-content-wrapper{ display:flex; flex-direction:column; flex-grow:1; position: relative; overflow: hidden; }
 
 /* Fixed Top Bar Layout */
 #top-bar {
@@ -28,11 +22,10 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
   border-bottom: 1px solid #374151;
   flex-shrink: 0;
   width: 100%;
-  box-sizing: border-box;
 }
 #tab-controls {
   flex: 1;
-  min-width: 0; /* Prevents tabs from pushing session-tools off-screen */
+  min-width: 0;
   display: flex;
   overflow-x: auto;
   white-space: nowrap;
@@ -44,23 +37,10 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
 .tab-btn.active{color:var(--text-primary);border-bottom-color:#4f46e5}
 .tab-content{flex-grow:1;overflow-y:auto}
 
-#session-tools {
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  gap: 0.35rem;
-  padding-left: 0.4rem;
-}
-#voice-select {
-  background: #374151;
-  border: none;
-  border-radius: 0.4rem;
-  padding: 0.2rem 0.35rem;
-  font-size: 0.7rem;
-  max-width: 90px;
-  color: #d1d5db;
-}
+#session-tools { flex-shrink: 0; display: flex; align-items: center; gap: 0.5rem; padding-left: 0.5rem; }
+#voice-select { background: #374151; border: none; border-radius: 0.4rem; padding: 0.2rem 0.35rem; font-size: 0.7rem; max-width: 90px; color: #d1d5db; }
 
+/* Main Card Display */
 #japanese-word{line-height:1.2;font-size:clamp(2.2rem,10vw,4.5rem);padding:0.3em 0.55em;border-radius:0.4em;display:inline-block;transition:color 0.2s,background-color 0.2s; text-align:center;}
 #kana-reading{font-size:clamp(1.2rem,5vw,2rem);line-height:1.2;color:var(--text-secondary);margin-top:.5rem}
 #english-translation{
@@ -75,19 +55,12 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
   text-align: center;
 }
 #english-translation[contenteditable="true"],
-#japanese-word[contenteditable="true"] {
-  outline: none;
-  box-shadow: 0 0 0 2px var(--text-primary);
-  background: rgba(0,0,0,0.3);
-  border-radius: 6px;
-  padding: 0.5rem;
-}
+#japanese-word[contenteditable="true"] { outline: none; box-shadow: 0 0 0 2px var(--text-primary); background: rgba(0,0,0,0.3); border-radius: 6px; padding: 0.5rem; }
+
+/* 6-Button Grid Styling */
 .grade-btn{color:#fff;font-weight:bold;padding:0.75rem 0.5rem;border-radius:0.75rem;font-size:0.9rem;line-height: 1.2; transition: transform 0.1s ease, filter 0.1s ease;}
 .grade-btn:active{transform: scale(0.96);}
-.grade-btn-pop {
-  transform: scale(1.05);
-  filter: brightness(1.4);
-}
+.grade-btn-pop { transform: scale(1.05); filter: brightness(1.4); }
 .grade-1 { background-color: #ef4444; }
 .grade-2 { background-color: #f97316; }
 .grade-3 { background-color: #8b5cf6; }
@@ -98,11 +71,7 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
 .btn-neutral{background:#374151;color:var(--text-primary);font-weight:600; padding: 0.4rem 0.8rem; border-radius: 0.5rem; font-size: 0.85rem; cursor: pointer;}
 .btn-neutral:hover{background:#4b5563}
 .btn-neutral-label { background:#374151; color:var(--text-primary); font-weight:600; padding: 0.4rem 0.8rem; border-radius: 0.5rem; font-size: 0.85rem; cursor:pointer;}
-#delete-card-btn {
-  background-color: #991b1b;
-  font-size: 0.75rem;
-  padding: 0.25rem 0.5rem;
-}
+#delete-card-btn { background-color: #991b1b; font-size: 0.75rem; padding: 0.25rem 0.5rem; }
 
 .text-score-blue { color: #3b82f6; }
 .text-score-green { color: #22c55e; }
@@ -111,113 +80,38 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
 .text-score-red { color: #ef4444; }
 .text-score-black { color: #a1a1aa; }
 
-#bottom-bar {
-  flex-shrink: 0;
-  padding: 1rem 0.75rem calc(1rem + env(safe-area-inset-bottom));
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#play-btn {
-  background: #4f46e5;
-  color: white;
-  font-weight: 700;
-  font-size: 1.25rem;
-  padding: 0.85rem 2.5rem;
-  border-radius: 0.75rem;
-  width: 100%;
-  max-width: 320px;
-}
-#play-btn:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
+#bottom-bar { flex-shrink: 0; padding: 1rem 0.75rem calc(1rem + env(safe-area-inset-bottom)); display: flex; justify-content: center; align-items: center; }
+#play-btn { background: #4f46e5; color: white; font-weight: 700; font-size: 1.25rem; padding: 0.85rem 2.5rem; border-radius: 0.75rem; width: 100%; max-width: 320px; }
+#play-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.input-style { background: #374151; color: var(--text-primary); border: 1px solid #4b5563; border-radius: 0.5rem; padding: 0.5rem 0.75rem; font-size: 0.875rem; width: 100%; }
 
-.input-style {
-  background: #374151;
-  color: var(--text-primary);
-  border: 1px solid #4b5563;
-  border-radius: 0.5rem;
-  padding: 0.5rem 0.75rem;
-  font-size: 0.875rem;
-  width: 100%;
-}
-
-#previous-card-box {
-  width: 100%;
-  max-width: 340px;
-  background: #1f2937;
-  border-radius: 0.5rem;
-  padding: 0.4rem 0.75rem;
-  margin-bottom: 0.5rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border: 1px solid #374151;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  flex-shrink: 0;
-}
-#previous-word {
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 1.2;
-}
+#previous-card-box { width: 100%; max-width: 340px; background: #1f2937; border-radius: 0.5rem; padding: 0.4rem 0.75rem; margin-bottom: 0.5rem; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); text-align: center; display: flex; align-items: center; justify-content: space-between; border: 1px solid #374151; opacity: 0; transition: opacity 0.3s ease; flex-shrink: 0; }
+#previous-word { font-size: 1rem; font-weight: 700; line-height: 1.2; }
 .score-display { font-size: 0.8rem; font-weight: 600; }
 .delta-positive { color: #22c55e; }
 .delta-negative { color: #ef4444; }
 .delta-neutral { color: #9ca3af; }
 
-#confirm-modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1000;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.2s ease;
-}
+#confirm-modal { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); display: flex; align-items: center; justify-content: center; z-index: 1000; opacity: 0; pointer-events: none; transition: opacity 0.2s ease; }
 #confirm-modal.visible { opacity: 1; pointer-events: auto; }
-#confirm-box {
-  background: #1f2937;
-  border-radius: 0.75rem;
-  padding: 1.25rem;
-  width: 85%;
-  max-width: 360px;
-  text-align: center;
-  border: 1px solid #374151;
-}
+#confirm-box { background: #1f2937; border-radius: 0.75rem; padding: 1.25rem; width: 85%; max-width: 360px; text-align: center; border: 1px solid #374151; }
 #confirm-message { font-size: 1rem; font-weight: 600; color: var(--text-primary); margin-bottom: 1.25rem; }
 #confirm-buttons { display: flex; gap: 0.75rem; }
-#confirm-btn-yes, #confirm-btn-no { flex-grow: 1; padding: 0.6rem; border-radius: 0.5rem; font-weight: 700; }
+#confirm-btn-yes, #confirm-btn-no { flex-grow: 1; padding: 0.6rem; border-radius: 0.5rem; font-weight: 700; cursor: pointer; }
 #confirm-btn-yes { background-color: #dc2626; color: white; }
 #confirm-btn-no { background-color: #4b5563; color: white; }
 
 #cards-container, #burned-container, #unseen-container { display: none; flex-direction: column; height: 100%; overflow: hidden; }
 #cards-list-wrapper, #burned-list-wrapper, #unseen-list-wrapper { flex-grow: 1; overflow-y: auto; }
 #cards-list, #unseen-list, #burned-list { list-style: none; padding: 0.5rem; margin: 0; display: flex; flex-direction: column; gap: 0.35rem; }
-.card-row {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.5rem 0.65rem;
-  border-radius: 0.5rem;
-  background: #1f2937;
-  border: 1px solid #374151;
-}
+.card-row { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 0.65rem; border-radius: 0.5rem; background: #1f2937; border: 1px solid #374151; }
 .card-row-word { font-family: 'Noto Sans JP', sans-serif; font-size: 0.95rem; font-weight: 600; min-width: 4.5rem; }
 .card-row-desc { font-size: 0.75rem; color: #9ca3af; flex-grow: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .card-row-meta { display: flex; flex-direction: column; align-items: flex-end; flex-shrink: 0; }
 .card-row-level { font-size: 0.65rem; color: #6b7280; }
 .card-row-cooldown { font-size: 0.65rem; color: #9ca3af; font-style: italic; }
+.card-row-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+.dot-burned  { background: #38bdf8; }
 </style>
 </head>
 <body class="bg-gray-900 text-gray-50">
@@ -234,17 +128,18 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
 
   <div id="session-tools">
     <select id="voice-select"></select>
-    <span id="version-tag" class="text-[10px] font-mono font-bold text-emerald-400 bg-emerald-950/80 border border-emerald-800/60 px-1.5 py-0.5 rounded flex-shrink-0">v1.2</span>
+    <span class="text-[10px] font-mono font-bold text-indigo-400 bg-indigo-950/80 border border-indigo-800/60 px-1.5 py-0.5 rounded flex-shrink-0">v1.4</span>
   </div>
 </div>
 
 <main id="main-content-wrapper">
   <div id="flashcard-container" class="tab-content" style="display: block;">
     <div id="initial-message" class="flex flex-col items-center justify-center h-full text-center p-6">
-      <h2 class="text-lg text-gray-300">Loading cards...</h2>
+      <h2 class="mt-4 text-xl text-gray-300 font-bold">No cards in deck.</h2>
+      <p class="mt-2 text-sm text-gray-400 max-w-xs">Attempting to auto-fetch from GitHub... If this message remains, please import <strong class="text-gray-300">vocab.txt</strong> manually in the Data tab.</p>
     </div>
     <div id="session-complete-message" class="hidden flex-col items-center justify-center h-full text-center p-6">
-      <h2 class="text-2xl font-bold text-gray-100">Hand Complete!</h2>
+      <h2 class="mt-4 text-2xl font-bold text-gray-100">Hand Complete!</h2>
       <p class="text-gray-400 mt-2">All due cards have been studied.</p>
     </div>
 
@@ -285,42 +180,15 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
   <div id="settings-container" class="tab-content p-6 max-w-md mx-auto" style="display: none;">
     <h2 class="text-2xl font-bold mb-4 text-gray-100">App Settings</h2>
     <div class="space-y-4">
-      <div>
-        <label for="setting-hand-size" class="block text-xs font-medium text-gray-300 mb-1">Hand Size</label>
-        <input type="number" id="setting-hand-size" min="1" class="input-style">
-      </div>
-      <div>
-        <label for="setting-grad-score" class="block text-xs font-medium text-gray-300 mb-1">Graduation Score</label>
-        <input type="number" id="setting-grad-score" min="1" class="input-style">
-      </div>
-      <div>
-        <label for="setting-modifier" class="block text-xs font-medium text-gray-300 mb-1">Base Score Modifier</label>
-        <input type="number" step="0.1" id="setting-modifier" min="0.1" class="input-style">
-      </div>
-      <div>
-        <label for="setting-weighting" class="block text-xs font-medium text-gray-300 mb-1">Review Weighting Exponent</label>
-        <input type="number" step="0.1" id="setting-weighting" min="0" class="input-style">
-      </div>
-      <div>
-        <label for="setting-quick-learn" class="block text-xs font-medium text-gray-300 mb-1">Quick Learn Threshold</label>
-        <input type="number" id="setting-quick-learn" min="1" class="input-style">
-      </div>
-      <div>
-        <label for="setting-struggle" class="block text-xs font-medium text-gray-300 mb-1">Struggle Threshold</label>
-        <input type="number" id="setting-struggle" min="1" class="input-style">
-      </div>
-      <div>
-        <label for="setting-min-cooldown" class="block text-xs font-medium text-gray-300 mb-1">Min Cooldown (hours)</label>
-        <input type="number" id="setting-min-cooldown" min="1" class="input-style">
-      </div>
-      <div>
-        <label for="setting-max-cooldown" class="block text-xs font-medium text-gray-300 mb-1">Max Cooldown (hours)</label>
-        <input type="number" id="setting-max-cooldown" min="1" class="input-style">
-      </div>
-      <div>
-        <label for="setting-burn-level" class="block text-xs font-medium text-gray-300 mb-1">Mastery Level</label>
-        <input type="number" id="setting-burn-level" min="1" class="input-style">
-      </div>
+      <div><label class="block text-xs font-medium text-gray-300 mb-1">Hand Size</label><input type="number" id="setting-hand-size" min="1" class="input-style"></div>
+      <div><label class="block text-xs font-medium text-gray-300 mb-1">Graduation Score</label><input type="number" id="setting-grad-score" min="1" class="input-style"></div>
+      <div><label class="block text-xs font-medium text-gray-300 mb-1">Base Score Modifier</label><input type="number" step="0.1" id="setting-modifier" min="0.1" class="input-style"></div>
+      <div><label class="block text-xs font-medium text-gray-300 mb-1">Review Weighting Exponent</label><input type="number" step="0.1" id="setting-weighting" min="0" class="input-style"></div>
+      <div><label class="block text-xs font-medium text-gray-300 mb-1">Quick Learn Threshold</label><input type="number" id="setting-quick-learn" min="1" class="input-style"></div>
+      <div><label class="block text-xs font-medium text-gray-300 mb-1">Struggle Threshold</label><input type="number" id="setting-struggle" min="1" class="input-style"></div>
+      <div><label class="block text-xs font-medium text-gray-300 mb-1">Min Cooldown (hours)</label><input type="number" id="setting-min-cooldown" min="1" class="input-style"></div>
+      <div><label class="block text-xs font-medium text-gray-300 mb-1">Max Cooldown (hours)</label><input type="number" id="setting-max-cooldown" min="1" class="input-style"></div>
+      <div><label class="block text-xs font-medium text-gray-300 mb-1">Mastery Level</label><input type="number" id="setting-burn-level" min="1" class="input-style"></div>
     </div>
   </div>
   
@@ -336,6 +204,8 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
         <input type="file" id="vocab-loader" accept=".txt" class="hidden">
         <label for="descriptions-loader" class="btn-neutral-label">📥 Import Descriptions</label>
         <input type="file" id="descriptions-loader" accept=".txt" class="hidden">
+        <button id="download-vocab-btn" class="btn-neutral">📤 Export Vocab</button>
+        <button id="download-descriptions-btn" class="btn-neutral">📤 Export Descriptions</button>
       </div>
       <div class="flex flex-wrap gap-2">
         <button id="export-progress-btn" class="btn-neutral">📤 Export Progress</button>
@@ -354,35 +224,18 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
 </main>
 
 <div id="grading-buttons" class="hidden fixed bottom-0 left-0 right-0 grid grid-cols-2 gap-2.5 p-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))] bg-gray-900/95 backdrop-blur-md border-t border-gray-800 z-50">
-  <button data-grade="1" class="grade-btn grade-1 flex items-center justify-between px-4">
-    <span>V.Hard</span><span class="font-mono text-xs opacity-80" data-delta-label="1">-1.00</span>
-  </button>
-  <button data-grade="6" class="grade-btn grade-6 flex items-center justify-between px-4">
-    <span>V.Easy</span><span class="font-mono text-xs opacity-80" data-delta-label="6">+1.00</span>
-  </button>
-
-  <button data-grade="2" class="grade-btn grade-2 flex items-center justify-between px-4">
-    <span>Hard</span><span class="font-mono text-xs opacity-80" data-delta-label="2">-0.38</span>
-  </button>
-  <button data-grade="5" class="grade-btn grade-5 flex items-center justify-between px-4">
-    <span>Easy</span><span class="font-mono text-xs opacity-80" data-delta-label="5">+0.38</span>
-  </button>
-
-  <button data-grade="3" class="grade-btn grade-3 flex items-center justify-between px-4">
-    <span>Diff</span><span class="font-mono text-xs opacity-80" data-delta-label="3">-0.10</span>
-  </button>
-  <button data-grade="4" class="grade-btn grade-4 flex items-center justify-between px-4">
-    <span>Norm</span><span class="font-mono text-xs opacity-80" data-delta-label="4">+0.10</span>
-  </button>
+  <button data-grade="1" class="grade-btn grade-1 flex items-center justify-between px-4"><span>V.Hard</span><span class="font-mono text-xs opacity-80" data-delta-label="1">-1.00</span></button>
+  <button data-grade="6" class="grade-btn grade-6 flex items-center justify-between px-4"><span>V.Easy</span><span class="font-mono text-xs opacity-80" data-delta-label="6">+1.00</span></button>
+  <button data-grade="2" class="grade-btn grade-2 flex items-center justify-between px-4"><span>Hard</span><span class="font-mono text-xs opacity-80" data-delta-label="2">-0.38</span></button>
+  <button data-grade="5" class="grade-btn grade-5 flex items-center justify-between px-4"><span>Easy</span><span class="font-mono text-xs opacity-80" data-delta-label="5">+0.38</span></button>
+  <button data-grade="3" class="grade-btn grade-3 flex items-center justify-between px-4"><span>Diff</span><span class="font-mono text-xs opacity-80" data-delta-label="3">-0.10</span></button>
+  <button data-grade="4" class="grade-btn grade-4 flex items-center justify-between px-4"><span>Norm</span><span class="font-mono text-xs opacity-80" data-delta-label="4">+0.10</span></button>
 </div>
 
 <div id="confirm-modal">
   <div id="confirm-box">
     <div id="confirm-message">Are you sure?</div>
-    <div id="confirm-buttons">
-      <button id="confirm-btn-no">Cancel</button>
-      <button id="confirm-btn-yes">Confirm</button>
-    </div>
+    <div id="confirm-buttons"><button id="confirm-btn-no">Cancel</button><button id="confirm-btn-yes">Confirm</button></div>
   </div>
 </div>
 
@@ -394,117 +247,70 @@ let gradedThisSession = new Set();
 let lastGradedWord = null;
 let lastGradedScore = null;
 let lastScoreDelta = null;
+let lastGraduationLevelChange = null;
+let lastGraduatedFromLevel = 0;
+let lastGraduatedToLevel = 0;
 let descriptionsMap = new Map();
 
 const LS_KEYS={
-  VOCABULARY: 'cachedVocabulary',
-  SRS_STATS:'srsStats',
-  VOICE:'chosenVoice',
-  SETTINGS: 'flashcardSettings',
-  DESCRIPTIONS: 'cachedDescriptions',
-  VOCAB_WORDS: 'cachedVocabWords'
+  VOCABULARY: 'cachedVocabulary', SRS_STATS:'srsStats', VOICE:'chosenVoice',
+  SETTINGS: 'flashcardSettings', MIGRATION_V4: 'flashcardMigrationV4',
+  MIGRATION_V5: 'flashcardMigrationV5', MIGRATION_V6: 'flashcardMigrationV6',
+  DESCRIPTIONS: 'cachedDescriptions', VOCAB_WORDS: 'cachedVocabWords'
 };
-const DEFAULT_SETTINGS = {
-  handSize: 6,
-  graduationScore: 10,
-  baseScoreModifier: 0.4,
-  reviewWeightingExponent: 1,
-  quickLearnThreshold: 5,
-  struggleThreshold: 8,
-  minCooldownHours: 24,
-  maxCooldownHours: 350,
-  burnLevel: 5
-};
+const DEFAULT_SETTINGS = { handSize: 6, graduationScore: 10, baseScoreModifier: 0.4, reviewWeightingExponent: 1, quickLearnThreshold: 5, struggleThreshold: 8, minCooldownHours: 24, maxCooldownHours: 350, burnLevel: 5 };
 let settings = { ...DEFAULT_SETTINGS };
 
 const dom={
-  vocabLoader:document.getElementById('vocab-loader'),
-  descriptionsLoader:document.getElementById('descriptions-loader'),
-  exportBtn:document.getElementById('export-progress-btn'),
-  importInput:document.getElementById('import-progress-input'),
-  playBtn:document.getElementById('play-btn'),
-  initialMessage:document.getElementById('initial-message'),
-  sessionCompleteMessage:document.getElementById('session-complete-message'),
-  activeCard:document.getElementById('active-card'),
-  japaneseWord:document.getElementById('japanese-word'),
-  kanaReading:document.getElementById('kana-reading'),
-  englishTranslation:document.getElementById('english-translation'),
-  showAnswerBtn:document.getElementById('show-answer-btn'),
-  gradingButtons:document.getElementById('grading-buttons'),
-  voiceSelect:document.getElementById('voice-select'),
-  tabBtnDeck:document.getElementById('tab-btn-deck'),
-  tabBtnSettings:document.getElementById('tab-btn-settings'),
-  flashcardContainer:document.getElementById('flashcard-container'),
-  settingsContainer:document.getElementById('settings-container'),
-  currentScoreDisplay: document.getElementById('current-score-display'),
-  bottomBar: document.getElementById('bottom-bar'),
-  
-  settingHandSize: document.getElementById('setting-hand-size'),
-  settingGradScore: document.getElementById('setting-grad-score'),
-  settingModifier: document.getElementById('setting-modifier'),
-  settingWeighting: document.getElementById('setting-weighting'),
-  settingQuickLearn: document.getElementById('setting-quick-learn'),
-  settingStruggle: document.getElementById('setting-struggle'),
-  settingMinCooldown: document.getElementById('setting-min-cooldown'),
-  settingMaxCooldown: document.getElementById('setting-max-cooldown'),
-  settingBurnLevel: document.getElementById('setting-burn-level'),
-  clearCacheBtn: document.getElementById('clear-cache-btn'),
-
-  previousCardBox: document.getElementById('previous-card-box'),
-  previousWord: document.getElementById('previous-word'),
-  previousScore: document.getElementById('previous-score'),
-  previousDelta: document.getElementById('previous-delta'),
-  
-  mainWordArea: document.getElementById('main-word-area'),
-  cardTouchZone: document.getElementById('card-touch-zone'),
-  
-  editControls: document.getElementById('edit-controls'),
-  editDescriptionBtn: document.getElementById('edit-description-btn'),
-  saveDescriptionBtn: document.getElementById('save-description-btn'),
-  deleteCardBtn: document.getElementById('delete-card-btn'),
-
-  confirmModal: document.getElementById('confirm-modal'),
-  confirmMessage: document.getElementById('confirm-message'),
-  confirmBtnYes: document.getElementById('confirm-btn-yes'),
-  confirmBtnNo: document.getElementById('confirm-btn-no'),
-  cardsContainer: document.getElementById('cards-container'),
-  cardsList: document.getElementById('cards-list'),
-  burnedContainer: document.getElementById('burned-container'),
-  burnedList: document.getElementById('burned-list'),
-  unseenContainer: document.getElementById('unseen-container'),
-  unseenList: document.getElementById('unseen-list'),
+  vocabLoader:document.getElementById('vocab-loader'), descriptionsLoader:document.getElementById('descriptions-loader'),
+  downloadDescriptionsBtn:document.getElementById('download-descriptions-btn'), downloadVocabBtn:document.getElementById('download-vocab-btn'),
+  exportBtn:document.getElementById('export-progress-btn'), importInput:document.getElementById('import-progress-input'),
+  playBtn:document.getElementById('play-btn'), initialMessage:document.getElementById('initial-message'),
+  sessionCompleteMessage:document.getElementById('session-complete-message'), activeCard:document.getElementById('active-card'),
+  japaneseWord:document.getElementById('japanese-word'), kanaReading:document.getElementById('kana-reading'),
+  englishTranslation:document.getElementById('english-translation'), showAnswerBtn:document.getElementById('show-answer-btn'),
+  gradingButtons:document.getElementById('grading-buttons'), voiceSelect:document.getElementById('voice-select'),
+  tabBtnDeck:document.getElementById('tab-btn-deck'), tabBtnCards:document.getElementById('tab-btn-cards'),
+  tabBtnUnseen:document.getElementById('tab-btn-unseen'), tabBtnBurned:document.getElementById('tab-btn-burned'),
+  tabBtnSettings:document.getElementById('tab-btn-settings'), tabBtnData:document.getElementById('tab-btn-data'),
+  flashcardContainer:document.getElementById('flashcard-container'), settingsContainer:document.getElementById('settings-container'),
+  cardsContainer:document.getElementById('cards-container'), unseenContainer:document.getElementById('unseen-container'),
+  burnedContainer:document.getElementById('burned-container'), dataContainer:document.getElementById('data-container'),
+  cardsList:document.getElementById('cards-list'), unseenList:document.getElementById('unseen-list'), burnedList:document.getElementById('burned-list'),
+  currentScoreDisplay:document.getElementById('current-score-display'), bottomBar:document.getElementById('bottom-bar'),
+  settingHandSize:document.getElementById('setting-hand-size'), settingGradScore:document.getElementById('setting-grad-score'),
+  settingModifier:document.getElementById('setting-modifier'), settingWeighting:document.getElementById('setting-weighting'),
+  settingQuickLearn:document.getElementById('setting-quick-learn'), settingStruggle:document.getElementById('setting-struggle'),
+  settingMinCooldown:document.getElementById('setting-min-cooldown'), settingMaxCooldown:document.getElementById('setting-max-cooldown'),
+  settingBurnLevel:document.getElementById('setting-burn-level'), clearCacheBtn:document.getElementById('clear-cache-btn'),
+  previousCardBox:document.getElementById('previous-card-box'), previousWord:document.getElementById('previous-word'),
+  previousScore:document.getElementById('previous-score'), previousDelta:document.getElementById('previous-delta'),
+  mainWordArea:document.getElementById('main-word-area'), cardTouchZone:document.getElementById('card-touch-zone'),
+  editControls:document.getElementById('edit-controls'), editDescriptionBtn:document.getElementById('edit-description-btn'),
+  saveDescriptionBtn:document.getElementById('save-description-btn'), deleteCardBtn:document.getElementById('delete-card-btn'),
+  confirmModal:document.getElementById('confirm-modal'), confirmMessage:document.getElementById('confirm-message'),
+  confirmBtnYes:document.getElementById('confirm-btn-yes'), confirmBtnNo:document.getElementById('confirm-btn-no'),
+  cardsListWrapper:document.getElementById('cards-list-wrapper'), unseenListWrapper:document.getElementById('unseen-list-wrapper'),
+  burnedListWrapper:document.getElementById('burned-list-wrapper')
 };
 
 let confirmCallback = null;
-function showConfirmModal(message, onConfirm) {
-  dom.confirmMessage.textContent = message;
-  confirmCallback = onConfirm;
-  dom.confirmModal.classList.add('visible');
-}
-function hideConfirmModal() {
-  dom.confirmModal.classList.remove('visible');
-  confirmCallback = null;
-}
+function showConfirmModal(message, onConfirm) { dom.confirmMessage.textContent = message; confirmCallback = onConfirm; dom.confirmModal.classList.add('visible'); }
+function hideConfirmModal() { dom.confirmModal.classList.remove('visible'); confirmCallback = null; }
 dom.confirmBtnYes.addEventListener('click', () => { if (confirmCallback) confirmCallback(); hideConfirmModal(); });
 dom.confirmBtnNo.addEventListener('click', hideConfirmModal);
 
 function saveSettings() { localStorage.setItem(LS_KEYS.SETTINGS, JSON.stringify(settings)); }
 function loadSettings() {
-  const s = localStorage.getItem(LS_KEYS.SETTINGS);
-  settings = s ? { ...DEFAULT_SETTINGS, ...JSON.parse(s) } : { ...DEFAULT_SETTINGS };
-  populateSettingsUI();
-  updateGradingButtonLabels();
+  const s = localStorage.getItem(LS_KEYS.SETTINGS); settings = s ? { ...DEFAULT_SETTINGS, ...JSON.parse(s) } : { ...DEFAULT_SETTINGS };
+  populateSettingsUI(); updateGradingButtonLabels();
 }
 
 function populateSettingsUI() {
-  dom.settingHandSize.value = settings.handSize;
-  dom.settingGradScore.value = settings.graduationScore;
-  dom.settingModifier.value = settings.baseScoreModifier;
-  dom.settingWeighting.value = settings.reviewWeightingExponent;
-  dom.settingQuickLearn.value = settings.quickLearnThreshold;
-  dom.settingStruggle.value = settings.struggleThreshold;
-  dom.settingMinCooldown.value = settings.minCooldownHours;
-  dom.settingMaxCooldown.value = settings.maxCooldownHours;
+  dom.settingHandSize.value = settings.handSize; dom.settingGradScore.value = settings.graduationScore;
+  dom.settingModifier.value = settings.baseScoreModifier; dom.settingWeighting.value = settings.reviewWeightingExponent;
+  dom.settingQuickLearn.value = settings.quickLearnThreshold; dom.settingStruggle.value = settings.struggleThreshold;
+  dom.settingMinCooldown.value = settings.minCooldownHours; dom.settingMaxCooldown.value = settings.maxCooldownHours;
   dom.settingBurnLevel.value = settings.burnLevel;
 }
 
@@ -513,18 +319,14 @@ function updateGradingButtonLabels() {
   const deltas = {1: -10*m, 2: -3.75*m, 3: -1*m, 4: 1*m, 5: 3.75*m, 6: 10*m};
   for (let i = 1; i <= 6; i++) {
     const label = dom.gradingButtons.querySelector(`[data-delta-label="${i}"]`);
-    if (label) {
-      const value = deltas[i];
-      label.textContent = (value > 0 ? '+' : '') + value.toFixed(2).replace(/\.00$/, '');
-    }
+    if (label) label.textContent = (deltas[i] > 0 ? '+' : '') + deltas[i].toFixed(2).replace(/\.00$/, '');
   }
 }
 
 let availableVoices=[], chosenVoice=null;
 function populateVoiceDropdown(){
-  const sel=dom.voiceSelect;
-  sel.innerHTML='';
-  const def=document.createElement('option');def.value='';def.textContent='Voice';sel.appendChild(def);
+  const sel=dom.voiceSelect; sel.innerHTML='';
+  const def=document.createElement('option');def.value='';def.textContent='System Default';sel.appendChild(def);
   availableVoices.forEach(v=>{const o=document.createElement('option');o.value=v.name;o.textContent=v.name;sel.appendChild(o);});
   const saved=localStorage.getItem(LS_KEYS.VOICE)||'';sel.value=saved;chosenVoice=saved;
   sel.onchange=()=>{chosenVoice=sel.value;localStorage.setItem(LS_KEYS.VOICE,chosenVoice);}
@@ -533,32 +335,16 @@ function setupVoices(){availableVoices=speechSynthesis.getVoices();populateVoice
 if("speechSynthesis" in window){speechSynthesis.onvoiceschanged=setupVoices;setupVoices();}
 function speak(txt){if(!txt)return;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(txt);u.lang="ja-JP";if(chosenVoice){const v=availableVoices.find(v=>v.name===chosenVoice);if(v)u.voice=v;}speechSynthesis.speak(u)}
 
-const WORD_COLORS = [
-  'hsl(0,85%,65%)',   'hsl(23,85%,65%)',  'hsl(45,85%,65%)',  'hsl(68,85%,65%)',
-  'hsl(90,85%,65%)',  'hsl(113,85%,65%)', 'hsl(135,85%,65%)', 'hsl(158,85%,65%)',
-  'hsl(180,85%,65%)', 'hsl(203,85%,65%)', 'hsl(225,85%,65%)', 'hsl(248,85%,65%)',
-  'hsl(270,85%,65%)', 'hsl(293,85%,65%)', 'hsl(315,85%,65%)', 'hsl(338,85%,65%)'
-];
-function wordColorIndex(word) {
-  let hash = 5381;
-  for (let i = 0; i < word.length; i++) { hash = ((hash << 5) + hash) ^ word.charCodeAt(i); hash = hash >>> 0; }
-  return hash % WORD_COLORS.length;
-}
+const WORD_COLORS = ['hsl(0,85%,65%)', 'hsl(23,85%,65%)', 'hsl(45,85%,65%)', 'hsl(68,85%,65%)', 'hsl(90,85%,65%)', 'hsl(113,85%,65%)', 'hsl(135,85%,65%)', 'hsl(158,85%,65%)', 'hsl(180,85%,65%)', 'hsl(203,85%,65%)', 'hsl(225,85%,65%)', 'hsl(248,85%,65%)', 'hsl(270,85%,65%)', 'hsl(293,85%,65%)', 'hsl(315,85%,65%)', 'hsl(338,85%,65%)'];
+function wordColorIndex(word) { let hash = 5381; for (let i = 0; i < word.length; i++) { hash = ((hash << 5) + hash) ^ word.charCodeAt(i); hash = hash >>> 0; } return hash % WORD_COLORS.length; }
 function getWordColor(word) { return WORD_COLORS[wordColorIndex(word)]; }
-function getWordBgColor(word) {
-  const hsl = WORD_COLORS[wordColorIndex(word)];
-  const h = parseInt(hsl.match(/hsl\((\d+)/)[1], 10);
-  return `hsl(${(h + 180) % 360},80%,20%)`;
-}
+function getWordBgColor(word) { const hsl = WORD_COLORS[wordColorIndex(word)]; const h = parseInt(hsl.match(/hsl\((\d+)/)[1], 10); return `hsl(${(h + 180) % 360},80%,20%)`; }
 
 function parseDescriptionsFile(text) {
   const map = new Map();
   const regex = /(.+?)-\s*\{([\s\S]*?)\}/g;
   let match;
-  while ((match = regex.exec(text)) !== null) {
-    const word = match[1].trim();
-    if (word) map.set(word, match[2].trim());
-  }
+  while ((match = regex.exec(text)) !== null) { const word = match[1].trim(); if (word) map.set(word, match[2].trim()); }
   return map;
 }
 
@@ -579,10 +365,16 @@ function buildVocabularyFromWords(words) {
 
 function handleVocabLoad(files) {
   const file = files[0]; if (!file) return;
+  file.text().then(t => { const words = parseVocabFile(t); localStorage.setItem(LS_KEYS.VOCAB_WORDS, JSON.stringify(words)); applyVocabWords(words); });
+}
+function handleDescriptionsLoad(files) {
+  const file = files[0]; if (!file) return;
   file.text().then(t => {
-    const words = parseVocabFile(t);
-    localStorage.setItem(LS_KEYS.VOCAB_WORDS, JSON.stringify(words));
-    applyVocabWords(words);
+    descriptionsMap = parseDescriptionsFile(t); saveDescriptions();
+    for (const v of vocabulary) { const desc = descriptionsMap.get(v.displayWord); if (desc !== undefined) v.description = desc; }
+    saveVocabulary();
+    if (currentWord) { const desc = descriptionsMap.get(currentWord.displayWord); if (desc !== undefined) currentWord.description = desc; }
+    alert(`Descriptions loaded: ${descriptionsMap.size} entries found.`);
   });
 }
 
@@ -590,14 +382,10 @@ function applyVocabWords(words) {
   vocabulary = buildVocabularyFromWords(words);
   let changed = false;
   for (const v of vocabulary) {
-    if (!srsStats.has(v.displayWord)) {
-      srsStats.set(v.displayWord, { level: 0, currentViews: 0 });
-      changed = true;
-    }
+    if (!srsStats.has(v.displayWord)) { srsStats.set(v.displayWord, { level: 0, currentViews: 0 }); changed = true; }
   }
   if (changed) saveSrsStats();
-  saveVocabulary();
-  setVocabularyData();
+  saveVocabulary(); setVocabularyData();
 }
 
 function saveSrsStats(){localStorage.setItem(LS_KEYS.SRS_STATS,JSON.stringify(Array.from(srsStats.entries())))}
@@ -610,7 +398,7 @@ function saveVocabulary() {
       return v;
     });
     localStorage.setItem(LS_KEYS.VOCABULARY, JSON.stringify(optimizedVocab));
-  } catch (e) { console.error(e); }
+  } catch (e) { alert("Storage limit reached!"); }
 }
 function loadVocabulary() {
   const j = localStorage.getItem(LS_KEYS.VOCABULARY);
@@ -620,8 +408,7 @@ function loadVocabulary() {
       const desc = descriptionsMap.get(v.displayWord);
       v.description = desc !== undefined ? desc : (v.description || '');
     }
-    setVocabularyData();
-    return true;
+    setVocabularyData(); return true;
   }
   return false;
 }
@@ -638,32 +425,22 @@ function getScoreColorClass(score) {
 
 function triggerButtonPop(grade) {
   const btn = dom.gradingButtons.querySelector(`[data-grade="${grade}"]`);
-  if (btn) {
-    btn.classList.add('grade-btn-pop');
-    setTimeout(() => btn.classList.remove('grade-btn-pop'), 120);
-  }
+  if (btn) { btn.classList.add('grade-btn-pop'); setTimeout(() => btn.classList.remove('grade-btn-pop'), 120); }
 }
 
 function updatePreviousCardDisplay() {
   if (lastGradedWord && lastGradedScore !== null && lastScoreDelta !== null) {
-    dom.previousCardBox.classList.remove('hidden');
-    dom.previousCardBox.style.opacity = '1';
-
+    dom.previousCardBox.classList.remove('hidden'); dom.previousCardBox.style.opacity = '1';
     const vocabItem = vocabulary.find(v => v.displayWord === lastGradedWord);
     dom.previousWord.textContent = vocabItem ? vocabItem.displayWord : 'N/A';
     dom.previousWord.style.color = vocabItem ? getWordColor(vocabItem.displayWord) : '';
-    
     let deltaClass = 'delta-neutral';
-    if (lastScoreDelta > 0.01) deltaClass = 'delta-positive';
-    else if (lastScoreDelta < -0.01) deltaClass = 'delta-negative';
-
+    if (lastScoreDelta > 0.01) deltaClass = 'delta-positive'; else if (lastScoreDelta < -0.01) deltaClass = 'delta-negative';
     const deltaText = (lastScoreDelta > 0 ? '+' : '') + lastScoreDelta.toFixed(2).replace(/\.00$/, '');
-    dom.previousDelta.className = `font-mono ${deltaClass}`;
-    dom.previousDelta.textContent = deltaText;
+    dom.previousDelta.className = `font-mono ${deltaClass}`; dom.previousDelta.textContent = deltaText;
     dom.previousScore.textContent = lastGradedScore.toFixed(1);
   } else {
-    dom.previousCardBox.classList.add('hidden');
-    dom.previousCardBox.style.opacity = '0';
+    dom.previousCardBox.classList.add('hidden'); dom.previousCardBox.style.opacity = '0';
   }
 }
 
@@ -671,36 +448,25 @@ function toggleDescriptionEdit(isEditing) {
   dom.englishTranslation.contentEditable = isEditing ? 'true' : 'false';
   dom.japaneseWord.contentEditable = isEditing ? 'true' : 'false';
   if (isEditing) {
-    dom.editDescriptionBtn.classList.add('hidden');
-    dom.saveDescriptionBtn.classList.remove('hidden');
-    dom.deleteCardBtn.classList.remove('hidden');
-    dom.englishTranslation.focus();
+    dom.editDescriptionBtn.classList.add('hidden'); dom.saveDescriptionBtn.classList.remove('hidden');
+    dom.deleteCardBtn.classList.remove('hidden'); dom.englishTranslation.focus();
   } else {
-    dom.editDescriptionBtn.classList.remove('hidden');
-    dom.saveDescriptionBtn.classList.add('hidden');
+    dom.editDescriptionBtn.classList.remove('hidden'); dom.saveDescriptionBtn.classList.add('hidden');
     dom.deleteCardBtn.classList.add('hidden');
   }
 }
 
-function getReadingFromDescription(word, description) {
-  const match = description.match(/[（(]([^)）]+)[)）]/);
-  return match ? match[1] : word;
-}
+function getReadingFromDescription(word, description) { const match = description.match(/[（(]([^)）]+)[)）]/); return match ? match[1] : word; }
     
 function displayCardFront(){
   dom.japaneseWord.textContent=currentWord.displayWord;
   dom.japaneseWord.style.color = getWordColor(currentWord.displayWord);
   dom.japaneseWord.style.backgroundColor = getWordBgColor(currentWord.displayWord);
-  dom.kanaReading.classList.add("hidden");
-  dom.englishTranslation.classList.add("hidden");
-  dom.showAnswerBtn.classList.remove("hidden");
-  dom.gradingButtons.classList.add("hidden");
-  dom.editControls.classList.add("hidden");
-  dom.deleteCardBtn.classList.add("hidden");
-  dom.initialMessage.classList.add("hidden");
-  dom.sessionCompleteMessage.classList.add("hidden");
-  dom.activeCard.classList.remove("hidden");
-  dom.currentScoreDisplay.classList.add("hidden");
+  dom.kanaReading.classList.add("hidden"); dom.englishTranslation.classList.add("hidden");
+  dom.showAnswerBtn.classList.remove("hidden"); dom.gradingButtons.classList.add("hidden");
+  dom.editControls.classList.add("hidden"); dom.deleteCardBtn.classList.add("hidden");
+  dom.initialMessage.classList.add("hidden"); dom.sessionCompleteMessage.classList.add("hidden");
+  dom.activeCard.classList.remove("hidden"); dom.currentScoreDisplay.classList.add("hidden");
   updatePreviousCardDisplay();
 }
     
@@ -708,14 +474,11 @@ function displayCardBack(){
   dom.showAnswerBtn.classList.add("hidden");
   dom.englishTranslation.textContent=currentWord.description;
   dom.englishTranslation.classList.remove("hidden");
-  dom.gradingButtons.classList.remove("hidden");
-  dom.editControls.classList.remove("hidden");
-  
+  dom.gradingButtons.classList.remove("hidden"); dom.editControls.classList.remove("hidden");
   const score = getSessionScore(currentWord.displayWord);
   dom.currentScoreDisplay.textContent = `Score: ${score.toFixed(1)}`;
   dom.currentScoreDisplay.className = `font-bold text-lg mb-1 ${getScoreColorClass(score)}`;
   dom.currentScoreDisplay.classList.remove("hidden");
-
   toggleDescriptionEdit(false);
   speak(getReadingFromDescription(currentWord.displayWord, currentWord.description));
 }
@@ -733,8 +496,7 @@ function getPrioritizedDeck(excludeKey = null) {
     if (v.displayWord === excludeKey || currentHand.includes(v.displayWord)) return false;
     const stats = srsStats.get(v.displayWord);
     if (stats && (stats.level || 0) >= settings.burnLevel) return false;
-    if (isOnCooldown(stats)) return false;
-    return true;
+    if (isOnCooldown(stats)) return false; return true;
   });
   const seenDue = notOnCooldown.filter(v => {
     const stats = srsStats.get(v.displayWord);
@@ -744,11 +506,9 @@ function getPrioritizedDeck(excludeKey = null) {
 }
 
 function pickNewHand() {
-  const priorityDeck = getPrioritizedDeck();
-  if (priorityDeck.length === 0) return;
+  const priorityDeck = getPrioritizedDeck(); if (priorityDeck.length === 0) return;
   currentHand = priorityDeck.slice(0, settings.handSize).map(v => v.displayWord);
-  sessionScores.clear();
-  gradedThisSession.clear();
+  sessionScores.clear(); gradedThisSession.clear();
   for (const key of currentHand) sessionScores.set(key, 3.0);
 }
 
@@ -757,8 +517,7 @@ function refillHand(graduatedKey = null) {
     const priorityDeck = getPrioritizedDeck(graduatedKey);
     if (priorityDeck.length === 0) break;
     const newCardKey = priorityDeck[0].displayWord;
-    currentHand.push(newCardKey);
-    sessionScores.set(newCardKey, 3.0);
+    currentHand.push(newCardKey); sessionScores.set(newCardKey, 3.0);
   }
 }
 
@@ -767,24 +526,28 @@ function showNextCard() {
   let availableHand = currentHand.filter(key => key !== currentWord?.displayWord);
   if (availableHand.length === 0 && currentHand.length > 0) availableHand = [...currentHand];
   if (availableHand.length === 0) { endHand(); return; }
-
   const scoredHand = availableHand.map(key => ({ key, score: getSessionScore(key) }));
   const maxScore = Math.max(...scoredHand.map(c => c.score), 1.0);
   let totalWeight = 0;
-  const weightedList = scoredHand.map(c => {
-    const weight = (maxScore - c.score + 1) ** settings.reviewWeightingExponent;
-    totalWeight += weight;
-    return { key: c.key, weight };
-  });
-
-  let r = Math.random() * totalWeight;
-  let chosenKey = weightedList[weightedList.length - 1].key;
-  for (const card of weightedList) {
-    r -= card.weight;
-    if (r <= 0) { chosenKey = card.key; break; }
-  }
+  const weightedList = scoredHand.map(c => { const weight = (maxScore - c.score + 1) ** settings.reviewWeightingExponent; totalWeight += weight; return { key: c.key, weight }; });
+  let r = Math.random() * totalWeight; let chosenKey = weightedList[weightedList.length - 1].key;
+  for (const card of weightedList) { r -= card.weight; if (r <= 0) { chosenKey = card.key; break; } }
   currentWord = vocabulary.find(v => v.displayWord === chosenKey);
   displayCardFront();
+}
+
+function forceGraduate() {
+  if (!currentWord) return;
+  const key = currentWord.displayWord; let st = srsStats.get(key) || { level: 0, currentViews: 0 };
+  forcedPriorityKeys.delete(key);
+  const previousLevel = st.level || 0; st.level = previousLevel + 1;
+  st.cooldownStartedAt = Date.now(); delete st.cooldownUntil; st.currentViews = 0;
+  lastGradedWord = key; gradedThisSession.add(key);
+  lastGradedScore = settings.graduationScore + 1; lastScoreDelta = settings.graduationScore + 1 - getSessionScore(key);
+  lastGraduationLevelChange = 1; lastGraduatedFromLevel = previousLevel; lastGraduatedToLevel = st.level;
+  sessionScores.set(key, settings.graduationScore + 1); srsStats.set(key, st); saveSrsStats();
+  triggerButtonPop(8);
+  currentHand = currentHand.filter(k => k !== key); sessionScores.delete(key); refillHand(key); showNextCard();
 }
 
 function gradeCard(g){
@@ -800,74 +563,82 @@ function gradeCard(g){
   const deltas = {1: -10*m, 2: -3.75*m, 3: -1*m, 4: 1*m, 5: 3.75*m, 6: 10*m};
   const delta = deltas[g] || 0;
 
-  lastGradedWord = key;
-  gradedThisSession.add(key);
+  lastGradedWord = key; gradedThisSession.add(key);
   const newScore = Math.max(0, currentScore + delta);
-  lastGradedScore = newScore;
-  lastScoreDelta = delta;
-
+  lastGradedScore = newScore; lastScoreDelta = delta; lastGraduationLevelChange = null;
   sessionScores.set(key, newScore);
   
   let graduated = false;
   if (newScore >= settings.graduationScore) {
-    let previousLevel = st.level || 0;
-    if (st.currentViews <= settings.quickLearnThreshold) st.level = previousLevel + 1;
-    else if (st.currentViews >= settings.struggleThreshold) st.level = Math.max(0, previousLevel - 1);
-    
-    st.cooldownStartedAt = Date.now();
-    st.currentViews = 0;
-    graduated = true;
+    let previousLevel = st.level || 0; let levelChange = 0;
+    if (st.currentViews <= settings.quickLearnThreshold) { st.level = previousLevel + 1; levelChange = 1; }
+    else if (st.currentViews >= settings.struggleThreshold) { st.level = Math.max(0, previousLevel - 1); levelChange = previousLevel > 0 ? -1 : 0; }
+    else { st.level = previousLevel; levelChange = 0; }
+    st.cooldownStartedAt = Date.now(); delete st.cooldownUntil; st.currentViews = 0;
+    graduated = true; lastGraduationLevelChange = levelChange; lastGraduatedFromLevel = previousLevel; lastGraduatedToLevel = st.level;
   }
-  
-  srsStats.set(key, st);
-  saveSrsStats();
-  
+  srsStats.set(key, st); saveSrsStats();
   if (graduated) {
     const graduatedKey = key;
-    currentHand = currentHand.filter(k => k !== graduatedKey);
-    sessionScores.delete(graduatedKey);
-    refillHand(graduatedKey);
+    currentHand = currentHand.filter(k => k !== graduatedKey); sessionScores.delete(graduatedKey); refillHand(graduatedKey);
   }
   showNextCard();
 }
 
 function playHand(){
-  lastGradedWord = null;
-  lastGradedScore = null;
-  lastScoreDelta = null;
-  dom.previousCardBox.classList.add('hidden');
-  dom.previousCardBox.style.opacity = '0';
+  lastGradedWord = null; lastGradedScore = null; lastScoreDelta = null; lastGraduationLevelChange = null;
+  dom.previousCardBox.classList.add('hidden'); dom.previousCardBox.style.opacity = '0';
   pickNewHand();
   if (currentHand.length === 0) {
-    dom.initialMessage.classList.add("hidden");
-    dom.activeCard.classList.add("hidden");
-    dom.sessionCompleteMessage.classList.remove("hidden");
-    dom.playBtn.classList.remove("hidden");
-    dom.playBtn.innerText = "Check for Due Cards";
-    return;
+    dom.initialMessage.classList.add("hidden"); dom.activeCard.classList.add("hidden");
+    dom.sessionCompleteMessage.classList.remove("hidden"); dom.playBtn.classList.remove("hidden");
+    dom.playBtn.innerText = "Check for Due Cards"; return;
   }
-  dom.initialMessage.classList.add("hidden");
-  dom.sessionCompleteMessage.classList.add("hidden");
-  dom.activeCard.classList.remove("hidden");
-  dom.playBtn.classList.add("hidden");
+  dom.initialMessage.classList.add("hidden"); dom.sessionCompleteMessage.classList.add("hidden");
+  dom.activeCard.classList.remove("hidden"); dom.playBtn.classList.add("hidden");
   showNextCard();
 }
 
 function endHand(){
-  dom.activeCard.classList.add("hidden");
-  dom.sessionCompleteMessage.classList.remove("hidden");
-  dom.playBtn.classList.remove("hidden");
-  dom.playBtn.innerText = "Play";
-  currentHand = [];
-  sessionScores.clear();
-  gradedThisSession.clear();
-  currentWord = null;
+  dom.activeCard.classList.add("hidden"); dom.sessionCompleteMessage.classList.remove("hidden");
+  dom.playBtn.classList.remove("hidden"); dom.playBtn.innerText = "Play";
+  currentHand = []; sessionScores.clear(); gradedThisSession.clear(); currentWord = null;
+}
+
+function removeCard(key) {
+  if (!key) return;
+  vocabulary = vocabulary.filter(v => v.displayWord !== key); srsStats.delete(key);
+  if (currentWord && currentWord.displayWord === key) {
+    currentHand = currentHand.filter(k => k !== key); sessionScores.delete(key); currentWord = null; showNextCard();
+  }
+  saveSrsStats(); saveVocabulary();
+}
+
+function downloadDescriptions() {
+  let fileContent = "";
+  for (const v of vocabulary) { fileContent += `${v.displayWord}-\n{\n${v.description.trim()}\n}\n\n`; }
+  const b = new Blob([fileContent], { type: "text/plain;charset=utf-8" });
+  const a = document.createElement("a"); a.href = URL.createObjectURL(b); a.download = "descriptions.txt"; a.click(); URL.revokeObjectURL(a.href);
+}
+
+function downloadVocab() {
+  const words = vocabulary.map(v => v.displayWord).join('\n');
+  const b = new Blob([words], { type: "text/plain;charset=utf-8" });
+  const a = document.createElement("a"); a.href = URL.createObjectURL(b); a.download = "vocab.txt"; a.click(); URL.revokeObjectURL(a.href);
+}
+
+function setVocabularyFromText(t){
+  descriptionsMap = parseDescriptionsFile(t); saveDescriptions();
+  const words = Array.from(descriptionsMap.keys()); localStorage.setItem(LS_KEYS.VOCAB_WORDS, JSON.stringify(words)); applyVocabWords(words);
 }
 
 function setVocabularyData() {
-  dom.playBtn.disabled = (vocabulary.length === 0);
+  const unmasteredCount = vocabulary.length;
+  dom.playBtn.disabled = (unmasteredCount === 0);
   if (vocabulary.length === 0) {
-    renderNoVocabMessage();
+    dom.initialMessage.classList.remove('hidden');
+    dom.sessionCompleteMessage.classList.add('hidden');
+    dom.activeCard.classList.add('hidden');
   } else {
     dom.initialMessage.classList.add('hidden');
     dom.sessionCompleteMessage.classList.remove('hidden');
@@ -875,65 +646,149 @@ function setVocabularyData() {
   }
 }
 
-function renderNoVocabMessage() {
-  dom.initialMessage.classList.remove('hidden');
-  dom.sessionCompleteMessage.classList.add('hidden');
-  dom.activeCard.classList.add('hidden');
-  dom.initialMessage.innerHTML = `
-    <div class="flex flex-col items-center justify-center p-4 text-center">
-      <h2 class="text-base font-bold text-gray-200">No Vocabulary Active</h2>
-      <p class="text-xs text-gray-400 mt-1 max-w-xs">Could not fetch <strong>vocab.txt</strong> from GitHub.</p>
-      <div class="mt-4 flex flex-col gap-2 w-full max-w-xs">
-        <button onclick="location.reload()" class="btn-neutral text-xs py-2 bg-indigo-600 text-white font-bold">🔄 Retry Auto-Fetch</button>
-        <label for="vocab-loader-main" class="btn-neutral text-xs py-2 text-center cursor-pointer bg-gray-800 border border-gray-700">📥 Import vocab.txt Manually</label>
-        <input type="file" id="vocab-loader-main" accept=".txt" class="hidden" onchange="handleVocabLoad(this.files)">
-      </div>
-    </div>
-  `;
-}
-
-// Tap anywhere on card to flip
-dom.cardTouchZone.addEventListener('click', (e) => {
-  if (e.target.closest('button') || e.target.closest('[contenteditable="true"]')) return;
-  if (!dom.activeCard.classList.contains('hidden') && !dom.showAnswerBtn.classList.contains('hidden')) {
-    displayCardBack();
-  }
+// Data Tab Listeners
+dom.vocabLoader.addEventListener("change", e => handleVocabLoad(e.target.files));
+dom.descriptionsLoader.addEventListener("change", e => handleDescriptionsLoad(e.target.files));
+dom.downloadDescriptionsBtn.addEventListener("click", downloadDescriptions);
+dom.downloadVocabBtn.addEventListener("click", downloadVocab);
+dom.exportBtn.addEventListener("click",()=>{
+  let dataToExport = Array.from(srsStats.entries()).map(([key, stats]) => [key, { level: stats.level ?? 0, currentViews: stats.currentViews ?? 0, cooldownStartedAt: stats.cooldownStartedAt }]);
+  const b=new Blob([JSON.stringify({ srsStats: dataToExport })],{type:"application/json"});
+  const a=document.createElement("a"); a.href=URL.createObjectURL(b); a.download="progress.json"; a.click(); URL.revokeObjectURL(a.href);
+});
+dom.importInput.addEventListener("change",e=>{
+  const f=e.target.files[0];if(!f)return;
+  f.text().then(t=>{
+    try { const j=JSON.parse(t); if(j&&Array.isArray(j.srsStats)){ srsStats=new Map(j.srsStats); saveSrsStats(); runDataMigration(); } }
+    catch (err) { showConfirmModal("Error parsing progress file.", ()=>{}); }
+  });
+});
+dom.clearCacheBtn.addEventListener("click", () => {
+  showConfirmModal("Clear ALL save data? This cannot be undone.", () => { Object.values(LS_KEYS).forEach(key => localStorage.removeItem(key)); localStorage.removeItem('cachedText'); location.reload(); });
 });
 
+// Settings Listeners
+dom.settingHandSize.addEventListener('input', () => { settings.handSize = Math.max(1, parseFloat(dom.settingHandSize.value)) || DEFAULT_SETTINGS.handSize; saveSettings(); });
+dom.settingGradScore.addEventListener('input', () => { settings.graduationScore = Math.max(1, parseFloat(dom.settingGradScore.value)) || DEFAULT_SETTINGS.graduationScore; saveSettings(); });
+dom.settingModifier.addEventListener('input', () => { settings.baseScoreModifier = Math.max(0.1, parseFloat(dom.settingModifier.value)) || DEFAULT_SETTINGS.baseScoreModifier; saveSettings(); updateGradingButtonLabels(); });
+dom.settingWeighting.addEventListener('input', () => { const val = parseFloat(dom.settingWeighting.value); if (!isNaN(val) && val >= 0) { settings.reviewWeightingExponent = val; saveSettings(); } });
+dom.settingQuickLearn.addEventListener('input', () => { settings.quickLearnThreshold = Math.max(1, parseInt(dom.settingQuickLearn.value)) || DEFAULT_SETTINGS.quickLearnThreshold; saveSettings(); });
+dom.settingStruggle.addEventListener('input', () => { settings.struggleThreshold = Math.max(1, parseInt(dom.settingStruggle.value)) || DEFAULT_SETTINGS.struggleThreshold; saveSettings(); });
+dom.settingMinCooldown.addEventListener('input', () => { settings.minCooldownHours = Math.max(1, parseFloat(dom.settingMinCooldown.value)) || DEFAULT_SETTINGS.minCooldownHours; saveSettings(); });
+dom.settingMaxCooldown.addEventListener('input', () => { settings.maxCooldownHours = Math.max(1, parseFloat(dom.settingMaxCooldown.value)) || DEFAULT_SETTINGS.maxCooldownHours; saveSettings(); });
+dom.settingBurnLevel.addEventListener('input', () => { settings.burnLevel = Math.max(1, parseInt(dom.settingBurnLevel.value)) || DEFAULT_SETTINGS.burnLevel; saveSettings(); });
+
+// Edit/Delete Listeners
+dom.editDescriptionBtn.addEventListener('click', () => toggleDescriptionEdit(true));
+dom.saveDescriptionBtn.addEventListener('click', () => {
+  if (currentWord) {
+    const oldKey = currentWord.displayWord; const newKey = dom.japaneseWord.innerText.trim(); const newDesc = dom.englishTranslation.innerText;
+    currentWord.description = newDesc; descriptionsMap.set(newKey || oldKey, newDesc); saveDescriptions();
+    if (newKey && newKey !== oldKey && !vocabulary.some(v => v.displayWord === newKey && v !== currentWord)) {
+      currentWord.displayWord = newKey; currentWord.audioWord = newKey;
+      const stats = srsStats.get(oldKey); srsStats.delete(oldKey); if (stats) srsStats.set(newKey, stats); else srsStats.set(newKey, { level: 0, currentViews: 0 });
+      const handIndex = currentHand.indexOf(oldKey); if (handIndex !== -1) currentHand[handIndex] = newKey;
+      const sessionScore = sessionScores.get(oldKey); sessionScores.delete(oldKey); if(sessionScore !== undefined) sessionScores.set(newKey, sessionScore);
+    } else { dom.japaneseWord.innerText = oldKey; }
+    saveSrsStats(); saveVocabulary();
+  }
+  toggleDescriptionEdit(false);
+});
+dom.deleteCardBtn.addEventListener('click', () => { if (currentWord) showConfirmModal(`Delete "${currentWord.displayWord}" permanently?`, () => removeCard(currentWord.displayWord)); });
+
+// Play and Grading Listeners
+dom.cardTouchZone.addEventListener('click', (e) => { if (e.target.closest('button') || e.target.closest('[contenteditable="true"]')) return; if (!dom.activeCard.classList.contains('hidden') && !dom.showAnswerBtn.classList.contains('hidden')) displayCardBack(); });
 dom.playBtn.addEventListener("click", playHand);
 dom.showAnswerBtn.addEventListener("click", displayCardBack);
 dom.gradingButtons.querySelectorAll("button").forEach(btn=>btn.addEventListener("click",()=>gradeCard(parseInt(btn.dataset.grade))));
-
-// Keyboard support
 document.addEventListener("keydown",e=>{
+  if (dom.confirmModal.classList.contains('visible')) { if (e.key === 'Enter') dom.confirmBtnYes.click(); if (e.key === 'Escape') dom.confirmBtnNo.click(); return; }
   if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.closest('[contenteditable="true"]')) return;
-  if(e.code==="Space"){
-    e.preventDefault();
-    if(!dom.activeCard.classList.contains('hidden')) {
-      if (!dom.showAnswerBtn.classList.contains("hidden")) displayCardBack();
-    } else if (dom.tabBtnDeck.classList.contains('active') && !dom.playBtn.disabled) {
-      playHand();
-    }
-  }
-  if (!dom.activeCard.classList.contains('hidden') && currentWord) {
-    const keyMap = {'1':1, '2':2, '3':3, '4':4, '5':5, '6':6, 'a':1, 's':2, 'd':3, 'f':4, 'j':5, 'k':6};
-    if (keyMap[e.key]) gradeCard(keyMap[e.key]);
-  }
+  if(e.code==="Space"){ e.preventDefault(); if(!dom.activeCard.classList.contains('hidden')) { if (!dom.showAnswerBtn.classList.contains("hidden")) displayCardBack(); } else if (dom.tabBtnDeck.classList.contains('active') && !dom.playBtn.disabled) playHand(); }
+  if (e.key === ';' && !dom.activeCard.classList.contains('hidden') && currentWord) { e.preventDefault(); const isFirstTime = !gradedThisSession.has(currentWord.displayWord); if (isFirstTime) { forceGraduate(); } else { gradeCard(6); } return; }
+  if (!dom.activeCard.classList.contains('hidden') && currentWord) { const keyMap = {'1':1, '2':2, '3':3, '4':4, '5':5, '6':6, 'a':1, 's':2, 'd':3, 'f':4, 'j':5, 'k':6}; if (keyMap[e.key]) gradeCard(keyMap[e.key]); }
 });
 
+// List Building Logic (Restored)
+const CARDS_PAGE = 40; let cardsRenderedCount = 0; let cardsSortedItems = []; let burnedRenderedCount = 0; let burnedSortedItems = []; let unseenRenderedCount = 0; let unseenSortedItems = [];
+
+function buildCardsSortedItems() {
+  cardsSortedItems = vocabulary.map(v => {
+    const stats = srsStats.get(v.displayWord) || { level: 0, currentViews: 0 };
+    const onCooldown = isOnCooldown(stats); const level = stats.level || 0;
+    if (level >= settings.burnLevel) return null;
+    const hasHistory = level > 0 || (stats.currentViews || 0) > 0 || stats.cooldownStartedAt;
+    if (!hasHistory && !sessionScores.has(v.displayWord)) return null;
+    return { v, stats, score: sessionScores.has(v.displayWord) ? sessionScores.get(v.displayWord) : null, level, inSession: sessionScores.has(v.displayWord), onCooldown };
+  }).filter(Boolean).sort((a, b) => {
+    const aEnd = a.onCooldown ? cooldownEndsAt(a.stats) : 0; const bEnd = b.onCooldown ? cooldownEndsAt(b.stats) : 0;
+    if (!a.onCooldown && b.onCooldown) return -1; if (a.onCooldown && !b.onCooldown) return 1;
+    if (a.onCooldown && b.onCooldown) return aEnd - bEnd; return b.level - a.level;
+  });
+}
+function buildUnseenSortedItems() {
+  unseenSortedItems = vocabulary.map(v => {
+    const stats = srsStats.get(v.displayWord) || { level: 0, currentViews: 0 }; const level = stats.level || 0;
+    if (level > 0 || (stats.currentViews || 0) > 0 || stats.cooldownStartedAt || sessionScores.has(v.displayWord)) return null;
+    return { v, stats, level };
+  }).filter(Boolean);
+}
+function buildBurnedSortedItems() {
+  burnedSortedItems = vocabulary.map(v => {
+    const stats = srsStats.get(v.displayWord) || { level: 0, currentViews: 0 }; const level = stats.level || 0;
+    if (level < settings.burnLevel) return null; return { v, stats, level, onCooldown: isOnCooldown(stats) };
+  }).filter(Boolean).sort((a, b) => a.level - b.level);
+}
+function makeCardRow({ v, stats, level, onCooldown }) {
+  const li = document.createElement('li'); li.className = 'card-row';
+  const cooldownStr = onCooldown ? (() => { const diff = cooldownEndsAt(stats) - Date.now(); const h = Math.floor(diff/3600000); const d = Math.floor(h/24); return d > 0 ? `due in ${d}d ${h%24}h` : `due in ${h}h`; })() : 'due now';
+  li.innerHTML = `<div class="card-row-word" style="color:${getWordColor(v.displayWord)}">${v.displayWord}</div><div class="card-row-desc">${v.description.replace(/\n/g,' ')}</div><div class="card-row-meta"><span class="card-row-level">Lv ${level}</span><span class="card-row-cooldown">${cooldownStr}</span></div>`;
+  return li;
+}
+function makeUnseenRow({ v }) {
+  const li = document.createElement('li'); li.className = 'card-row';
+  li.innerHTML = `<div class="card-row-word" style="color:${getWordColor(v.displayWord)}">${v.displayWord}</div><div class="card-row-desc">${v.description.replace(/\n/g,' ')}</div><div class="card-row-meta"><span class="card-row-level" style="color:#6b7280">unseen</span></div>`;
+  return li;
+}
+function makeBurnedRow({ v, stats, level, onCooldown }) {
+  const li = document.createElement('li'); li.className = 'card-row';
+  let cooldownStr = 'mastered';
+  if (onCooldown) { const diff = cooldownEndsAt(stats) - Date.now(); const h = Math.floor(diff / 3600000); const d = Math.floor(h / 24); cooldownStr = d > 0 ? `due in ${d}d ${h % 24}h` : `due in ${h}h`; }
+  li.innerHTML = `<div class="card-row-dot dot-burned"></div><div class="card-row-word" style="color:${getWordColor(v.displayWord)}">${v.displayWord}</div><div class="card-row-desc">${v.description.replace(/\n/g,' ')}</div><div class="card-row-meta">${level ? `<span class="card-row-level">Lv ${level}</span>` : ''}<span class="card-row-cooldown">${cooldownStr}</span></div>`;
+  return li;
+}
+
+function cardsLoadMore() {
+  const end = Math.min(cardsRenderedCount + CARDS_PAGE, cardsSortedItems.length); const frag = document.createDocumentFragment();
+  for (let i = cardsRenderedCount; i < end; i++) frag.appendChild(makeCardRow(cardsSortedItems[i]));
+  dom.cardsList.appendChild(frag); cardsRenderedCount = end;
+}
+function burnedLoadMore() {
+  const end = Math.min(burnedRenderedCount + CARDS_PAGE, burnedSortedItems.length); const frag = document.createDocumentFragment();
+  for (let i = burnedRenderedCount; i < end; i++) frag.appendChild(makeBurnedRow(burnedSortedItems[i]));
+  dom.burnedList.appendChild(frag); burnedRenderedCount = end;
+}
+function unseenLoadMore() {
+  const end = Math.min(unseenRenderedCount + CARDS_PAGE, unseenSortedItems.length); const frag = document.createDocumentFragment();
+  for (let i = unseenRenderedCount; i < end; i++) frag.appendChild(makeUnseenRow(unseenSortedItems[i]));
+  dom.unseenList.appendChild(frag); unseenRenderedCount = end;
+}
+function initCardsTab() { buildCardsSortedItems(); dom.cardsList.innerHTML = ''; cardsRenderedCount = 0; cardsLoadMore(); }
+function initBurnedTab() { buildBurnedSortedItems(); dom.burnedList.innerHTML = ''; burnedRenderedCount = 0; burnedLoadMore(); }
+function initUnseenTab() { buildUnseenSortedItems(); dom.unseenList.innerHTML = ''; unseenRenderedCount = 0; unseenLoadMore(); }
+
+dom.cardsListWrapper.addEventListener('scroll', () => { const el = dom.cardsListWrapper; if (el.scrollTop + el.clientHeight >= el.scrollHeight - 200 && cardsRenderedCount < cardsSortedItems.length) cardsLoadMore(); });
+dom.burnedListWrapper.addEventListener('scroll', () => { const el = dom.burnedListWrapper; if (el.scrollTop + el.clientHeight >= el.scrollHeight - 200 && burnedRenderedCount < burnedSortedItems.length) burnedLoadMore(); });
+dom.unseenListWrapper.addEventListener('scroll', () => { const el = dom.unseenListWrapper; if (el.scrollTop + el.clientHeight >= el.scrollHeight - 200 && unseenRenderedCount < unseenSortedItems.length) unseenLoadMore(); });
+
+// Tab Switching
 function switchTab(active) {
-  dom.tabBtnDeck.classList.toggle('active', active === 'deck');
-  dom.tabBtnCards.classList.toggle('active', active === 'cards');
-  dom.tabBtnUnseen.classList.toggle('active', active === 'unseen');
-  dom.tabBtnBurned.classList.toggle('active', active === 'burned');
-  dom.tabBtnSettings.classList.toggle('active', active === 'settings');
-  dom.tabBtnData.classList.toggle('active', active === 'data');
-  dom.flashcardContainer.style.display = active === 'deck' ? 'block' : 'none';
-  dom.cardsContainer.style.display = active === 'cards' ? 'flex' : 'none';
-  dom.unseenContainer.style.display = active === 'unseen' ? 'flex' : 'none';
-  dom.burnedContainer.style.display = active === 'burned' ? 'flex' : 'none';
-  dom.settingsContainer.style.display = active === 'settings' ? 'block' : 'none';
-  dom.dataContainer.style.display = active === 'data' ? 'block' : 'none';
+  dom.tabBtnDeck.classList.toggle('active', active === 'deck'); dom.tabBtnCards.classList.toggle('active', active === 'cards');
+  dom.tabBtnUnseen.classList.toggle('active', active === 'unseen'); dom.tabBtnBurned.classList.toggle('active', active === 'burned');
+  dom.tabBtnSettings.classList.toggle('active', active === 'settings'); dom.tabBtnData.classList.toggle('active', active === 'data');
+  dom.flashcardContainer.style.display = active === 'deck' ? 'block' : 'none'; dom.cardsContainer.style.display = active === 'cards' ? 'flex' : 'none';
+  dom.unseenContainer.style.display = active === 'unseen' ? 'flex' : 'none'; dom.burnedContainer.style.display = active === 'burned' ? 'flex' : 'none';
+  dom.settingsContainer.style.display = active === 'settings' ? 'block' : 'none'; dom.dataContainer.style.display = active === 'data' ? 'block' : 'none';
   dom.bottomBar.style.display = active === 'deck' ? 'flex' : 'none';
 }
 
@@ -944,77 +799,110 @@ dom.tabBtnBurned.addEventListener('click', () => { switchTab('burned'); initBurn
 dom.tabBtnSettings.addEventListener('click', () => { switchTab('settings'); populateSettingsUI(); });
 dom.tabBtnData.addEventListener('click', () => switchTab('data'));
 
-// Dynamic File Path Resolution (Guarantees clean URLs on iOS)
-function getFileUrl(filename) {
-  let path = window.location.pathname;
-  if (!path.endsWith('/')) path += '/';
-  return window.location.origin + path + filename;
-}
-
-// Non-blocking fetch with 3-second timeout
-async function fetchWithTimeout(url, timeoutMs = 3000) {
-  const controller = new AbortController();
-  const id = setTimeout(() => controller.abort(), timeoutMs);
-  try {
-    const response = await fetch(url, { cache: 'no-store', signal: controller.signal });
-    clearTimeout(id);
-    return response;
-  } catch (e) {
-    clearTimeout(id);
-    return null;
-  }
-}
-
-async function fetchDefaultFiles() {
-  try {
-    const descUrl = getFileUrl('descriptions.txt');
-    const descRes = await fetchWithTimeout(descUrl);
-    if (descRes && descRes.ok) {
-      const descText = await descRes.text();
-      descriptionsMap = parseDescriptionsFile(descText);
-      saveDescriptions();
-    }
-    
-    const vocabUrl = getFileUrl('vocab.txt');
-    const vocabRes = await fetchWithTimeout(vocabUrl);
-    if (vocabRes && vocabRes.ok) {
-      const vocabText = await vocabRes.text();
-      const words = parseVocabFile(vocabText);
-      if (words.length > 0) {
-        localStorage.setItem(LS_KEYS.VOCAB_WORDS, JSON.stringify(words));
-        applyVocabWords(words);
-        return true;
+// Migration (Restored from original)
+function runDataMigration() {
+  if (!localStorage.getItem(LS_KEYS.MIGRATION_V6)) {
+    const now = Date.now(); let statsChanged = false;
+    for (const [, stats] of srsStats.entries()) {
+      if (stats.cooldownStartedAt) {
+        const duration = getCooldownDuration(stats.level || 0); const endsAt = stats.cooldownStartedAt + duration; const maxEndsAt = now + duration;
+        if (endsAt > maxEndsAt) { stats.cooldownStartedAt = now; statsChanged = true; }
       }
     }
-  } catch (err) {
-    console.log("Background fetch error:", err);
+    if (statsChanged) saveSrsStats();
+    localStorage.setItem(LS_KEYS.MIGRATION_V6, 'true');
   }
-  return false;
+
+  if (localStorage.getItem(LS_KEYS.MIGRATION_V4)) {
+    if (!localStorage.getItem(LS_KEYS.MIGRATION_V5)) {
+      let statsChanged = false;
+      for (const [, stats] of srsStats.entries()) {
+        if (stats.hasOwnProperty('cooldownUntil')) {
+          const duration = getCooldownDuration(stats.level || 0);
+          stats.cooldownStartedAt = stats.cooldownUntil - duration;
+          delete stats.cooldownUntil;
+          statsChanged = true;
+        }
+      }
+      if (statsChanged) saveSrsStats();
+      localStorage.setItem(LS_KEYS.MIGRATION_V5, 'true');
+    }
+    return;
+  }
+  
+  let statsChanged = false;
+  for (const [key, stats] of srsStats.entries()) {
+    if (stats.hasOwnProperty('stars')) { stats.level = stats.stars; delete stats.stars; statsChanged = true; }
+    if (!stats.hasOwnProperty('level')) { stats.level = 0; statsChanged = true; }
+    if (!stats.hasOwnProperty('currentViews')) { stats.currentViews = 0; statsChanged = true; }
+    if (stats.hasOwnProperty('masteryScore')) { delete stats.masteryScore; statsChanged = true; }
+    if (stats.hasOwnProperty('lastUpdated')) { delete stats.lastUpdated; statsChanged = true; }
+  }
+  if (statsChanged) saveSrsStats();
+  localStorage.setItem(LS_KEYS.MIGRATION_V4, 'true');
 }
 
-function init() {
+async function fetchWithTimeout(url, timeoutMs = 3000) {
+  const controller = new AbortController(); const id = setTimeout(() => controller.abort(), timeoutMs);
+  try { const response = await fetch(url, { cache: 'no-store', signal: controller.signal }); clearTimeout(id); return response; }
+  catch (e) { clearTimeout(id); return null; }
+}
+
+function init(){
   loadSettings();
   loadSrsStats();
   loadDescriptions();
-  
-  // Render cached cards immediately so UI is instant and never freezes
-  let loaded = loadVocabulary();
+  runDataMigration();
+
+  let loaded = false;
+  const j = localStorage.getItem(LS_KEYS.VOCABULARY);
+  if (j) {
+    vocabulary = JSON.parse(j);
+    for (const v of vocabulary) {
+      const desc = descriptionsMap.get(v.displayWord);
+      v.description = desc !== undefined ? desc : (v.description || '');
+    }
+    loaded = true;
+  }
+
   if (!loaded) {
     const cachedVocabWords = localStorage.getItem(LS_KEYS.VOCAB_WORDS);
     if (cachedVocabWords) {
       applyVocabWords(JSON.parse(cachedVocabWords));
       loaded = true;
+    } else {
+      const cachedText = localStorage.getItem('cachedText');
+      if (cachedText) {
+        setVocabularyFromText(cachedText);
+        localStorage.removeItem('cachedText');
+        loaded = true;
+      }
     }
   }
 
-  if (vocabulary.length === 0) {
-    renderNoVocabMessage();
-  }
+  setVocabularyData();
 
-  // Fetch fresh files in background without blocking initial rendering
-  fetchDefaultFiles().then((success) => {
-    if (!success && vocabulary.length === 0) {
-      renderNoVocabMessage();
+  // Try fetching directly from your GitHub raw files to bypass iOS relative-path CORS blocks
+  const repoBaseUrl = 'https://raw.githubusercontent.com/DanielAgerman/japanese-flashcards/main/';
+  
+  fetchWithTimeout(repoBaseUrl + 'descriptions.txt').then(descRes => {
+    if (descRes && descRes.ok) {
+      descRes.text().then(descText => {
+        descriptionsMap = parseDescriptionsFile(descText);
+        saveDescriptions();
+      });
+    }
+  });
+
+  fetchWithTimeout(repoBaseUrl + 'vocab.txt').then(vocabRes => {
+    if (vocabRes && vocabRes.ok) {
+      vocabRes.text().then(vocabText => {
+        const words = parseVocabFile(vocabText);
+        if (words.length > 0) {
+          localStorage.setItem(LS_KEYS.VOCAB_WORDS, JSON.stringify(words));
+          applyVocabWords(words);
+        }
+      });
     }
   });
 }
