@@ -226,8 +226,9 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
     <button id="tab-btn-data" class="tab-btn">Data</button>
   </nav>
 
-  <div id="session-tools">
+  <div id="session-tools" class="flex items-center gap-1.5">
     <select id="voice-select"></select>
+    <span id="version-tag" class="text-[10px] font-mono font-bold text-emerald-400 bg-emerald-950/80 border border-emerald-800/60 px-1.5 py-0.5 rounded">v1.1</span>
   </div>
 </div>
 
@@ -925,19 +926,21 @@ dom.tabBtnData.addEventListener('click', () => switchTab('data'));
 
 async function fetchDefaultFiles() {
   try {
-    // Fetch directly from GitHub Raw CDN for instant updates (0 delay)
-    const descRes = await fetch('https://raw.githubusercontent.com/DanielAgerman/japanese-flashcards/main/descriptions.txt', { cache: 'no-store' });
-    if (descRes.ok) {
+    const descRes = await fetch('descriptions.txt', { cache: 'no-store' }).catch(() => null);
+    if (descRes && descRes.ok) {
       const descText = await descRes.text();
       descriptionsMap = parseDescriptionsFile(descText);
       saveDescriptions();
     }
-    const vocabRes = await fetch('https://raw.githubusercontent.com/DanielAgerman/japanese-flashcards/main/vocab.txt', { cache: 'no-store' });
-    if (vocabRes.ok) {
+    
+    const vocabRes = await fetch('vocab.txt', { cache: 'no-store' }).catch(() => null);
+    if (vocabRes && vocabRes.ok) {
       const vocabText = await vocabRes.text();
       const words = parseVocabFile(vocabText);
-      localStorage.setItem(LS_KEYS.VOCAB_WORDS, JSON.stringify(words));
-      applyVocabWords(words);
+      if (words.length > 0) {
+        localStorage.setItem(LS_KEYS.VOCAB_WORDS, JSON.stringify(words));
+        applyVocabWords(words);
+      }
     }
   } catch (err) {
     console.log("Using cached local data:", err);
@@ -949,11 +952,23 @@ async function init(){
   loadSrsStats();
   loadDescriptions();
   
-  // Load cached cards first so the screen renders instantly offline
-  loadVocabulary();
+  // 1. Try loading cached vocabulary first so something shows up immediately
+  if (!loadVocabulary()) {
+    const cachedVocabWords = localStorage.getItem(LS_KEYS.VOCAB_WORDS);
+    if (cachedVocabWords) applyVocabWords(JSON.parse(cachedVocabWords));
+  }
 
-  // Fetch the latest vocab and descriptions from GitHub server
+  // 2. Fetch fresh files from GitHub server
   await fetchDefaultFiles();
+
+  // 3. Fallback: If vocabulary is still empty, release the UI freeze so you can use tabs/Data
+  if (vocabulary.length === 0) {
+    dom.initialMessage.innerHTML = `
+      <h2 class="text-base font-bold text-gray-200">No Vocabulary Detected</h2>
+      <p class="text-xs text-gray-400 mt-1 max-w-xs">Make sure <strong>vocab.txt</strong> is pushed to GitHub, or use the Data tab to import manually.</p>
+      <button onclick="location.reload()" class="mt-3 btn-neutral text-xs px-3 py-1.5">Retry Loading</button>
+    `;
+  }
 }
 init();
 </script>
