@@ -842,12 +842,19 @@ function runDataMigration() {
   localStorage.setItem(LS_KEYS.MIGRATION_V4, 'true');
 }
 
-async function fetchWithTimeout(url, timeoutMs = 3000) {
-  const controller = new AbortController(); const id = setTimeout(() => controller.abort(), timeoutMs);
-  try { const response = await fetch(url, { cache: 'no-store', signal: controller.signal }); clearTimeout(id); return response; }
-  catch (e) { clearTimeout(id); return null; }
+async function fetchWithTimeout(url, timeoutMs = 8000) {
+  const controller = new AbortController();
+  const id = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const response = await fetch(url, { cache: 'no-store', signal: controller.signal });
+    clearTimeout(id);
+    return response;
+  } catch (e) {
+    clearTimeout(id);
+    return null;
+  }
 }
-    
+
 function init(){
   if (navigator.storage && navigator.storage.persist) {
     navigator.storage.persist();
@@ -883,6 +890,40 @@ function init(){
       }
     }
   }
+
+  setVocabularyData();
+
+  // Primary relative fetch with fallback to raw GitHub CDN
+  const localVocabUrl = getFileUrl('vocab.txt');
+  const localDescUrl = getFileUrl('descriptions.txt');
+  const rawBaseUrl = 'https://raw.githubusercontent.com/DanielAgerman/japanese-flashcards/main/';
+
+  // Fetch descriptions
+  fetchWithTimeout(localDescUrl).then(res => res && res.ok ? res : fetchWithTimeout(rawBaseUrl + 'descriptions.txt'))
+    .then(descRes => {
+      if (descRes && descRes.ok) {
+        descRes.text().then(descText => {
+          descriptionsMap = parseDescriptionsFile(descText);
+          saveDescriptions();
+        });
+      }
+    });
+
+  // Fetch vocabulary
+  fetchWithTimeout(localVocabUrl).then(res => res && res.ok ? res : fetchWithTimeout(rawBaseUrl + 'vocab.txt'))
+    .then(vocabRes => {
+      if (vocabRes && vocabRes.ok) {
+        vocabRes.text().then(vocabText => {
+          const words = parseVocabFile(vocabText);
+          if (words.length > 0) {
+            localStorage.setItem(LS_KEYS.VOCAB_WORDS, JSON.stringify(words));
+            applyVocabWords(words);
+          }
+        });
+      }
+    });
+}
+init();
 
   setVocabularyData();
 
