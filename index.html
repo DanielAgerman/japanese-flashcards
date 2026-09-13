@@ -258,7 +258,7 @@ const LS_KEYS={
   MIGRATION_V5: 'flashcardMigrationV5', MIGRATION_V6: 'flashcardMigrationV6',
   DESCRIPTIONS: 'cachedDescriptions', VOCAB_WORDS: 'cachedVocabWords'
 };
-const DEFAULT_SETTINGS = { handSize: 6, graduationScore: 10, baseScoreModifier: 0.4, reviewWeightingExponent: 1, quickLearnThreshold: 5, struggleThreshold: 8, minCooldownHours: 24, maxCooldownHours: 350, burnLevel: 5 };
+const DEFAULT_SETTINGS = { handSize: 5, graduationScore: 10, baseScoreModifier: 0.4, reviewWeightingExponent: 1, quickLearnThreshold: 3, struggleThreshold: 6, minCooldownHours: 4, maxCooldownHours: 50, burnLevel: 4 };
 let settings = { ...DEFAULT_SETTINGS };
 
 const dom={
@@ -847,8 +847,12 @@ async function fetchWithTimeout(url, timeoutMs = 3000) {
   try { const response = await fetch(url, { cache: 'no-store', signal: controller.signal }); clearTimeout(id); return response; }
   catch (e) { clearTimeout(id); return null; }
 }
-
+    
 function init(){
+  if (navigator.storage && navigator.storage.persist) {
+    navigator.storage.persist();
+  }
+
   loadSettings();
   loadSrsStats();
   loadDescriptions();
@@ -880,6 +884,32 @@ function init(){
     }
   }
 
+  setVocabularyData();
+
+  // Try fetching directly from your GitHub raw files to bypass iOS relative-path CORS blocks
+  const repoBaseUrl = 'https://raw.githubusercontent.com/DanielAgerman/japanese-flashcards/main/';
+  
+  fetchWithTimeout(repoBaseUrl + 'descriptions.txt').then(descRes => {
+    if (descRes && descRes.ok) {
+      descRes.text().then(descText => {
+        descriptionsMap = parseDescriptionsFile(descText);
+        saveDescriptions();
+      });
+    }
+  });
+
+  fetchWithTimeout(repoBaseUrl + 'vocab.txt').then(vocabRes => {
+    if (vocabRes && vocabRes.ok) {
+      vocabRes.text().then(vocabText => {
+        const words = parseVocabFile(vocabText);
+        if (words.length > 0) {
+          localStorage.setItem(LS_KEYS.VOCAB_WORDS, JSON.stringify(words));
+          applyVocabWords(words);
+        }
+      });
+    }
+  });
+}
   setVocabularyData();
 
   // Try fetching directly from your GitHub raw files to bypass iOS relative-path CORS blocks
