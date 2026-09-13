@@ -71,9 +71,8 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
 }
 #english-translation-bottom{
   line-height:1.6;
-  max-height:30vh;
+  max-height:28vh;
   overflow-y:auto;
-  margin-top:1rem;
   white-space:pre-wrap;
   word-break:break-word;
   font-size: 0.95rem;
@@ -104,7 +103,7 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
   font-weight: 800;
   padding: 0.85rem 0.5rem;
   border-radius: 1.5rem;
-  font-size: 1.05rem; /* Smaller inner text */
+  font-size: 1.05rem;
   line-height: 1;
   transition: transform 0.1s ease, filter 0.1s ease, opacity 0.1s ease;
   display: flex;
@@ -188,7 +187,7 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
 
   <div id="session-tools">
     <select id="voice-select"></select>
-    <span class="text-[10px] font-mono font-bold text-indigo-400 bg-indigo-950/80 border border-indigo-800/60 px-1.5 py-0.5 rounded flex-shrink-0">v1.8</span>
+    <span class="text-[10px] font-mono font-bold text-indigo-400 bg-indigo-950/80 border border-indigo-800/60 px-1.5 py-0.5 rounded flex-shrink-0">v1.9</span>
   </div>
 </div>
 
@@ -203,19 +202,20 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
       <p class="text-gray-400 mt-2">All due cards have been studied.</p>
     </div>
 
-    <div id="active-card" class="h-full hidden pt-1 pb-3 px-4 flex flex-col justify-between items-center relative select-none">
-      <div id="previous-card-box" class="hidden">
-        <div id="previous-word" class="font-jp"></div>
-        <div class="score-display">
-          <span id="previous-delta" class="font-mono"></span>
-          (Score: <span id="previous-score" class="font-mono"></span>)
-        </div>
-      </div>
-
-      <div class="flex flex-col flex-grow w-full items-center min-h-0 justify-between py-1" id="card-touch-zone">
+    <div id="active-card" class="h-full hidden p-2 flex flex-col justify-between items-center relative select-none">
+      
+      <div class="flex flex-col flex-grow w-full items-center justify-between min-h-0" id="card-touch-zone">
         
-        <!-- Top Section: Score, Kanji Card, and Line 1 Description -->
-        <div id="main-word-area" class="flex flex-col items-center justify-start relative w-full cursor-pointer flex-shrink-0 mt-0">
+        <!-- TOP SECTION: Centered Halfway Between Top Bar and Grading Buttons -->
+        <div id="main-word-area" class="flex-1 flex flex-col items-center justify-center relative w-full cursor-pointer flex-shrink-0 min-h-0">
+          <div id="previous-card-box" class="hidden">
+            <div id="previous-word" class="font-jp"></div>
+            <div class="score-display">
+              <span id="previous-delta" class="font-mono"></span>
+              (Score: <span id="previous-score" class="font-mono"></span>)
+            </div>
+          </div>
+
           <h4 id="current-score-display" class="font-extrabold text-lg mb-1 text-orange-500 hidden"></h4>
           <div id="japanese-word-box">
             <h2 id="japanese-word" class="font-jp font-bold"></h2>
@@ -227,10 +227,9 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
           <button id="delete-card-btn" class="absolute top-0 right-0 mt-2 mr-2 btn-neutral text-white hidden">Delete</button>
         </div>
         
-        <!-- Middle Section: 6-Button Grid & Tap to Show Answer -->
+        <!-- MIDDLE SECTION: 6-Button Grid Centered on Screen -->
         <div id="card-controls" class="w-full my-auto flex-shrink-0">
-          
-          <div id="grading-buttons" class="hidden">
+          <div id="grading-buttons">
             <button data-grade="1" class="grade-btn grade-1 grade-btn-left"><span data-delta-label="1">-4</span></button>
             <button data-grade="6" class="grade-btn grade-6 grade-btn-right"><span data-delta-label="6">+4</span></button>
             <button data-grade="2" class="grade-btn grade-2 grade-btn-left"><span data-delta-label="2">-1.50</span></button>
@@ -239,18 +238,19 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
             <button data-grade="4" class="grade-btn grade-4 grade-btn-right"><span data-delta-label="4">+0.40</span></button>
           </div>
 
-          <div class="flex items-center justify-center mt-2">
-            <button id="show-answer-btn" class="btn-neutral w-full max-w-xs py-4 rounded-xl font-bold text-lg shadow-lg bg-indigo-600 hover:bg-indigo-500 text-white">Tap to Show Answer</button>
-          </div>
-
           <div id="edit-controls" class="hidden mt-2 flex items-center justify-center space-x-2">
             <button id="edit-description-btn" class="btn-neutral px-3 py-1.5 rounded-lg text-xs font-semibold">Edit</button>
             <button id="save-description-btn" class="btn-neutral px-3 py-1.5 rounded-lg text-xs font-semibold hidden">Save</button>
           </div>
         </div>
 
-        <!-- Bottom Section: Lines 2+ Context & Grammar Notes -->
-        <div id="english-translation-bottom" class="hidden flex-shrink mb-1"></div>
+        <!-- BOTTOM SECTION: Centered Halfway Between Grading Buttons and Bottom of Screen -->
+        <div id="bottom-section" class="flex-1 flex flex-col items-center justify-center w-full min-h-0">
+          <button id="show-answer-btn" class="btn-neutral w-full max-w-xs py-4 rounded-xl font-bold text-lg shadow-lg bg-indigo-600 hover:bg-indigo-500 text-white opacity-50 active:opacity-85 transition-opacity">Tap to Show Answer</button>
+
+          <div id="english-translation-bottom" class="hidden"></div>
+        </div>
+
       </div>
     </div>
   </div>
@@ -537,7 +537,8 @@ function displayCardFront(){
   dom.kanaReading.classList.add("hidden");
   dom.englishTranslationTop.classList.add("hidden");
   dom.englishTranslationBottom.classList.add("hidden");
-  dom.showAnswerBtn.classList.remove("hidden"); dom.gradingButtons.classList.add("hidden");
+  dom.showAnswerBtn.classList.remove("hidden");
+  dom.gradingButtons.classList.remove("hidden"); // Buttons visible on unrevealed card
   dom.editControls.classList.add("hidden"); dom.deleteCardBtn.classList.add("hidden");
   dom.initialMessage.classList.add("hidden"); dom.sessionCompleteMessage.classList.add("hidden");
   dom.activeCard.classList.remove("hidden"); dom.currentScoreDisplay.classList.add("hidden");
