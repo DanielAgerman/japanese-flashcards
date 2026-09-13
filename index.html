@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"/>
 <title>Flashcards</title>
 <script src="https://cdn.tailwindcss.com"></script>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
 :root{--bg-primary:#000000;--text-primary:#f9fafb;--text-secondary:#d1d5db}
 body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var(--text-primary);overflow:hidden; display:flex; flex-direction:column; height:100vh; height:100dvh;}
@@ -40,20 +40,35 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
 #session-tools { flex-shrink: 0; display: flex; align-items: center; gap: 0.5rem; padding-left: 0.5rem; }
 #voice-select { background: #1e293b; border: none; border-radius: 0.4rem; padding: 0.2rem 0.35rem; font-size: 0.7rem; max-width: 90px; color: #d1d5db; }
 
-/* Main Card Display */
-#japanese-word{line-height:1.2;font-size:clamp(2.2rem,9vw,4rem);padding:0.4em 0.7em;border-radius:1rem;display:inline-block;transition:color 0.2s,background-color 0.2s; text-align:center;}
+/* Main Card Display - Wide Pill Container */
+#japanese-word-box {
+  width: 88%;
+  max-width: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem 1rem;
+  border-radius: 1.5rem;
+  transition: background-color 0.2s ease;
+}
+#japanese-word {
+  line-height: 1.1;
+  font-size: clamp(2.4rem, 10vw, 4.2rem);
+  text-align: center;
+}
 #kana-reading{font-size:clamp(1.1rem,4.5vw,1.75rem);line-height:1.2;color:var(--text-secondary);margin-top:.3rem}
 #english-translation-top{
   line-height:1.4;
-  margin-top:0.75rem;
+  margin-top:0.85rem;
   font-size: 0.95rem;
   color: #e2e8f0;
   text-align: center;
   font-weight: 500;
+  padding: 0 1rem;
 }
 #english-translation-bottom{
   line-height:1.5;
-  max-height:30vh;
+  max-height:28vh;
   overflow-y:auto;
   margin-top:0.75rem;
   white-space:pre-wrap;
@@ -61,31 +76,32 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
   font-size: 0.85rem;
   color: #94a3b8;
   text-align: center;
-  width: 100%;
-  max-width: 360px;
+  width: 90%;
+  max-width: 380px;
 }
 #english-translation-top[contenteditable="true"],
 #english-translation-bottom[contenteditable="true"],
 #japanese-word[contenteditable="true"] { outline: none; box-shadow: 0 0 0 2px var(--text-primary); background: rgba(255,255,255,0.1); border-radius: 6px; padding: 0.5rem; }
 
-/* 6-Button Grid Styling with Custom Colors */
+/* 6-Button Grid - Edge Alignment & Wide Center Gap */
 .grade-btn{
   color:#ffffff;
-  font-weight:800;
-  padding:0.85rem 0.5rem;
-  border-radius:1.25rem;
-  font-size:1.25rem;
+  font-weight:900;
+  padding:1rem 0.5rem;
+  border-radius:1.5rem;
+  font-size:1.5rem;
   line-height: 1;
   transition: transform 0.1s ease, filter 0.1s ease;
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+  width: 100%;
 }
 .grade-btn:active{transform: scale(0.95);}
 .grade-btn-pop { transform: scale(1.08); filter: brightness(1.3); }
 
-/* Color overrides */
+/* Custom User Colors */
 .grade-1 { background-color: #e02121; color: #ffffff; }
 .grade-2 { background-color: #fc932c; color: #ffffff; }
 .grade-3 { background-color: #ffd792; color: #000000; } /* Dark text for light yellow */
@@ -153,7 +169,7 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
 
   <div id="session-tools">
     <select id="voice-select"></select>
-    <span class="text-[10px] font-mono font-bold text-indigo-400 bg-indigo-950/80 border border-indigo-800/60 px-1.5 py-0.5 rounded flex-shrink-0">v1.5</span>
+    <span class="text-[10px] font-mono font-bold text-indigo-400 bg-indigo-950/80 border border-indigo-800/60 px-1.5 py-0.5 rounded flex-shrink-0">v1.6</span>
   </div>
 </div>
 
@@ -179,10 +195,12 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
 
       <div class="flex flex-col flex-grow w-full items-center min-h-0 justify-between py-2" id="card-touch-zone">
         
-        <!-- Top Section: Score, Kanji, and Line 1 Description -->
+        <!-- Top Section: Score, Kanji Card, and Line 1 Description -->
         <div id="main-word-area" class="flex flex-col items-center justify-center relative w-full cursor-pointer flex-shrink-0">
           <h4 id="current-score-display" class="font-bold text-base mb-2 hidden"></h4>
-          <h2 id="japanese-word" class="font-jp font-bold"></h2>
+          <div id="japanese-word-box">
+            <h2 id="japanese-word" class="font-jp font-bold"></h2>
+          </div>
           <h3 id="kana-reading" class="font-jp hidden"></h3>
           
           <div id="english-translation-top" class="hidden"></div>
@@ -190,13 +208,13 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
           <button id="delete-card-btn" class="absolute top-0 right-0 mt-2 mr-2 btn-neutral text-white hidden">Delete</button>
         </div>
         
-        <!-- Middle Section: Tap to Show Answer / 6-Button Grid -->
-        <div id="card-controls" class="w-full max-w-xs my-auto flex-shrink-0">
+        <!-- Middle Section: Tap to Show Answer / Edge-Aligned 6-Button Grid -->
+        <div id="card-controls" class="w-full my-auto flex-shrink-0 px-1">
           <div class="flex items-center justify-center">
-            <button id="show-answer-btn" class="btn-neutral w-full py-4 rounded-xl font-bold text-lg shadow-lg bg-indigo-600 hover:bg-indigo-500 text-white">Tap to Show Answer</button>
+            <button id="show-answer-btn" class="btn-neutral w-full max-w-xs py-4 rounded-xl font-bold text-lg shadow-lg bg-indigo-600 hover:bg-indigo-500 text-white">Tap to Show Answer</button>
           </div>
           
-          <div id="grading-buttons" class="hidden grid grid-cols-2 gap-3.5 w-full">
+          <div id="grading-buttons" class="hidden grid grid-cols-2 gap-x-12 gap-y-3.5 w-full">
             <button data-grade="1" class="grade-btn grade-1"><span data-delta-label="1">-4</span></button>
             <button data-grade="6" class="grade-btn grade-6"><span data-delta-label="6">+4</span></button>
             <button data-grade="2" class="grade-btn grade-2"><span data-delta-label="2">-1.50</span></button>
@@ -298,6 +316,7 @@ const dom={
   exportBtn:document.getElementById('export-progress-btn'), importInput:document.getElementById('import-progress-input'),
   playBtn:document.getElementById('play-btn'), initialMessage:document.getElementById('initial-message'),
   sessionCompleteMessage:document.getElementById('session-complete-message'), activeCard:document.getElementById('active-card'),
+  japaneseWordBox:document.getElementById('japanese-word-box'),
   japaneseWord:document.getElementById('japanese-word'), kanaReading:document.getElementById('kana-reading'),
   englishTranslationTop:document.getElementById('english-translation-top'),
   englishTranslationBottom:document.getElementById('english-translation-bottom'),
@@ -495,7 +514,7 @@ function getReadingFromDescription(word, description) { const match = descriptio
 function displayCardFront(){
   dom.japaneseWord.textContent=currentWord.displayWord;
   dom.japaneseWord.style.color = getWordColor(currentWord.displayWord);
-  dom.japaneseWord.style.backgroundColor = getWordBgColor(currentWord.displayWord);
+  dom.japaneseWordBox.style.backgroundColor = getWordBgColor(currentWord.displayWord);
   dom.kanaReading.classList.add("hidden");
   dom.englishTranslationTop.classList.add("hidden");
   dom.englishTranslationBottom.classList.add("hidden");
@@ -509,7 +528,6 @@ function displayCardFront(){
 function displayCardBack(){
   dom.showAnswerBtn.classList.add("hidden");
   
-  // Split description: Line 1 (top) vs Lines 2+ (bottom)
   const lines = currentWord.description.split('\n');
   const firstLine = lines[0] || '';
   const remainingLines = lines.slice(1).join('\n').trim();
@@ -797,7 +815,7 @@ function makeCardRow({ v, stats, level, onCooldown }) {
   return li;
 }
 function makeUnseenRow({ v }) {
-  const li = document.createElement('li'); li.className = 'card-row';
+  const li = document.className = 'card-row';
   li.innerHTML = `<div class="card-row-word" style="color:${getWordColor(v.displayWord)}">${v.displayWord}</div><div class="card-row-desc">${v.description.replace(/\n/g,' ')}</div><div class="card-row-meta"><span class="card-row-level" style="color:#6b7280">unseen</span></div>`;
   return li;
 }
