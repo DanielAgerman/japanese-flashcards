@@ -1,3 +1,843 @@
+延ばす-
+{
+延ばす (のばす) - to postpone / to extend
+A transitive verb meaning to extend a deadline, postpone an event, or lengthen something.
+Memory Tip: 延 means to stretch or prolong. You stretch out the timeline or object!
+Example: 会議の予定を来週に延ばす。(かいぎのよていをらいしゅうにのばす。)
+-I will postpone the meeting schedule to next week.
+}
+しようか-
+{
+しようか (しようか) - shall we / should I?
+A casual phrase used to propose an action to someone or ponder doing something.
+Memory Tip: しよう (volitional of する, 'let's do') + か (question particle). Asking 'shall we do it?'
+Example: そろそろ出発しようか。(そろそろしゅっぱつしようか。)
+-Shall we head out soon?
+}
+考えているところだ-
+{
+考えているところだ (かんがえているところだ) - in the middle of thinking about it
+A phrase expressing that someone is currently in the active process of considering something.
+Memory Tip: 考えている (thinking) + ところ (current phase) + だ (is). Literally, 'at the stage of thinking'.
+Example: どうするか考えているところだ。(どうするかかんがえているところだ。)
+-I am in the middle of thinking about what to do.
+}
+からかわれて-
+{
+からかわれて (からかわれて) - being teased / made fun of
+The te-form of the passive verb からかわれる (to be teased or poked fun at).
+Memory Tip: からかう (to tease) changed into passive からかわれて. Imagine someone pulling your leg!
+Example: 友達にからかわれて顔が赤くなった。(ともだちにからかわれてかおがあかくなった。)
+-My face turned red after being teased by my friends.
+}
+中ば-
+{
+中ば (なかば) - middle / halfway
+A noun/adverb referring to the middle point of a period, process, or journey.
+Memory Tip: 中 (inside/center) + ば (place). Sitting right in the center or middle point.
+Example: 五月の中ばに旅行へ行く。(ごがつのなかばにりょこうへいく。)
+-I will go on a trip in the middle of May.
+}
+濡れる-
+{
+濡れる (ぬれる) - to get wet
+An intransitive verb meaning to become wet, damp, or soaked.
+Memory Tip: The left side has the water radical (氵). Anything touching water becomes 濡れる!
+Example: 突然の雨で服が濡れた。(とつぜんのあめでふくがぬれた。)
+-My clothes got wet from the sudden rain.
+}
+座る-
+{
+座る (すわる) - to sit down
+An intransitive verb meaning to take a seat on a chair, seat, or floor.
+Memory Tip: The kanji 广 represents a shelter where people (坐) gather and sit down.
+Example: どうぞこちらの椅子に座ってください。(どうぞこちらのいすにすわってください。)
+-Please sit down on this chair.
+}
+こういう-
+{
+こういう (こういう) - this kind of / like this
+A pre-noun demonstrative phrase used to refer to a specific type, style, or manner close to the speaker.
+Memory Tip: これ (this) + 言う (to say). Something described 'like this'.
+Example: こういうデザインがとても好きだ。(こういうでざいんがとてもすきだ。)
+-I really like this kind of design.
+}
+床屋-
+{
+床屋 (とこや) - barbershop
+A noun referring to a traditional barbershop for men's hair cuts and shaves.
+Memory Tip: 床 (floor) + 屋 (shop). A place where hair clips fall to the shop floor!
+Example: 髪を切りに床屋へ行った。(かみをきりにとこやへいった。)
+-I went to the barbershop to get a haircut.
+}
+珍しい-
+{
+珍しい (めずらしい) - rare / unusual
+An i-adjective used to describe something rare, uncommon, or hard to find.
+Memory Tip: 珍 features the gem radical (王). Rare gems are hard to come across!
+Example: こんなに大きな雪だるまは珍しい。(こんなにおおきなゆきだるまはめずらしい。)
+-A snowman this big is rare.
+}
+顔剃り-
+{
+顔剃り (かおそり) - face shaving
+A noun referring to the action or service of shaving one's face or facial hair.
+Memory Tip: 顔 (face) + 剃り (shaving, from 剃る). Shaving hair off the face.
+Example: 床屋で顔剃りをしてもらった。(とこやにかおそりをしてもらった。)
+-I got a face shave at the barbershop.
+}
+来てほしい-
+{
+来てほしい (きてほしい) - want someone to come
+A phrase expressing the desire for someone else to come or visit.
+Memory Tip: 来て (te-form of 来る, to come) + ほしい (want). Wanting another person to make a trip to you.
+Example: 明日、私の家に来てほしい。(あした、わたしのいえにきてほしい。)
+-I want you to come to my house tomorrow.
+}
+遅い-
+{
+遅い (おそい) - slow / late
+An i-adjective meaning low in speed or occurring after the expected time.
+Memory Tip: The radical 辶 (road/motion) combined with 犀 (heavy movement). Moving slowly down the path!
+Example: 彼の足はとても遅い。(かれのあしはとてもおそい。)
+-He runs very slowly.
+}
+切ってくれる-
+{
+切ってくれる (きってくれる) - cuts (it) for me/us
+A verb phrase meaning someone kindly cuts something for the benefit of the speaker.
+Memory Tip: 切る (to cut) + てくれる (to do as a favor for me). Someone doing the cutting for you.
+Example: 母がリンゴを切ってくれる。(ははがりんごをきってくれる。)
+-My mother cuts apples for me.
+}
+かしこまりました-
+{
+かしこまりました (かしこまりました) - certainly / understood
+A humble and polite expression used in customer service or formal settings to accept an order/instruction.
+Memory Tip: Derived from 畏まる (to obey respectfully). Standard polite response: 'Understood, right away!'
+Example: かしこまりました。少々お待ちください。(かしこまりました。しょうしょうおまちください。)
+-Certainly. Please wait a moment.
+}
+櫛-
+{
+櫛 (くし) - comb
+A noun referring to a comb used for styling or untangling hair.
+Memory Tip: The left component 木 shows it was traditionally carved out of wood!
+Example: 彼女は木製の櫛で髪を整えた。(かのじょはもくせいのくしでかみをととのえた。)
+-She untangled her hair with a wooden comb.
+}
+梳かす-
+{
+梳かす (とかす) - to comb / to brush (hair)
+A transitive verb meaning to run a comb or brush through hair.
+Memory Tip: 梳 has the tree radical (木) and 疏 (to pass through). Passing a wooden tool through hair!
+Example: 朝起きて、丁寧に髪を梳かす。(あさおきて、ていねいにかみをとかす。)
+-I wake up in the morning and neatly comb my hair.
+}
+卒業式-
+{
+卒業式 (そつぎょうしき) - graduation ceremony
+A noun referring to an official ceremony marking the completion of school or university.
+Memory Tip: 卒業 (graduation) + 式 (ceremony). The formal celebration of completing studies.
+Example: 来月、高校の卒業式があります。(らいげつ、こうこうのそつぎょうしきがあります。)
+-Next month, there is a high school graduation ceremony.
+}
+経つ-
+{
+経つ (たつ) - to pass / to elapse (time)
+An intransitive verb referring to time slipping or passing by.
+Memory Tip: 経 represents thread or passage across time. Time weaves forward continuously!
+Example: 時間が経つのは本当に早い。(じかんがたつのはほんとうにはやい。)
+-Time passes really quickly.
+}
+経った-
+{
+経った (たった) - passed / elapsed (time)
+The past tense of the verb 経つ (to pass, of time).
+Memory Tip: 経つ (time passes) in past form 経った. Time has already ticked away!
+Example: 日本に来てから三年が経った。(にほんにきてからさんねんがたった。)
+-Three years have passed since I came to Japan.
+}
+ころ-
+{
+ころ (ころ) - around the time / when
+A noun/suffix indicating an approximate time, era, or period.
+Memory Tip: Think of time rolling by like a ball rolling (ころころ) to a specific spot!
+Example: 子供のころ、よくこの公園で遊んだ。(こどものころ、よくこのこうえんであそんだ。)
+-When I was a child, I often played in this park.
+}
+思ったより-
+{
+思ったより (おもったより) - more than expected / than thought
+A phrase used when a outcome exceeds or differs from one's initial expectation.
+Memory Tip: 思った (thought) + より (than). Literally, 'than what I thought'.
+Example: テストは思ったより簡単だった。(てすとはおもったよりかんたんだった。)
+-The test was easier than I thought.
+}
+こういうタイプ-
+{
+こういうタイプ (こういうたいぷ) - this kind of type / this style
+A noun phrase referring to a specific category, personality type, or style.
+Memory Tip: こういう (this kind of) + タイプ (type). Categorizing a person or thing like this.
+Example: 彼はこういうタイプの本が好きだ。(かれはこういうたいぷのほんがすきだ。)
+-He likes this type of book.
+}
+床屋-
+{
+床屋 (とこや) - barbershop
+A noun referring to a traditional barbershop.
+Memory Tip: 床 (floor) + 屋 (shop). Hair falls to the floor of the barber shop!
+Example: 父は毎月床屋に行く。(ちちはまいつきとこやへいく。)
+-My father goes to the barbershop every month.
+}
+珍しい-
+{
+珍しい (めずらしい) - rare / unusual
+An i-adjective used to describe something uncommon or extraordinary.
+Memory Tip: 珍 has the gem radical (王). Precious and rare things deserve kings!
+Example: 昼間に星が見えるのは珍しい。(ひるまにほしがみえるのはめずらしい。)
+-It is rare to see stars during the day.
+}
+美容院-
+{
+美容院 (びよういん) - beauty salon / hair salon
+A noun referring to a hair salon or beauty parlor.
+Memory Tip: 美 (beauty) + 容 (appearance) + 院 (institution). A place to beautify your appearance!
+Example: 明日、美容院で髪を切る予定だ。(あした、びよういんでかみをきるよていだ。)
+-I plan to get my hair cut at a hair salon tomorrow.
+}
+勤-
+{
+勤 (つとめ) - service / duty / work
+A noun referring to one's duty, service, or employment position.
+Memory Tip: The left part 菫 represents effort, and 力 on the right represents power/strength put into work.
+Example: 長年の勤めを無事に終えた。(ながねんのつとめをぶじにおえた。)
+-He successfully completed years of long service.
+}
+勤めてたんです-
+{
+勤めてたんです (つとめてたんです) - was working (there)
+A conversational expression indicating that someone used to be employed at a place.
+Memory Tip: 勤めていた (was working) + のです/んです (explanatory particle). Explaining past employment.
+Example: 以前は銀行に勤めてたんです。(いぜんはぎんこうにつとめてたんです。)
+-I used to work at a bank, you see.
+}
+営業中-
+{
+営業中 (えいぎょうちゅう) - open for business
+A compound noun indicating that a shop, store, or facility is currently open.
+Memory Tip: 営業 (business operation) + 中 (in the middle of). Operating right now!
+Example: そのお店は深夜まで営業中だ。(そのおみせはしんやまでえいぎょうちゅうだ。)
+-That shop is open for business until late at night.
+}
+物は倒れる-
+{
+物は倒れる (ものはたおれる) - things fall over
+A phrase stating that objects tumble, fall, or collapse.
+Memory Tip: 物 (object) + は (topic marker) + 倒れる (falls down). Objects falling over.
+Example: 地震で棚の物が倒れる。(じしんでたなのものがたおれる。)
+-Things on the shelf fall over due to the earthquake.
+}
+割れる-
+{
+割れる (われる) - to break / to crack / to split
+An intransitive verb meaning to crack, shatter, or break into pieces.
+Memory Tip: The right side 刂 represents a knife. A force causes something to split apart!
+Example: コップが落ちて割れた。(こっぷがおちてわれた。)
+-The glass fell and broke.
+}
+実家-
+{
+実家 (じっか) - one's parents' home / hometown home
+A noun referring to the home of one's parents or family home.
+Memory Tip: 実 (truth/fruit/root) + 家 (house). The original home where your roots lie!
+Example: 正月は実家に帰る予定です。(しょうがつはじっかにかえるよていです。)
+-I plan to return to my parents' home during New Year.
+}
+なので-
+{
+なので (なので) - so / because / therefore
+A conjunction used at the start or middle of a sentence to state a cause or reason.
+Memory Tip: な (copula particle) + ので (because). Connecting a reason to a result smoothly.
+Example: 今日は雨なので、家で過ごす。(きょうはあめなので、いえですごす。)
+-Because it is raining today, I will stay home.
+}
+いかがですか-
+{
+いかがですか (いかがですか) - how about it? / how is it?
+A polite phrase used to offer something or ask for someone's opinion/preference.
+Memory Tip: いかが (polite form of どう, 'how') + ですか (question). Offering graciously!
+Example: 温かいお茶はいかがですか。(あたたかいおちゃはいかがですか。)
+-How about a cup of hot tea?
+}
+にっこり-
+{
+にっこり (にっこり) - smilingly / with a warm smile
+An onomatopoeia/mimetic adverb describing a sweet, pleasant smile.
+Memory Tip: Sounds soft like a cheerful 'nico' smile light up on someone's face!
+Example: 彼女はにっこりと微笑んだ。(かのじょはにっこりとほほえんだ。)
+-She smiled sweetly.
+}
+擬態語-
+{
+擬態語 (ぎたいご) - mimetic word / phenomime
+A noun referring to words that describe states, conditions, or manners (e.g., にっこり, ぐんぐん).
+Memory Tip: 擬 (imitate) + 態 (state/condition) + 語 (word). Words that imitate conditions or feelings!
+Example: 日本語には擬態語がたくさんある。(にほんごにはぎたいごがたくさんある。)
+-There are many mimetic words in Japanese.
+}
+擬音語-
+{
+擬音語 (ぎおんご) - onomatopoeia / phonomime
+A noun referring to words that imitate actual physical sounds (e.g., ワンワン, ドカン).
+Memory Tip: 擬 (imitate) + 音 (sound) + 語 (word). Words that imitate sounds in nature or life!
+Example: ワンワンは犬の鳴き声を表す擬音語だ。(わんわんはいぬのなきごえをおあらわすぐおんごだ。)
+-'Wan-wan' is an onomatopoeia expressing a dog's bark.
+}
+久しぶり-
+{
+久しぶり (ひさしぶり) - after a long time / long time no see
+A phrase used when meeting or doing something again after a considerable duration.
+Memory Tip: 久 (long time) + ぶり (passage/interval). An event after a long gap of time!
+Example: 友達と久しぶりに会った。(ともだちとひさしぶりにあった。)
+-I met my friend for the first time in a long time.
+}
+辛い-
+{
+辛い (つらい) - painful / tough / hard
+An i-adjective describing emotional or physical hardship, pain, or distress.
+Memory Tip: 辛 shows a stand/needle causing pain. When life is painful, it feels 辛い (tsurai).
+Example: 別れるのはとても辛い。(わかれるのはとてもつらい。)
+-Parting ways is very painful.
+}
+しばらく-
+{
+しばらく (しばらく) - for a while / for a short time
+An adverb meaning for a period of time, either short or moderate.
+Memory Tip: Think of taking a brief pause or waiting 'for a little while' before continuing.
+Example: しばらくここで待ってください。(しばらくここでまってください。)
+-Please wait here for a while.
+}
+洗い-
+{
+洗い (あらい) - washing / rinsing
+A noun formed from the verb 洗う, referring to the action of washing or cleaning.
+Memory Tip: 洗 has the water radical (氵). Washing always involves water!
+Example: 手洗いをしっかりしよう。(てあらいをしっかりしよう。)
+-Let's wash our hands thoroughly.
+}
+包む-
+{
+包む (つつむ) - to wrap / to cover
+A transitive verb meaning to wrap up an object in paper, cloth, or packaging.
+Memory Tip: The kanji 包 looks like an arm wrapping around an object inside!
+Example: プレゼントを綺麗に包む。(ぷれぜんとをきれいにつつつむ。)
+-I wrap the present neatly.
+}
+倒す-
+{
+倒す (たおす) - to knock down / to overthrow
+A transitive verb meaning to push something over, knock down, or defeat.
+Memory Tip: 人 (person) + 到 (arrive/fall). Pushing a person or object to the ground!
+Example: 風が木を倒した。(かぜがきをたおした。)
+-The wind knocked down the tree.
+}
+触れる-
+{
+触れる (ふれる) - to touch / to come into contact
+An intransitive/transitive verb meaning to touch lightly or refer to a topic.
+Memory Tip: 触 has 角 (horn) and 虫 (insect). An insect touching with its antennae!
+Example: 絵画に触れてはいけない。(かいがにふれてはいけない。)
+-You must not touch the painting.
+}
+冷たい-
+{
+冷たい (つめたい) - cold (to the touch)
+An i-adjective used for cold temperatures of physical objects, drinks, or hands.
+Memory Tip: 冷 has 冫 (ice radical). Ice feels cold to your hands!
+Example: 冷たい水を飲みたい。(つめたいみずをのみたい。)
+-I want to drink cold water.
+}
+ずいぶん-
+{
+ずいぶん (ずいぶん) - considerably / quite
+An adverb used to express that something is to a high degree or surprising extent.
+Memory Tip: Think of '随分' - following (随) a large portion (分) beyond ordinary expectation!
+Example: 今日はずいぶん寒いですね。(きょうはずいぶんさむいですね。)
+-It is quite cold today, isn't it?
+}
+口を開いた-
+{
+口を開いた (くちをひらいた) - opened one's mouth (to speak)
+An idiom meaning to break silence or start speaking.
+Memory Tip: 口 (mouth) + を + 開いた (opened). Literally opening the mouth to talk.
+Example: 彼はしばらく黙っていたが、ようやく口を開いた。(かれはしばらくだまっていたが、ようやくくちをひらいた。)
+-He was silent for a while, but finally opened his mouth to speak.
+}
+用品-
+{
+用品 (ようひん) - supplies / goods / equipment
+A noun referring to tools, gear, or articles intended for a specific purpose.
+Memory Tip: 用 (use) + 品 (article/goods). Goods intended for a practical use!
+Example: スポーツ用品店で靴を買った。(すぽーつようひんてんでくつをかった。)
+-I bought shoes at a sporting goods store.
+}
+野球-
+{
+野球 (やきゅう) - baseball
+A noun referring to the sport of baseball.
+Memory Tip: 野 (field) + 球 (ball). A ball game played out on an open field!
+Example: 毎週末、友達と野球をします。(まいしゅうまつ、ともだちとやきゅうをします。)
+-I play baseball with friends every weekend.
+}
+進級-
+{
+進級 (しんきゅう) - promotion (to the next grade)
+A noun referring to moving up to the next grade or class in school.
+Memory Tip: 進 (advance) + 級 (grade/rank). Advancing to a higher grade!
+Example: 無事に次の学年へ進級した。(ぶじにつぎのがくねんへしんきゅうした。)
+-I successfully promoted to the next school grade.
+}
+祝いに-
+{
+祝いに (いわいに) - in celebration of / as a gift for
+A phrase used to indicate that an action or item is given as a celebratory gesture.
+Memory Tip: 祝い (celebration) + に (for/as). Given in honor of a special event!
+Example: 合格の祝いに時計をもらった。(ごうかくのいわいにとけいをもらった。)
+-I received a watch in celebration of passing.
+}
+買ってあげる-
+{
+買ってあげる (かってあげる) - buy (something) for someone
+A compound verb phrase meaning to purchase an item for someone else as a favor.
+Memory Tip: 買う (to buy) + てあげる (to do for someone). Doing a buying favor!
+Example: 子供におもちゃを買ってあげる。(こどもにおもちゃをかってあげる。)
+-I buy a toy for my child.
+}
+〜ちゃう-
+{
+〜ちゃう (~ちゃう) - to end up doing / to do completely
+A casual contraction of 〜てしまう, expressing unintended action or completion.
+Memory Tip: Shortened spoken form of てしまう. Expresses 'oops, I accidentally did it!'
+Example: ケーキを全部食べちゃう。(けーきをぜんぶたべちゃう。)
+-I end up eating all the cake.
+}
+めちゃくちゃ-
+{
+めちゃくちゃ (めちゃくちゃ) - absurd / messy / super
+An informal adjective/adverb meaning highly disorganized, extreme, or 'super'.
+Memory Tip: Extremely chaotic or messy, or used informally like 'super' expensive/fun!
+Example: 部屋がめちゃくちゃに散らかっている。(へやがめちゃくちゃにちらかっている。)
+-The room is super messy.
+}
+離れていなかった-
+{
+離れていなかった (はなれていなかった) - was not far away / had not separated
+The negative past continuous form of 離れる, meaning remaining nearby or attached.
+Memory Tip: 離れる (to separate) in negative continuous past. Staying close by without leaving!
+Example: 彼は家から遠く離れていなかった。(かれはいえからとおくはなれていなかった。)
+-He had not strayed far from home.
+}
+離れる-
+{
+離れる (はなれる) - to separate / to move away
+An intransitive verb meaning to part from, leave, or increase physical distance.
+Memory Tip: The left component 隹 shows a bird taking flight away from a spot!
+Example: 親元を離れて一人暮らしを始める。(おやもとをはなれてひとりぐらしをはじめる。)
+-I leave my parents and start living alone.
+}
+迎え-
+{
+迎え (むかえ) - meeting / picking someone up
+A noun derived from 迎える, referring to going to pick up or greet someone.
+Memory Tip: 迎 contains 辶 (movement) to go out and welcome someone arriving!
+Example: 駅まで車で迎えに行く。(えきまでくるまでむかえにいく。)
+-I will go pick you up by car at the station.
+}
+なくちゃ-
+{
+なくちゃ (なくちゃ) - must do / have to
+A casual contraction of なければならない (must do).
+Memory Tip: Shortened from なくては (nakutewa -> nakucha). Everyday spoken 'gotta do it'!
+Example: そろそろ帰らなくちゃ。(そろそろかえらなくちゃ。)
+-I gotta go home soon.
+}
+なければならない-
+{
+なければならない (なければならない) - must / have to
+A standard grammatical phrase expressing necessity or obligation.
+Memory Tip: なければ (if not) + ならない (it will not work). Literally 'if you don't, it won't do'.
+Example: 宿題を提出しなければならない。(しゅくだいをていしゅつしなければならない。)
+-I must submit my homework.
+}
+〜って-
+{
+〜って (~て) - casual quotation / hearing that
+A casual particle used to quote spoken words or report information heard from others.
+Memory Tip: Colloquial replacement for と (quotation particle) or と言っている (they say).
+Example: 明日雨が降るって。(あしたあめがふるて。)
+-I heard that it will rain tomorrow.
+}
+やっと-
+{
+やっと (やっと) - finally / at last
+An adverb used when something long-awaited is finally achieved after effort or time.
+Memory Tip: Exclamation of relief when a long task or wait finally finishes!
+Example: 長い工事がやっと終わった。(ながいこうじがやっとおわった。)
+-The long construction finally ended.
+}
+進まなかった-
+{
+進まなかった (すすまなかった) - did not progress / did not move forward
+The past negative form of 進む (to advance/progress).
+Memory Tip: 進む (to advance) in past negative form. Work or motion stalled!
+Example: 渋滞で車が全然進まなかった。(じゅうたいでくるまがぜんぜんすすまなかった。)
+-The car didn't move forward at all due to traffic.
+}
+いっぱい-
+{
+いっぱい (いっぱい) - full / a lot / many
+An adverb/adjective meaning filled to capacity or existing in large quantities.
+Memory Tip: 一 (one) + 杯 (cup). A cup filled to the top brim!
+Example: お腹がいっぱいになった。(おなかがいっぱいになった。)
+-I became full.
+}
+かかる-
+{
+かかる (かかる) - to take (time/money) / to cost
+An intransitive verb used for time, money, or resources required for something.
+Memory Tip: The cost or time hangs (かかる) upon the project until completion.
+Example: 東京まで二時間かかる。(とうきょうまでにじかんかかる。)
+-It takes two hours to reach Tokyo.
+}
+だし-
+{
+だし (だし) - and also / since
+A conjunction particle used to list reasons or additional factors leading to a conclusion.
+Memory Tip: だ (copula) + し (conjunctive particle). Listing multiple reasons casually!
+Example: 安いだし、味もおいしい。(やすいだし、あじもおいしい。)
+-It's cheap, and the taste is also delicious.
+}
+後ろ-
+{
+後ろ (うしろ) - behind / back
+A noun indicating the rear, back side, or space behind an object or person.
+Memory Tip: 後 has 彳 (walking) + 幺 (small/behind). Walking behind others in line!
+Example: 椅子の後ろに鞄を置く。(いすのうしろにかばんをおく。)
+-I place my bag behind the chair.
+}
+迷惑-
+{
+迷惑 (めいわく) - trouble / nuisance / bother
+A noun/na-adjective referring to inconvenience or trouble caused to others.
+Memory Tip: 迷 (delusion/lost) + 惑 (perplexed). Causing someone to feel lost or annoyed!
+Example: 近所に迷惑をかけてはいけない。(きんじょにめいわくをかけてはいけない。)
+-You must not cause trouble for your neighbors.
+}
+祈る-
+{
+祈る (いのる) - to pray / to wish
+A transitive verb meaning to offer prayers, wishes, or hopes for safety/success.
+Memory Tip: The left radical 礻 represents religious rituals/gods. Praying to the altar!
+Example: 皆様の健康を祈ります。(みなさまのけんこうをいのります。)
+-I pray for everyone's health.
+}
+おしゃれ-
+{
+おしゃれ (おしゃれ) - stylish / fashionable
+A na-adjective/noun referring to being smartly dressed, stylish, or fashionable.
+Memory Tip: Describes someone who dresses up nicely and cares about smart style!
+Example: 彼女はいつもおしゃれな服を着ている。(かのじょはいつもおしゃれなふくをきている。)
+-She always wears stylish clothes.
+}
+似合う-
+{
+似合う (にあう) - to suit / to look good on
+An intransitive verb used when clothing, colors, or styles look great on a person.
+Memory Tip: 似 (resemble) + 合う (match). When a style matches your look perfectly!
+Example: その帽子はあなたによく似合う。(そのぼうしはあなたによくにあう。)
+-That hat suits you very well.
+}
+翌日-
+{
+翌日 (よくじつ) - the next day / the following day
+A noun referring to the day immediately following a given event.
+Memory Tip: 翌 means next/following. Combined with 日 (day), giving 'the next day'.
+Example: パーティーの翌日は休みだった。(ぱーてぃーのよくじつはやすみだった。)
+-The day after the party was a day off.
+}
+お昼過ぎ-
+{
+お昼過ぎ (おひるすぎ) - past noon / early afternoon
+A noun referring to the time frame shortly after 12:00 PM.
+Memory Tip: お昼 (noon) + 過ぎ (past). Right after midday passes!
+Example: お昼過ぎに友達が訪ねてきた。(おひるすぎにともだちがたずねてきた。)
+-A friend came to visit in the early afternoon.
+}
+すっかり-
+{
+すっかり (すっかり) - completely / entirely
+An adverb describing a state of complete change or total transformation.
+Memory Tip: Sounds like something clearing out smoothly until it is completely clean!
+Example: すっかり元気をとりもどした。(すっかりげんきをとりもどした。)
+-I have completely recovered my energy.
+}
+溶けて-
+{
+溶けて (とけて) - melting / having melted
+The te-form of the verb 溶ける (to melt, thaw, or dissolve).
+Memory Tip: 溶 has 氵 (water). Solid turning into liquid water te-form 溶けて!
+Example: 雪が太陽で溶けて水になった。(ゆきがたいようでとけてみずになった。)
+-The snow melted under the sun and turned into water.
+}
+大きめの-
+{
+大きめの (おおきめの) - slightly large / oversized
+A noun phrase/adjective referring to something slightly larger than standard size.
+Memory Tip: 大きい (big) + め (suffix for degree) + の. A bit on the big side!
+Example: 大きめのシャツをゆるく着る。(おおきめのしゃつをゆるくきる。)
+-I loosely wear a slightly oversized shirt.
+}
+一目見-
+{
+一目見 (ひとめみ) - glance / seeing once
+A noun/verb root phrase referring to catching a single glance of something.
+Memory Tip: 一目 (one eye/glance) + 見 (see). Catching a quick single glance!
+Example: 一目見たら忘れないデザインだ。(ひとめみたらわすれないでざいんだ。)
+-It is a design you won't forget once you catch a glance of it.
+}
+そっくりだった-
+{
+そっくりだった (そっくりだった) - looked exactly like / was identical
+The past tense of そっくり (the spitting image / exact match).
+Memory Tip: そっくり (exactly alike) + だった (was). Identical in appearance or nature!
+Example: 声が父親にそっくりだった。(こえがちちおやにそっくりだった。)
+-His voice was the spitting image of his father's.
+}
+一瞬-
+{
+一瞬 (いっしゅん) - an instant / a moment
+A noun/adverb referring to a split second or extremely brief period.
+Memory Tip: 一 (one) + 瞬 (blink of an eye). As quick as a single blink!
+Example: 一瞬の出来事に驚いた。(いっしゅんのできごとにおどろいた。)
+-I was surprised by the split-second occurrence.
+}
+昼間-
+{
+昼間 (ひるま) - daytime / during the day
+A noun referring to daylight hours between morning and evening.
+Memory Tip: 昼 (noon) + 間 (interval). The time interval of daylight.
+Example: 昼間は明るいので照明がいらない。(ひるまはあかるいのでしょうめいがいらない。)
+-During the day it is bright, so lights are not needed.
+}
+わけがない-
+{
+わけがない (わけがない) - there is no way that / impossible
+A phrase expressing strong logical denial that something could be true.
+Memory Tip: わけ (reason/logical sense) + がない (there is none). Logical impossibility!
+Example: そんなの本当なわけがない。(そんなのほんとうなわけがない。)
+-There is no way that is true.
+}
+成長する-
+{
+成長する (せいちょうする) - to grow up / to develop
+A suru-verb referring to physical growth, development, or personal maturity.
+Memory Tip: 成 (become) + 長 (long/leader). Becoming bigger and mature over time!
+Example: 子供はあっという間に成長する。(こどもはあっというまにせいちょうする。)
+-Children grow up in the blink of an eye.
+}
+あちこち-
+{
+あちこち (あちこち) - here and there / in various places
+A noun/adverb referring to multiple different locations or directions.
+Memory Tip: あっち (there) + こっち (here). Moving or looking all over the place!
+Example: 街のあちこちに花が咲いている。(まちのあちこちにはながさいている。)
+-Flowers are blooming here and there in the city.
+}
+並んで-
+{
+並んで (ならんで) - side by side / in line
+The te-form of 並ぶ (to stand in line or side by side).
+Memory Tip: 並 (line up) in te-form 並んで. Standing in an orderly row!
+Example: 二人で並んで歩く。(ふたりでならんであるく。)
+-The two walk side by side.
+}
+遠く-
+{
+遠く (とおく) - far away / distant place
+A noun/adverb referring to a location at a great physical or psychological distance.
+Memory Tip: 遠 (far) + く (adverbial form). Looking into the distance!
+Example: 遠くから電車の音が聞こえる。(とおくからでんしゃのおとがきこえる。)
+-I can hear the train sound from far away.
+}
+習慣-
+{
+習慣 (しゅうかん) - habit / custom
+A noun referring to regular routines, long-established practices, or cultural customs.
+Memory Tip: 習 (learn) + 慣 (accustom). Doing something regularly until it is second nature!
+Example: 毎朝ジョギングする習慣がある。(まいあさじょぎんぐするしゅうかんがある。)
+-I have a habit of jogging every morning.
+}
+聞いた瞬間-
+{
+聞いた瞬間 (きいたしゅんかん) - the moment I heard
+A phrase expressing an immediate action or reaction upon hearing news or information.
+Memory Tip: 聞いた (heard) + 瞬間 (instant/moment). At the exact split second of hearing!
+Example: その話を聞いた瞬間、驚いた。(そのはなしをきいたしゅんかん、おどろいた。)
+-The moment I heard that story, I was surprised.
+}
+〜していく-
+{
+〜していく (~していく) - to continue doing / to go on doing
+A verb ending used to indicate that an action or process will continue into the future.
+Memory Tip: Verb te-form + いく (to go). Moving forward into the future while continuing an action!
+Example: これからも日本語を勉強していく。(これからもにほんごをべんきょうしていく。)
+-I will continue studying Japanese from now on.
+}
+いくつかあった-
+{
+いくつかあった (いくつかあった) - there were several
+A phrase indicating that a few or several items/options existed.
+Memory Tip: いくつか (a few/several) + あった (there were). Having multiple items present.
+Example: 解決策はいくつかあった。(かいけつさくはいくつかあった。)
+-There were several solutions.
+}
+触る-
+{
+触る (さわる) - to touch / to handle
+A transitive/intransitive verb meaning to make physical contact with an object.
+Memory Tip: 触 shows 角 (horn) and 虫 (insect). Making direct physical touch with something!
+Example: 展示品に触らないでください。(てんじひんにさわらないでください。)
+-Please do not touch the exhibits.
+}
+肌-
+{
+肌 (はだ) - skin / texture
+A noun referring to human skin or surface texture.
+Memory Tip: The left component 月 represents the human body (flesh). The outer surface of the body!
+Example: 冬は肌が乾燥しやすい。(ふゆははだがかんそうしやすい。)
+-Skin tends to get dry in winter.
+}
+見送る-
+{
+見送る (みおくる) - to see off / to watch someone depart
+A compound verb meaning to accompany someone departing and watch them leave.
+Memory Tip: 見 (watch) + 送る (send). Watching someone as they go on their way!
+Example: 駅で友達を見送る。(えきでともだちをみおくる。)
+-I see my friend off at the station.
+}
+またいらしてください-
+{
+またいらしてください (またいらしてください) - please come again
+A polite honorific greeting used by shop owners or hosts welcoming visitors back.
+Memory Tip: また (again) + いらしてください (polite honorific for 'please come'). Warmly inviting back!
+Example: 本日はありがとうございました。またいらしてください。(ほんじつはありがとうございました。またいらしてください。)
+-Thank you very much today. Please come again.
+}
+お参り-
+{
+お参り (おまいり) - visiting a shrine / temple or grave
+A noun referring to paying a visit to a sacred place to pray or pay respects.
+Memory Tip: The honorific お + 参り (visiting). Going respectfully to offer prayers!
+Example: 正月に神社へお参りに行く。(しょうがつにじんじゃへおまいりにいく。)
+-I go to visit the shrine at New Year.
+}
+思わず-
+{
+思わず (おもわず) - spontaneously / involuntarily
+An adverb describing an action done instinctively without conscious reflection.
+Memory Tip: 思 (think) + わず (without). Doing something before you even realize or think!
+Example: 驚いて、思わず叫んでしまった。(おどろいて、おもわずさけんでしまった。)
+-Surprised, I involuntarily shouted out.
+}
+わざわざ-
+{
+わざわざ (わざわざ) - going out of one's way to
+An adverb used when someone takes extra effort or goes out of their way to do something.
+Memory Tip: Doubling 技 (deed/purpose). Doing something intentionally with extra effort!
+Example: 遠くからわざわざ来てくれてありがとう。(とおくからわざわざきてくれてありがとう。)
+-Thank you for going out of your way to come from far away.
+}
+ぐんぐん-
+{
+ぐんぐん (ぐんぐん) - rapidly / steadily
+An onomatopoeic adverb describing fast, steady, uninterrupted growth or movement.
+Memory Tip: Rhythmic sound of power driving fast growth forward without stopping!
+Example: 植物がぐんぐん伸びている。(しょくぶつがぐんぐんのびている。)
+-The plant is growing rapidly.
+}
+蕾-
+{
+蕾 (つぼみ) - flower bud
+A noun referring to a flower bud before it opens up into full bloom.
+Memory Tip: The top radical 艹 represents plants. The tightly closed bud waiting to bloom!
+Example: 桜の蕾がふくらんできた。(さくらのつぼみがふくらんできた。)
+-The cherry blossom buds have started to swell.
+}
+耐える-
+{
+耐える (たえる) - to endure / to bear
+An intransitive verb meaning to withstand hardship, pain, or pressure.
+Memory Tip: The left part 而 represents face/beard, and 寸 represents measure/self-control under stress!
+Example: 厳しい寒さに耐える。(きびしいさむさにたえる。)
+-To endure the severe cold.
+}
+偉い-
+{
+偉い (えらい) - admirable / great / praiseworthy
+An i-adjective used to praise someone for good behavior, accomplishment, or high status.
+Memory Tip: 人 (person) + 韋 (encircle/stand out). A person standing out for good deeds!
+Example: 一人で掃除をして偉いね。(ひとりでそうじをしてえらいね。)
+-You are so admirable for cleaning up by yourself.
+}
+入ろう-
+{
+入ろう (はいろう) - let's enter / shall we go in?
+The volitional form of the verb 入る (to enter).
+Memory Tip: 入る (to enter) changed into volitional 入ろう. Inviting others to go inside!
+Example: 寒いから喫茶店に入ろう。(さむいからきっさてんにはいろう。)
+-It's cold, so let me/us enter a cafe.
+}
+短くしよう-
+{
+短くしよう (みじかくしよう) - let's make it short / let's shorten it
+A phrase formed by 短い (short) in adverbial form + しよう (let me/us make).
+Memory Tip: 短く (shortly) + しよう (let's make). Proposing to cut or keep something brief!
+Example: 夏に向けて髪を短くしよう。(なつにむけてかみをみじかくしよう。)
+-Let's make my hair short for the summer.
+}
+複雑-
+{
+複雑 (ふくざつ) - complex / complicated
+A na-adjective used to describe intricate situations, feelings, or structures.
+Memory Tip: 複 (multiple layers) + 雑 (mixed). Many overlapping layers mixed together!
+Example: この説明は少し複雑だ。(このせつめいはすこしふくざつだ。)
+-This explanation is a bit complex.
+}
+言われるのは-
+{
+言われるのは (いわれるのは) - being told (that)
+A nominalized phrase combining the passive verb 言われる (to be told) with のは (topic).
+Memory Tip: 言われる (to be told) + の (nominalizer) + は (topic). The act of being told something.
+Example: 人から褒め言われるのは嬉しい。(ひとからほめいわれないのはうれしい。)
+-It feels nice to be praised by people.
+}
+〜てあげる-
+{
+〜てあげる (~てあげる) - to do something for someone
+A auxiliary verb pattern used when performing an action as a favor for another person.
+Memory Tip: Verb te-form + あげる (to give). Giving a helpful action to someone!
+Example: 友達の荷物を持ってあげる。(ともだちのにもつをもってあげる。)
+-I carry my friend's luggage for them.
+}
+完-
+{
+完 (かん) - end / completion / the end
+A noun/suffix placed at the end of a story, movie, or series to signal its finish.
+Memory Tip: The roof radical 宀 over 元 (beginning/origin). Bringing everything under one completed roof!
+Example: 物語はここで完。(ものがたりはここでかん。)
+-The story reaches its end here.
+}
 田舎-
 {
 田舎 (いなか) - countryside / rural area
