@@ -38,7 +38,7 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
 .tab-content{flex-grow:1;overflow-y:auto; background-color:#000000;}
 
 #session-tools { flex-shrink: 0; display: flex; align-items: center; gap: 0.5rem; padding-left: 0.5rem; }
-#voice-select { background: #1e293b; border: none; border-radius: 0.4rem; padding: 0.2rem 0.35rem; font-size: 0.7rem; max-width: 90px; color: #d1d5db; }
+#voice-select { background: #1e293b; border: none; border-radius: 0.4rem; padding: 0.2rem 0.35rem; font-size: 0.7rem; max-width: 100px; color: #d1d5db; }
 
 /* Main Card Display - Dark Red/Brown Pill Box */
 #japanese-word-box {
@@ -111,7 +111,7 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
   justify-content: center;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
   width: 100%;
-  opacity: 0.5; /* 50% transparent */
+  opacity: 0.5;
 }
 .grade-btn-left { margin-left: -1.75rem; }
 .grade-btn-right { margin-right: -1.75rem; }
@@ -144,9 +144,9 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
 #play-btn:disabled { opacity: 0.5; cursor: not-allowed; }
 .input-style { background: #1e293b; color: var(--text-primary); border: 1px solid #334155; border-radius: 0.5rem; padding: 0.5rem 0.75rem; font-size: 0.875rem; width: 100%; }
 
-#previous-card-box { width: 100%; max-width: 340px; background: #0f172a; border-radius: 0.5rem; padding: 0.4rem 0.75rem; margin-bottom: 0.5rem; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); text-align: center; display: flex; align-items: center; justify-content: space-between; border: 1px solid #1e293b; opacity: 0; transition: opacity 0.3s ease; flex-shrink: 0; }
+#previous-card-box { width: 100%; max-width: 360px; background: #0f172a; border-radius: 0.5rem; padding: 0.4rem 0.75rem; margin-bottom: 0.5rem; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); text-align: center; display: flex; align-items: center; justify-content: space-between; border: 1px solid #1e293b; opacity: 0; transition: opacity 0.3s ease; flex-shrink: 0; }
 #previous-word { font-size: 1rem; font-weight: 700; line-height: 1.2; }
-.score-display { font-size: 0.8rem; font-weight: 600; }
+.score-display { font-size: 0.8rem; font-weight: 600; display: flex; align-items: center; }
 .delta-positive { color: #22c55e; }
 .delta-negative { color: #ef4444; }
 .delta-neutral { color: #9ca3af; }
@@ -187,7 +187,7 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
 
   <div id="session-tools">
     <select id="voice-select"></select>
-    <span class="text-[10px] font-mono font-bold text-indigo-400 bg-indigo-950/80 border border-indigo-800/60 px-1.5 py-0.5 rounded flex-shrink-0">v1.9</span>
+    <span class="text-[10px] font-mono font-bold text-indigo-400 bg-indigo-950/80 border border-indigo-800/60 px-1.5 py-0.5 rounded flex-shrink-0">v2.0</span>
   </div>
 </div>
 
@@ -212,7 +212,7 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
             <div id="previous-word" class="font-jp"></div>
             <div class="score-display">
               <span id="previous-delta" class="font-mono"></span>
-              (Score: <span id="previous-score" class="font-mono"></span>)
+              <span class="mx-1">(Score: <span id="previous-score" class="font-mono"></span>)</span>
             </div>
           </div>
 
@@ -398,14 +398,26 @@ function updateGradingButtonLabels() {
 let availableVoices=[], chosenVoice=null;
 function populateVoiceDropdown(){
   const sel=dom.voiceSelect; sel.innerHTML='';
-  const def=document.createElement('option');def.value='';def.textContent='System Default';sel.appendChild(def);
+  const mute=document.createElement('option'); mute.value='off'; mute.textContent='🔇 Mute Audio'; sel.appendChild(mute);
+  const def=document.createElement('option'); def.value=''; def.textContent='System Default'; sel.appendChild(def);
   availableVoices.forEach(v=>{const o=document.createElement('option');o.value=v.name;o.textContent=v.name;sel.appendChild(o);});
-  const saved=localStorage.getItem(LS_KEYS.VOICE)||'';sel.value=saved;chosenVoice=saved;
-  sel.onchange=()=>{chosenVoice=sel.value;localStorage.setItem(LS_KEYS.VOICE,chosenVoice);}
+  const saved=localStorage.getItem(LS_KEYS.VOICE)||''; sel.value=saved; chosenVoice=saved;
+  sel.onchange=()=>{chosenVoice=sel.value; localStorage.setItem(LS_KEYS.VOICE,chosenVoice);}
 }
 function setupVoices(){availableVoices=speechSynthesis.getVoices();populateVoiceDropdown();}
 if("speechSynthesis" in window){speechSynthesis.onvoiceschanged=setupVoices;setupVoices();}
-function speak(txt){if(!txt)return;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(txt);u.lang="ja-JP";if(chosenVoice){const v=availableVoices.find(v=>v.name===chosenVoice);if(v)u.voice=v;}speechSynthesis.speak(u)}
+function speak(txt){
+  if(!txt || chosenVoice === 'off') return;
+  if(!("speechSynthesis" in window)) return;
+  speechSynthesis.cancel();
+  const u=new SpeechSynthesisUtterance(txt);
+  u.lang="ja-JP";
+  if(chosenVoice && chosenVoice !== ''){
+    const v=availableVoices.find(v=>v.name===chosenVoice);
+    if(v) u.voice=v;
+  }
+  speechSynthesis.speak(u);
+}
 
 const WORD_COLORS = ['hsl(0,85%,65%)', 'hsl(23,85%,65%)', 'hsl(45,85%,65%)', 'hsl(68,85%,65%)', 'hsl(90,85%,65%)', 'hsl(113,85%,65%)', 'hsl(135,85%,65%)', 'hsl(158,85%,65%)', 'hsl(180,85%,65%)', 'hsl(203,85%,65%)', 'hsl(225,85%,65%)', 'hsl(248,85%,65%)', 'hsl(270,85%,65%)', 'hsl(293,85%,65%)', 'hsl(315,85%,65%)', 'hsl(338,85%,65%)'];
 function wordColorIndex(word) { let hash = 5381; for (let i = 0; i < word.length; i++) { hash = ((hash << 5) + hash) ^ word.charCodeAt(i); hash = hash >>> 0; } return hash % WORD_COLORS.length; }
@@ -510,6 +522,31 @@ function updatePreviousCardDisplay() {
     const deltaText = (lastScoreDelta > 0 ? '+' : '') + lastScoreDelta.toFixed(2).replace(/\.00$/, '');
     dom.previousDelta.className = `font-mono ${deltaClass}`; dom.previousDelta.textContent = deltaText;
     dom.previousScore.textContent = lastGradedScore.toFixed(1);
+
+    // Graduation & Level Up/Down Badge
+    let gradEl = dom.previousCardBox.querySelector('.grad-badge');
+    if (!gradEl) {
+      gradEl = document.createElement('span');
+      dom.previousCardBox.querySelector('.score-display').appendChild(gradEl);
+    }
+
+    if (lastGraduationLevelChange !== null) {
+      const fromL = lastGraduatedFromLevel;
+      const toL = lastGraduatedToLevel;
+      if (lastGraduationLevelChange > 0) {
+        gradEl.className = 'grad-badge font-mono text-[10px] ml-1 px-1.5 py-0.5 rounded font-bold bg-emerald-950 text-emerald-400 border border-emerald-800/80 flex-shrink-0';
+        gradEl.textContent = `🎓 Lv ${fromL}→${toL}`;
+      } else if (lastGraduationLevelChange < 0) {
+        gradEl.className = 'grad-badge font-mono text-[10px] ml-1 px-1.5 py-0.5 rounded font-bold bg-rose-950 text-rose-400 border border-rose-800/80 flex-shrink-0';
+        gradEl.textContent = `🔻 Lv ${fromL}→${toL}`;
+      } else {
+        gradEl.className = 'grad-badge font-mono text-[10px] ml-1 px-1.5 py-0.5 rounded font-bold bg-sky-950 text-sky-400 border border-sky-800/80 flex-shrink-0';
+        gradEl.textContent = `🎓 Lv ${toL}`;
+      }
+      gradEl.style.display = 'inline-block';
+    } else {
+      gradEl.style.display = 'none';
+    }
   } else {
     dom.previousCardBox.classList.add('hidden'); dom.previousCardBox.style.opacity = '0';
   }
@@ -538,7 +575,7 @@ function displayCardFront(){
   dom.englishTranslationTop.classList.add("hidden");
   dom.englishTranslationBottom.classList.add("hidden");
   dom.showAnswerBtn.classList.remove("hidden");
-  dom.gradingButtons.classList.remove("hidden"); // Buttons visible on unrevealed card
+  dom.gradingButtons.classList.remove("hidden");
   dom.editControls.classList.add("hidden"); dom.deleteCardBtn.classList.add("hidden");
   dom.initialMessage.classList.add("hidden"); dom.sessionCompleteMessage.classList.add("hidden");
   dom.activeCard.classList.remove("hidden"); dom.currentScoreDisplay.classList.add("hidden");
