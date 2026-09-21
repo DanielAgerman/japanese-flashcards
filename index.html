@@ -309,6 +309,11 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
 </div>
 
 <script>
+const CURRENT_VERSION = 'v2.0';
+if (localStorage.getItem('installed_version') !== CURRENT_VERSION) {
+  localStorage.setItem('installed_version', CURRENT_VERSION);
+  location.reload(true);
+}
 let vocabulary=[], currentWord=null, srsStats=new Map(), currentHand = [];
 let sessionScores = new Map();
 let forcedPriorityKeys = new Set();
