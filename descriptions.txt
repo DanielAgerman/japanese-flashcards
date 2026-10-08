@@ -1,846 +1,753 @@
 暮らしている-
 {
 暮らしている (くらしている) - living / residing
-Maysa a tignay (verb in te-iru form) a mangipakitakit iti panagbiag wenno panag-naed iti maysa a lugar.
-Memory Tip: 暮 (ag-naed) + している (aramiden). Panagbiag wenno panag-naed iti maysa a lugar.
+A verb in the ~te iru form meaning to live, reside, or spend daily life in a place.
+Memory Tip: 暮 (living) + している (doing). Currently carrying out daily life somewhere.
 Example: 彼は東京で暮らしている。(かれはとうきょうでくらしている。)
 -He is living in Tokyo.
 }
-
 二匹-
 {
 二匹 (にひき) - two small animals
-Maysa a counter para iti dua a babassit nga ayup (kas iti pusa, aso, wenno ikan).
-Memory Tip: 二 (dua) + 匹 (pangsurot ti ayup). Dua a babassit nga ayup.
+A counter phrase referring to two small-to-medium animals (like cats, dogs, or fish).
+Memory Tip: 二 (two) + 匹 (counter for small animals). Two furry or small creatures.
 Example: 猫が二匹います。(ねこがにひきいます。)
 -There are two cats.
 }
-
 分厚い-
 {
 分厚い (ぶあつい) - thick / bulky
-Maysa a i-adjective a mangisao iti ketel ti maysa a banag kas iti libro wenno lupot.
-Memory Tip: 分 (paset/degdegan) + 厚い (naketel). Nakaro a naketel!
+An i-adjective describing something unusually thick, such as a book, coat, or slice of bread.
+Memory Tip: 分 (portion/degree) + 厚い (thick). Extra emphasis on thickness!
 Example: 彼は分厚い本を読んでいる。(かれはぶあついほんをよんでいる。)
 -He is reading a thick book.
 }
-
 獲る-
 {
-獲る (とる) - to catch / to capture
-Maysa a tignay (verb) a mangipakitakit iti panangtiliw wenno panangala iti ayup wenno ikan.
-Memory Tip: 獲 (panangala). Panangtiliw iti sibibiag a banag.
+獲る (とる) - to catch / to hunt / to capture
+A transitive verb meaning to catch, capture, or hunt wild animals or fish.
+Memory Tip: Notice the wild animal radical (犭) on the left side of 獲!
 Example: 川で魚を獲る。(かわでさかなをとる。)
 -To catch fish in the river.
 }
-
 〜ということは-
 {
-〜ということは (〜ということは) - that means / which means that
-Maysa a frase a mangisuek ti pakaamatan manipud iti nasao nga subli.
-Memory Tip: という (ti kunana) + こと (banag) + は (maipapan). "Ti kayatna a sawen ket..."
+〜ということは (〜ということは) - that means... / which means that...
+A grammar phrase used to draw a conclusion or explain the meaning of a previous statement.
+Memory Tip: という (to say) + こと (thing) + は (topic marker). "As for the thing said..."
 Example: 雨が降らないということは、晴れだ。(あめがふらないということは、はれだ。)
 -That means if it doesn't rain, it's sunny.
 }
-
 隣に座る-
 {
 隣に座る (となりにすわる) - to sit next to
-Maysa a verb phrase a mangipakitakit iti panagtugaw iti abay ti maysa a tao wenno banag.
-Memory Tip: 隣 (abay) + に (iti) + 座る (agtugaw). Agtugaw iti abay.
+A verb phrase meaning to sit beside or next to someone/something.
+Memory Tip: 隣 (next door/neighbor) + に (at) + 座る (to sit).
 Example: 彼女の隣に座った。(かのじょのとなりにすわった。)
 -I sat next to her.
 }
-
 暮らし-
 {
-暮らし (くらし) - living / life / livelihood
-Maysa a pangngalan (noun) a mangipakitakit iti panagbiag wenno wagas ti panag-naed.
-Memory Tip: Naggapu iti tignay a 暮らす (agbiag). Ti kasasaad ti panagbiag.
+暮らし (くらし) - life / living / livelihood
+A noun referring to one's daily life, routine, or way of living.
+Memory Tip: Derived from the verb 暮らす (to live). The noun form of living.
 Example: 田舎での暮らしを楽しむ。(いなかでのくらしをたのしむ。)
 -Enjoying life in the countryside.
 }
-
 残る-
 {
 残る (のこる) - to remain / to be left over
-Maysa a intransitive verb a mangisao iti banag a nagtalinaed wenno nabati.
-Memory Tip: 残 (nabati). Saan a nagpukaw, nagbati latta.
+An intransitive verb meaning to stay behind or remain after others have gone/been used.
+Memory Tip: 残 is used in words like "remainder." What stays behind.
 Example: ケーキが少し残っている。(けーきがすこしのこっている。)
 -A little bit of cake remains.
 }
-
 年寄り-
 {
-年寄り (としより) - old person / elderly
-Maysa a pangngalan (noun) para iti lakay, baket, wenno naangkayen a tao.
-Memory Tip: 年 (tawen) + 寄り (nagtakder/nasedden). Tao a adu ti tawenna.
+年寄り (としより) - elderly person / old person
+A noun referring to an elderly person or senior citizen.
+Memory Tip: 年 (year/age) + 寄り (approaching/leaning). Someone advanced in age.
 Example: 年寄りを大切にする。(としよりをたいせつにする。)
 -Treat elderly people with care.
 }
-
 世話-
 {
-世話 (せわ) - care / looking after
-Maysa a pangngalan (noun) a mangipakitakit iti panangaywan wenno panangasikaso.
-Memory Tip: 世 (lubong) + 話 (sarita). Panangasikaso iti sabali a tao wenno ayup.
+世話 (せわ) - care / looking after / assistance
+A noun referring to taking care of someone or assisting them.
+Memory Tip: 世 (world) + 話 (talk/connection). Taking care of your connections in the world.
 Example: 犬の世話をする。(いぬのせわをする。)
 -To take care of the dog.
 }
-
 同じ様-
 {
 同じ様 (おなじよう) - in the same way / similarly
-Maysa a pangngalan/pangasao a mangipakitakit iti pakaipada wenno pareho a wagas.
-Memory Tip: 同じ (pareho) + 様 (wagas).
+A noun/adverbial phrase meaning in a similar manner or fashion.
+Memory Tip: 同じ (same) + 様 (way/manner). In the exact same manner.
 Example: 私も同じ様に考えます。(わたしもおなじようにかんがえます。)
 -I think in the same way too.
 }
-
 座り込ん-
 {
-座り込ん (すわりこん) - sitting down firmly / crouching down
-Forma a 連用形 ti 座り込む (suwarikomu), a mangipakitakit iti panagtugaw a sipapanet.
-Memory Tip: 座る (agtugaw) + 込む (sumorek/sipapanet). Agtugaw a saan nga aggun-gunay.
+座り込ん (すわりこん) - sitting down heavily / crouching down
+The stem/conjunctive form of 座り込む (to sit down firmly/crouch down).
+Memory Tip: 座る (to sit) + 込む (into/deeply). Sitting down deeply without moving.
 Example: 疲れて地面に座り込んだ。(つかれてじめんにすわりこんだ。)
--Tired, I sat down heavily on the ground.
+-Exhausted, I sat down heavily on the ground.
 }
-
 よくわかりません-
 {
 よくわかりません (よくわかりません) - I don't understand well
-Maysa a epreksion a mangipakitakit a saan a maawatan a naimbag ti maysa a banag.
-Memory Tip: よく (naimbag) + 分かりません (saan a maawatan).
+A polite phrase used to express that you don't fully comprehend something.
+Memory Tip: よく (well) + 分かりません (do not understand).
 Example: 英語がよくわかりません。(えいごがよくわかりません。)
 -I don't understand English very well.
 }
-
 柔-
 {
-柔 (やわら / やわ) - soft / tender / gentle
-Kanji/paddangal a mangipakitakit iti malukneng wenno naumoy.
-Memory Tip: Radikal a 木 (kayo) + 矛 (pika). Kayo a nalukneng a mabalin nga agsikog.
+柔 (やわら / やわ) - soft / gentle / tender
+A kanji/noun root associated with softness, flexibility, or gentleness (found in 柔らかい, 柔道).
+Memory Tip: Wood (木) that yields easily like a flexible branch.
 Example: 柔らかいベッドで寝る。(やわらかいべっどでねる。)
 -Sleep on a soft bed.
 }
-
 踏む-
 {
 踏む (ふむ) - to step on / to tread
-Maysa a transitive verb a mangipakitakit iti panangpaddak ti saka iti maysa a banag.
-Memory Tip: 足 (saka) a radikal iti kibang ti 踏! Panangpaddak ti saka.
+A transitive verb meaning to step or tread on something.
+Memory Tip: Foot radical (足) on the left side of 踏!
 Example: 足を踏まれた。(あしをふまれた。)
 -My foot was stepped on.
 }
-
 振り向くと-
 {
 振り向くと (ふりむくと) - when turning around
-Maysa a verb phrase a mangipakitakit iti panangitallikud wenno pananglingi iti likud.
-Memory Tip: 振る (aglingi) + 向く (agadad) + と (no/metten).
+A verb phrase meaning "when (someone) turns around or turns to face back."
+Memory Tip: 振る (turn/shake) + 向く (face) + と (when).
 Example: 名前を呼ばれて振り向くと、友達がいた。(なまえをよばれてふりむくと、ともだちがいた。)
 -When I turned around after my name was called, my friend was there.
 }
-
 少なくとも-
 {
 少なくとも (すくなくとも) - at least
-Maysa a pangasao (adverb) a mangipakitakit iti kadawyan/mamin-insang a bilang.
-Memory Tip: 少ない (basit) + とも (uray no). Mantineren ti kabassitan.
-Example: 少なくとも三時間はかかる。(すくなくともさんじかんにかかる。)
+An adverb used to indicate a minimum amount, degree, or estimate.
+Memory Tip: 少ない (few/little) + とも (even if). Even at the lowest estimate.
+Example: 少なくとも三時間はかかる。(すくなくともさんじかんはかかる。)
 -It will take at least three hours.
 }
-
 顔を覆う-
 {
 顔を覆う (かおをおおう) - to cover one's face
-Verb phrase a mangipakitakit iti panangalimon/panangkalub iti rupa.
-Memory Tip: 顔 (rupa) + 覆う (agkalub). Panangkalub iti rupa iti ima.
+A verb phrase meaning to cover one's face with hands or a cloth.
+Memory Tip: 顔 (face) + 覆う (to cover/wrap).
 Example: 恥ずかしくて顔を覆った。(はずかしくてかおをおおった。)
 -Embarrassed, I covered my face.
 }
-
 瞬間-
 {
 瞬間 (しゅんかん) - moment / instant
-Maysa a pangngalan (noun) a mangipakitakit iti nakatakatang wenno nakagil-ayab a kanito.
-Memory Tip: 瞬 (agkidep) + 間 (paset ti oras). Kas iti maysa a kidep!
+A noun referring to an extremely short period of time, a blink of an eye.
+Memory Tip: 瞬 (blink) + 間 (interval). The interval of a single eye blink!
 Example: その瞬間、大きな音がした。(そのしゅんかん、おおきなおとがした。)
 -At that instant, there was a loud noise.
 }
-
 柔らかいもの-
 {
 柔らかいもの (やわらかいもの) - something soft
-Noun phrase a mangipakitakit iti banag a malukneng.
-Memory Tip: 柔らかい (malukneng) + もの (banag).
+A noun phrase describing any soft, pliable object or substance.
+Memory Tip: 柔らかい (soft) + もの (thing).
 Example: 赤ちゃんは柔らかいものを食べる。(あかちゃんはやわらかいものをたべる。)
 -Babies eat soft things.
 }
-
 運ばれて-
 {
 運ばれて (はこばれて) - being carried / transported
-Passive te-form ti 運ぶ (hakobu); panagbiahe wenno panakakarga ti maysa a banag.
-Memory Tip: 運ぶ (itugot) + られる (passive).
+The passive te-form of 運ぶ (to carry/transport).
+Memory Tip: 運ぶ (carry) in passive form + ~te for sequence.
 Example: 荷物が部屋に運ばれてきた。(にもつがへやにはこばれてきた。)
 -The luggage was carried into the room.
 }
-
 ようやく-
 {
 ようやく (ようやく) - finally / at last
-Maysa a pangasao (adverb) a mangipakitakit iti banag a napasamak kalpasan ti panagur-uray.
-Memory Tip: Panagranggas kalpasan ti adu a panagrigat!
+An adverb used when something finally happens after a long wait or effort.
+Memory Tip: Think of taking a deep sigh of relief "Finally!" after hard work.
 Example: ようやく宿題が終わった。(ようやくしゅくだいがおわった。)
 -Finally, the homework is finished.
 }
-
 着きます-
 {
-着きます (つきます) - to arrive
-Polite form ti 着く (tsuku); panagdanon iti pagnaedan.
-Memory Tip: 着 (sumangpet). Panakadanon iti gunglo.
+着きます (つきます) - to arrive (polite)
+The polite form of 着く, meaning to reach or arrive at a destination.
+Memory Tip: 着 indicates wearing clothing or touching down/arriving.
 Example: もうすぐ駅に着きます。(もうすぐえきにつきます。)
 -We will arrive at the station soon.
 }
-
 地面-
 {
 地面 (じめん) - ground / earth's surface
-Maysa a pangngalan (noun) a mangipakitakit iti rabaw ti daga.
-Memory Tip: 地 (daga) + 面 (rabaw). Rabaw ti daga.
+A noun referring to the surface of the earth or floor outdoors.
+Memory Tip: 地 (earth/ground) + 面 (surface).
 Example: 地面に座る。(じめんにすわる。)
 -To sit on the ground.
 }
-
 降りて-
 {
-降りて (おりて) - to get off / descend
-Te-form ti 降りる (oriru); panagbaba manipud iti sasakayan wenno nangato a lugar.
-Memory Tip: 降 (agbaba). Panagbaba ti saka.
+降りて (おりて) - getting off / descending
+The te-form of 降りる (to get off a vehicle, descend).
+Memory Tip: Step down from a train or mountain top.
 Example: バスから降りて歩いた。(ばすからおりてあるいた。)
 -I got off the bus and walked.
 }
-
 抱きしめる-
 {
 抱きしめる (だきしめる) - to hug tightly / embrace
-Compound verb a mangipakitakit iti panangarakup a naketket.
-Memory Tip: 抱く (agarakup) + 締める (agketket). Agarakup a naketket!
+A compound verb meaning to hold someone closely or hug tightly.
+Memory Tip: 抱く (to hold/hug) + 締める (to tighten). Hugging tightly!
 Example: 母は子供を強く抱きしめた。(はははこどもをつよくだきしめた。)
 -The mother hugged her child tightly.
 }
-
 数分後-
 {
 数分後 (すうふんご) - a few minutes later
-Time phrase a mangipakitakit iti panaglabas ti sumagmamano a minuto.
-Memory Tip: 数 (sumagmamano) + 分 (minuto) + 後 (kalpasan).
+A time expression meaning several minutes afterwards.
+Memory Tip: 数 (a few) + 分 (minutes) + 後 (after).
 Example: 数分後にバスが来た。(すうふんごにばすがきた。)
 -A few minutes later, the bus arrived.
 }
-
 仲良く-
 {
 仲良く (なかよく) - harmoniously / getting along well
-Adverbial form ti 仲良い; nasayaat a panagkinnadua.
-Memory Tip: 仲 (relasyon) + 良く (nasayaat). Nasayaat a relasyon!
+An adverb meaning in a friendly, harmonious, or close manner.
+Memory Tip: 仲 (relationship) + 良く (good). Having a good relationship!
 Example: みんなで仲良く遊ぶ。(みんなでなかよくあそぶ。)
 -Everyone plays together harmoniously.
 }
-
 〜様になります-
 {
 〜様になります (〜ようになります) - to come to be / reach a state where
-Grammar phrase a mangipakitakit iti panagbaliw ti kasasaad wenno kabaelan.
-Memory Tip: 様 (wagas) + になる (agbalin).
+A grammar phrase expressing a change in ability, state, or routine over time.
+Memory Tip: 様 (way/state) + になる (to become). Transitioning into a new state.
 Example: 日本語が話せる様になりました。(にほんごがはなせるようになりました。)
 -I came to be able to speak Japanese.
 }
-
 互い-
 {
 互い (たがい) - each other / mutual
-Maysa a pangngalan (noun) a mangipakitakit iti dua nga benneg a sibubulos nga agdinnuyog.
-Memory Tip: 互 (panagsuportaran ti dua nga benneg).
+A noun/pronoun referring to reciprocal relations or both sides.
+Memory Tip: Two sides interconnected and supporting each other.
 Example: お互いに助け合う。(おたがいにたすけあう。)
 -Help each other.
 }
-
 大切-
 {
 大切 (たいせつ) - important / precious
-Na-adjective a mangipakitakit iti banag a nakapatpateg.
-Memory Tip: 大 (dakkel) + 切 (irop). Dakkel ti pategna!
+A na-adjective describing something of great value, importance, or care.
+Memory Tip: 大 (big) + 切 (cut/urgent). Something so important it cuts deep!
 Example: 家族はとても大切だ。(かぞくはとてもたいせつだ。)
 -Family is very important.
 }
-
 探偵-
 {
-探偵 (たんてい) - detective
-Maysa a pangngalan (noun) para iti tao a mangimbestigar ti misteryo.
-Memory Tip: 探 (agbirok) + 偵 (agsipyat). Tao a mangbirok iti kinapudno.
+探偵 (たんてい) - detective / investigator
+A noun referring to a private investigator or detective.
+Memory Tip: 探 (search) + 偵 (spy/investigate). Searching for clues like a spy.
 Example: 探偵が事件を調査する。(たんていがじけんをちょうさする。)
 -The detective investigates the case.
 }
-
 出来事-
 {
 出来事 (できごと) - event / incident / occurrence
-Maysa a pangngalan (noun) a mangipakitakit iti napasamak.
-Memory Tip: 出来 (napasamak) + 事 (banag).
+A noun referring to something that happens, an event, or an incident.
+Memory Tip: 出来 (happened/produced) + 事 (thing/event).
 Example: 昨日不思議な出来事があった。(きのうふしぎなできごとがあった。)
 -A mysterious event happened yesterday.
 }
-
 当時-
 {
 当時 (とうじ) - at that time / in those days
-Time noun a mangipakitakit iti maysa a nadakamat a panawen.
-Memory Tip: 当 (dayta) + 時 (panawen). Idi dayta a panawen.
+A noun referring to a specific point or period in the past being discussed.
+Memory Tip: 当 (that specific) + 時 (time). Back during that time.
 Example: 当時は小学生だった。(とうじはしょうがくせいだった。)
 -At that time, I was an elementary school student.
 }
-
 〜せいで-
 {
-〜せいで (〜せいで) - because of / due to (blame)
-Grammatical expression a mangipakitakit iti rason ti dakes a resulta.
-Memory Tip: せい (basol). Ibasol iti daytoy a banag!
+〜せいで (〜せいで) - because of / due to (negative reason)
+A grammar pattern used to express blame or a reason for a negative result.
+Memory Tip: せい means fault/blame. Blaming something for a bad outcome!
 Example: 雨のせいで試合が中止になった。(あめのせいでしあいがちゅうしになった。)
 -The match was canceled because of the rain.
 }
-
 決まる-
 {
 決まる (きまる) - to be decided / settled
-Intransitive verb a mangipakitakit iti banag a napagkedngan.
-Memory Tip: 決 (agdesisyon). Napagkedngan.
+An intransitive verb meaning to be set, decided, or fixed.
+Memory Tip: Decision has been made and finalized.
 Example: 日程がまだ決まっていない。(にっていがまだきまっていない。)
 -The schedule has not been decided yet.
 }
-
 〜おかげで-
 {
 〜おかげで (〜おかげで) - thanks to / owing to (positive outcome)
-Grammatical expression a mangipakitakit iti rason ti nasayaat a resulta.
-Memory Tip: おかげ (grasia). Salamat iti tulong!
+A grammar pattern used to express gratitude or credit for a favorable result.
+Memory Tip: おかげ means grace/blessing. Expressing thanks for help!
 Example: 先生のおかげで試験に合格した。(せんせいのおかげでしけんにごうかくした。)
 -Thanks to the teacher, I passed the exam.
 }
-
 埋めて-
 {
-埋めて (うめて) - to bury / fill up
-Te-form ti 埋める (umeru); panangitabon iti daga.
-Memory Tip: 土 (daga) radical on left ti 埋! Panangikabil iti uneg ti daga.
+埋めて (うめて) - to bury / to fill up
+The te-form of 埋める (to bury in earth or fill a hole).
+Memory Tip: Notice the soil radical (土) on the left side of 埋!
 Example: 穴を土で埋めてください。(あなをつちでうめてください。)
 -Please fill the hole with soil.
 }
-
 思い出-
 {
 思い出 (おもいで) - memory / recollection
-Maysa a pangngalan (noun) a mangipakitakit iti nalagip nga napalabas.
-Memory Tip: 思う (agpanunot) + 出す (iruar). Panangiruar iti lalamen ti utok.
+A noun referring to memories or pleasant recollections from the past.
+Memory Tip: 思う (to think) + 出す (to bring out). Bringing out past thoughts.
 Example: 楽しい旅の思い出。(たのしいたびのおもいで。)
 -Happy memories of the trip.
 }
-
 空っぽ-
 {
 空っぽ (からっぽ) - empty / vacant
-Na-adjective / noun a mangipakitakit iti awan laman-lamanna.
-Memory Tip: 空 (langit/aglangalang) + っぽ (kas). Awan ti unegna!
-Example: 箱の中は空っぽだった。(はこのなかはからっぽだった。)
+A na-adjective or noun describing something completely empty or hollow inside.
+Memory Tip: 空 (sky/empty) + っぽ (like). Completely hollow inside!
+Example: 箱の中は空っぽだった。(はおのなかはからっぽだった。)
 -The inside of the box was empty.
 }
-
 浮かんで-
 {
 浮かんで (うかんで) - floating / coming to mind
-Te-form ti 浮かぶ (ukabu); panagtaytayab iti rabaw ti danum wenno utok.
-Memory Tip: 水 (danum) radical on left ti 浮! Agpataaw ti rabaw.
+The te-form of 浮かぶ (to float on water/air or pop into one's mind).
+Memory Tip: Water radical (氵) on the left! Floating on top of water.
 Example: 空に雲が浮かんでいる。(そらにくもがうかんでいる。)
 -Clouds are floating in the sky.
 }
-
 頬-
 {
 頬 (ほお / ほほ) - cheek
-Maysa a pangngalan (noun) para iti paset ti rupa iti baba ti mata.
-Memory Tip: Paset ti rupa a aglabaga no mabain!
+A noun referring to the fleshy side of the face below the eye.
+Memory Tip: The part of your face that turns red when blushing!
 Example: 彼女の頬が赤くなった。(かのじょのほおがあかくなった。)
 -Her cheeks turned red.
 }
-
 エサ-
 {
 エサ (えさ) - animal feed / bait
-Katakana noun para iti pakan ti ayup wenno ikan.
-Memory Tip: Taraon a para iti ayup wenno mangatibat iti ikan.
+A noun (often written in katakana) referring to food for animals or bait for fishing.
+Memory Tip: Food intended for animals or tempting fish!
 Example: 鳥にエサを与える。(とりにおさをあたえる。)
 -Give food to the birds.
 }
-
 ロバ-
 {
 ロバ (ろば) - donkey
-Noun (驢馬) a mangipakitakit iti ayup a kas iti kabayo ngem babassit.
-Memory Tip: Ayup a nakaro nga agkarga ti nadam-et.
+A noun referring to a donkey or ass.
+Memory Tip: A hard-working pack animal with long ears.
 Example: ロバが荷物を運ぶ。(ろばがにもつをはこぶ。)
 -The donkey carries luggage.
 }
-
 困った-
 {
-困った (こまった) - troubled / in a fix
-Past form ti 困る (komaru); narigat a kasasaad.
-Memory Tip: 木 (kayo) confined inside 囗 (bakud) = trapped/troubled!
+困った (こまった) - troubled / in a fix / problematic
+The past form of 困る (to be troubled, perplexed, or in difficulty).
+Memory Tip: Tree (木) trapped inside a box (囗) = stuck and in trouble!
 Example: どうすればいいか困った。(どうすればいいかこまった。)
 -I was troubled about what to do.
 }
-
 家来-
 {
 家来 (けらい) - retainer / servant / vassal
-Noun a mangipakitakit iti trabahador ti ari wenno apo.
-Memory Tip: 家 (balay) + 来 (agserbi). Tao a sumangsangpet iti balay ti ari.
+A noun referring to a servant, attendant, or subordinate to a lord or king.
+Memory Tip: 家 (house) + 来 (come). Servants coming to work at the household.
 Example: 王様は多くの家来を従えていた。(おうさまはおおくのけらいをしたがえていた。)
 -The king was accompanied by many servants.
 }
-
 妖精-
 {
 妖精 (ようせい) - fairy / sprite
-Noun a mangipakitakit iti enkanto ti sarita.
-Memory Tip: 妖 (misteryoso) + 精 (espiritu). Enkanto ti gubat!
+A noun referring to a mythical fairy, spirit, or sprite.
+Memory Tip: 妖 (bewitching/mysterious) + 精 (spirit). A magical creature!
 Example: 森の中に妖精が現れた。(もりになかにようせいがあらわれた。)
 -A fairy appeared in the forest.
 }
-
 何倍-
 {
-何倍 (なんばい) - how many times / many-fold
-Question phrase a mangipakitakit iti pannakadoble ti bilang.
-Memory Tip: 何 (mano) + 倍 (mamin-mano nga adu).
+何倍 (なんばい) - how many times as much / many-fold
+A phrase used to ask or state how many times larger, greater, or multiplied something is.
+Memory Tip: 何 (how many) + 倍 (times/fold).
 Example: 昨年の何倍もの収穫があった。(さくねんのなんばいものしゅうかくがあった。)
 -There was a harvest many times larger than last year's.
 }
-
 金貨-
 {
 金貨 (きんか) - gold coin
-Noun a mangipakitakit iti ginto a siling.
-Memory Tip: 金 (ginto) + 貨 (kuarta). Siling a ginto!
+A noun referring to a coin made of gold.
+Memory Tip: 金 (gold) + 貨 (currency/coin).
 Example: 古い箱の中に金貨が入っていた。(ふるいはこのなかにきんかがはいっていた。)
 -There were gold coins inside the old box.
 }
-
 あきらめ-
 {
 あきらめ (あきらめ) - giving up / resignation
-Noun form ti あきらめる; panangisardeng ti namnama.
-Memory Tip: Sumuko kalpasan ti pannakakessat.
+A noun referring to the act of giving up, surrender, or resignation.
+Memory Tip: Noun form of あきらめる (to give up).
 Example: あきらめずに最後まで頑張る。(あきらめずにさいごまでがんばる。)
 -Try your best until the end without giving up.
 }
-
 杖-
 {
 杖 (つえ) - cane / walking stick
-Noun a mangipakitakit iti baston ti lakay/baket.
-Memory Tip: 木 (kayo) radical. Baston a kayo!
+A noun referring to a cane, staff, or walking stick.
+Memory Tip: Wood radical (木) on the left. A wooden staff for support.
 Example: おじいさんは杖をついて歩く。(おじいさんはつえをついてあるく。)
 -Grandfather walks with a cane.
 }
-
 着飾る-
 {
-着飾る (きかざる) - to dress up
-Compound verb a mangipakitakit iti panagbadu ti nasudi/napintas.
-Memory Tip: 着る (agbadu) + 飾る (agdekorasyon).
+着飾る (きかざる) - to dress up / put on fine clothes
+A compound verb meaning to dress up stylishly or wear fancy attire.
+Memory Tip: 着る (wear) + 飾る (decorate). Decorating yourself with clothes!
 Example: パーティーのために綺麗に着飾る。(ぱーてぃーのためにきれいにきかざる。)
 -Dress up nicely for the party.
 }
-
 農場-
 {
 農場 (のうじょう) - farm
-Noun a mangipakitakit iti talun wenno pangtarkenan ti ayup.
-Memory Tip: 農 (panagtalon) + 場 (lugar). Lugar ti panagtalon!
+A noun referring to an area of land used for growing crops or raising animals.
+Memory Tip: 農 (agriculture) + 場 (place). A place for agriculture!
 Example: 彼は農場で牛を飼っている。(かれはのうじょうでうしをかっている。)
 -He raises cattle on a farm.
 }
-
 泉-
 {
 泉 (いずみ) - spring / fountain
-Noun a mangipakitakit iti ubbog ti danum.
-Memory Tip: 白 (naputaw) + 水 (danum). Nalasbang a danum!
+A noun referring to a natural spring or source of water.
+Memory Tip: White (白) + Water (水). Pure, clear water springing up!
 Example: 森の中で清らかな泉を見つけた。(もりになかできよらかないずみをみつけた。)
 -I found a clear spring in the forest.
 }
-
 映る-
 {
-映る (うつる) - to be reflected
-Intransitive verb a mangipakitakit iti ladawan a maipakita iti sarming wenno danum.
-Memory Tip: 日 (init) + 央 (gidato). Panaglagip ti anniniwan!
+映る (うつる) - to be reflected / projected
+An intransitive verb meaning to be reflected in a mirror/water or projected on a screen.
+Memory Tip: Sun radical (日) on the left. Light casting a reflection or projection!
 Example: 鏡に自分の姿が映る。(かがみにじぶんのすがたがうつる。)
 -One's image is reflected in the mirror.
 }
-
 はずれ-
 {
-はずれ (はずれ) - miss / outskirts
-Noun a mangipakitakit iti pingir ti ili wenno pannakasaip.
-Memory Tip: Naggapu iti 外れる (agliklik). Pingir ti ili.
+はずれ (はずれ) - outskirts / miss / blank
+A noun referring to the outer edge/outskirts of a town, or a miss/blank in a lottery.
+Memory Tip: Derived from 外れる (to deviate/miss).
 Example: 町のはずれに小さな家がある。(まちのはずれにちいさないえがある。)
 -There is a small house on the outskirts of town.
 }
-
 豚飼い-
 {
 豚飼い (ぶたかい) - swineherd / pig farmer
-Noun a mangipakitakit iti tao a ag-taraken ti baboy.
-Memory Tip: 豚 (baboy) + 飼い (agtaraken).
+A noun referring to a person who keeps or tends pigs.
+Memory Tip: 豚 (pig) + 飼い (keeper/raiser).
 Example: 昔、貧しい豚飼いがいた。(むかし、まずしいぶたかいがいた。)
 -Long ago, there was a poor swineherd.
 }
-
 とうとう-
 {
-とうとう (とうとう) - finally / at long last
-Adverb a mangipakitakit iti pannakadanon ti ingget nga resulta.
-Memory Tip: Paspasamak ti ingget nga nadanon.
+とうとう (とうとう) - finally / at last
+An adverb used to mark the final resolution or outcome after a long period.
+Memory Tip: Similar to ようやく, emphasizing reaching the ultimate end!
 Example: とうとう夢が叶った。(とうとうゆめがかなった。)
 -At long last, my dream came true.
 }
-
 治して-
 {
 治して (なおして) - to cure / heal / fix
-Te-form ti 治す (naosu); panangpaimbag ti sakit.
-Memory Tip: 治 (panangpaimbag).
+The te-form of 治す (to cure an illness, treat an injury).
+Memory Tip: 治 relates to healing health or governing order.
 Example: 病気をしっかり治してください。(びょうきをしっかりなおしてください。)
 -Please cure your illness completely.
 }
-
 気づかずに-
 {
-気づかずに (きづかずに) - without noticing
-Grammar expression (気づく + ずに); nga saan a nadlaw.
-Memory Tip: 気 (isip) + づく (agrikna) + ずに (nga awan).
+気づかずに (きづかずに) - without noticing / unawares
+A grammar expression meaning without realizing or paying attention to something.
+Memory Tip: 気づく (notice) + ずに (without).
 Example: 注意せず、気づかずに転んだ。(ちゅういせず、きづかずにころんだ。)
 -Not paying attention, I fell without noticing.
 }
-
 良くならないので-
 {
 良くならないので (よくならないので) - because it doesn't get better
-Clause a mangipakitakit iti rason a saan nga immimbag.
-Memory Tip: 良く (nasayaat) + ならない (saan nga agbalin) + ので (agsipud ta).
+A phrase meaning "since/because (the situation or health condition) isn't improving."
+Memory Tip: 良く (well) + ならない (doesn't become) + ので (because).
 Example: 体調が良くならないので、病院へ行く。(たいちょうがよくならないので、びょういんへいく。)
 -Because my condition isn't getting better, I will go to the hospital.
 }
-
 取りだして-
 {
 取りだして (とりだして) - to take out / extract
-Te-form ti 取り出す; panangiruar ti banag manipud iti uneg.
-Memory Tip: 取る (agala) + 出す (iruar).
+The te-form of 取り出す (to pull out or extract something from inside a container/bag).
+Memory Tip: 取る (take) + 出す (bring out). Taking something out!
 Example: カバンから本を取りだして読んだ。(かばんからほんをとりだしてよんだ。)
 -I took out a book from my bag and read it.
 }
-
 ぴったり-
 {
-ぴったり (ぴったり) - perfectly / exactly
-Adverb a mangipakitakit iti husto wenno nakagil-ayab a maitutop.
-Memory Tip: Kituag ti dua nga paset a nakasrek unay!
+ぴったり (ぴったり) - perfectly / exactly / tight
+An adverb meaning fitting perfectly, exactly right, or clinging tightly.
+Memory Tip: Like two puzzle pieces snapping together seamlessly!
 Example: この靴はサイズがぴったりだ。(このくつはさいずがぴったりだ。)
 -These shoes are a perfect fit.
 }
-
 知らせ-
 {
 知らせ (しらせ) - news / notice / announcement
-Noun form ti 知らせる; damag wenno pakaammo.
-Memory Tip: 知る (agammo) + させる (ipakaammo).
+A noun referring to news, notification, or message.
+Memory Tip: Noun form of 知らせる (to inform).
 Example: 嬉しい知らせが届いた。(うれしいしらせがとどいた。)
 -Happy news has arrived.
 }
-
 はめる-
 {
-はめる (はめる) - to insert / put on
-Transitive verb a mangipakitakit iti panangisukkat ti singsing wenno salamin.
-Memory Tip: Panangikabil ti banag iti husto nga abut.
+はめる (はめる) - to insert / put on (gloves/ring) / fit into
+A transitive verb meaning to fit something into a space or put on ring/gloves.
+Memory Tip: Fitting an object snugly into its place or onto a finger.
 Example: 指に指輪をはめる。(ゆびにゆびわをはめる。)
 -Put a ring on the finger.
 }
-
 するりと-
 {
-するりと (するりと) - smoothly / effortlessly
-Adverb a mangipakitakit iti nadalas/nalaka a panagtaud.
-Memory Tip: Nalaka a panagtalaw ti ikan iti ima!
+するりと (するりと) - smoothly / effortlessly / slipping away
+An adverb describing something sliding or slipping away effortlessly without friction.
+Memory Tip: Smooth like a fish slipping through your fingers!
 Example: 魚が手からするりと逃げた。(さかながてからするりとにげた。)
 -The fish slipped smoothly out of my hand.
 }
-
 噛む-
 {
 噛む (かむ) - to bite / chew
-Transitive verb a mangipakitakit iti panangngalngal ti ngipen iti taraon.
-Memory Tip: 口 (ngiwat) radical on left!
+A transitive verb meaning to bite down on or chew food.
+Memory Tip: Notice the mouth radical (口) on the left side of 噛!
 Example: ご飯をよく噛んで食べる。(ごはんをよくかんでたべる。)
 -Chew food well before eating.
 }
-
 突然-
 {
 突然 (とつぜん) - suddenly / abruptly
-Adverb a mangipakitakit iti kellaat a pasamak.
-Memory Tip: 突 (kellaat) + 然 (kasta).
+An adverb describing something happening unexpectedly or all of a sudden.
+Memory Tip: 突 (dash out) + 然 (like so). Emerging unexpectedly!
 Example: 突然雨が降り出した。(とつぜんあめがふりだした。)
 -Suddenly it started raining.
 }
-
 許す-
 {
-許す (ゆるす) - to forgive / permit
-Transitive verb a mangipakitakit iti panangpawan ti basol.
-Memory Tip: 言 (sao) radical. Panagsao iti pakawan!
-Example: 彼の過ちを許す。(かれのおかまちをゆるす。)
+許す (ゆるす) - to forgive / permit / allow
+A transitive verb meaning to forgive someone's mistake or grant permission.
+Memory Tip: Speech radical (言) on the left. Giving spoken permission or pardon!
+Example: 彼の過ちを許す。(かれのあやまちをゆるす。)
 -Forgive his mistake.
 }
-
 式-
 {
-式 (しき) - ceremony / formula
-Noun / suffix a mangipakitakit iti rituwal wenno pormula.
-Memory Tip: Kas iti 結婚式 (weddings).
+式 (しき) - ceremony / formula / style
+A noun or suffix referring to a formal ceremony (like weddings) or mathematical formula.
+Memory Tip: Often seen in terms like 結婚式 (wedding ceremony).
 Example: 明日、結婚式に出席する。(あした、けっこんしきにしゅっせきする。)
 -I will attend the wedding ceremony tomorrow.
 }
-
 招待-
 {
 招待 (しょうたい) - invitation
-Noun/suru-verb a mangipakitakit iti panangawis iti padaya.
-Memory Tip: 招 (agayab) + 待 (aguray).
+A noun or suru-verb referring to inviting someone to an event or venue.
+Memory Tip: 招 (beckon/invite) + 待 (wait/treat).
 Example: 友達をパーティーに招待した。(ともだちをぱーてぃーにしょうたいした。)
 -I invited my friend to the party.
 }
-
 招待状-
 {
 招待状 (しょうたいじょう) - invitation card / letter
-Noun a mangipakitakit iti kard ti panagawis.
-Memory Tip: 招待 (invitation) + 状 (surat/papel).
+A noun referring to a physical invitation card or letter.
+Memory Tip: 招待 (invitation) + 状 (letter/card).
 Example: 結婚式の招待状をもらった。(けっこんしきのしょうたいじょうをもらった。)
 -Received a wedding invitation card.
 }
-
 渡し守-
 {
 渡し守 (わたしもり) - ferryman
-Noun a mangipakitakit iti tao a mangipatpatulod iti bangka.
-Memory Tip: 渡す (agballasiw) + 守る (agmaton).
+A noun referring to a person who operates a ferry boat across water.
+Memory Tip: 渡す (to cross over) + 守る (to guard/keep). The guardian of the crossing!
 Example: 渡し守が舟を漕いでやってきた。(わたしもりがふねをこいでやってきた。)
 -The ferryman came rowing the boat.
 }
-
 チラチラ-
 {
-チラチラ (ちらちら) - flickering / fluttering
-Adverb a mangipakitakit iti panagkidep ti silaw wenno panagagimat.
-Memory Tip: Yelo/sno a ag-kidep a naketket!
+チラチラ (ちらちら) - fluttering / flickering / glancing
+An adverb describing soft fluttering motion (falling snow) or flickering light.
+Memory Tip: Think of light flickering or snowflakes gently drifting down!
 Example: 雪がチラチラと舞っている。(ゆきがちらちらとまっている。)
 -Snowflakes are fluttering down softly.
 }
-
 激しく-
 {
-激しく (はげしく) - fiercely / violently
-Adverbial form ti 激しい; nakaro wenno napigsa a tignay.
-Memory Tip: 激 (napigsa/nakaro).
+激しく (はげしく) - fiercely / violently / intensely
+An adverbial form describing intense, fierce, or violent action or motion.
+Memory Tip: Adverbial form of 激しい (intense).
 Example: 風が激しく吹いている。(かぜがはげしくふいている。)
 -The wind is blowing fiercely.
 }
-
 あっという間に-
 {
-あっという間に (あっというまに) - in the blink of an eye
-Idiomatic phrase a mangipakitakit iti nadalas unay a panaglabas ti oras.
-Memory Tip: あっ (Ah!) + と言う (isao) + 間 (maysa a kanito). Kas kellaat ti panagsao ti "Ah!"!
+あっという間に (あっというまに) - in the blink of an eye / in a flash
+An idiomatic expression meaning something happened in a split second.
+Memory Tip: あっ (Ah!) + と言う (saying) + 間 (interval). As fast as saying "Ah!"!
 Example: 休日があっという間に終わった。(きゅうじつがあっというまにおわった。)
 -The weekend was over in the blink of an eye.
 }
-
 黙って-
 {
 黙って (だまって) - silently / without speaking
-Te-form ti 黙る; panagulimek nga awan timtim.
-Memory Tip: 黑 (nangisit) + 犬 (aso). Ulimek a kas iti aso.
+The te-form of 黙る (to keep quiet, remain silent).
+Memory Tip: Black (黒) + Dog (犬). Remaining as quiet as a dog in the dark.
 Example: 彼は黙って話を聞いていた。(かれはだまってはなしをきいていた。)
 -He listened to the story silently.
 }
-
 着く-
 {
 着く (つく) - to arrive / reach
-Dictionary form ti 着きます; panagdanon iti distinasayon.
-Memory Tip: Dictionary form ti 着きます.
+The dictionary form of 着きます, meaning to reach or arrive at a location.
+Memory Tip: Dictionary form of 着きます.
 Example: 夕方に目的地に着いた。(ゆうがたにもくてきちについた。)
 -Arrived at the destination in the evening.
 }
-
 横に-
 {
-横に (よこに) - horizontally / beside
-Adverbial phrase a mangipakitakit iti abay wenno pingir.
-Memory Tip: 横 (pingir/abay).
+横に (よこに) - beside / horizontally / side-by-side
+An adverbial phrase meaning to the side, next to, or horizontally.
+Memory Tip: 横 refers to the side or horizontal axis.
 Example: 彼の横に座る。(かれのよこにすわる。)
 -Sit beside him.
 }
-
 吹き込ん-
 {
 吹き込ん (ふきこん) - blowing into / breathing into
-Stem form ti 吹き込む; panagseppeg ti angin iti uneg.
-Memory Tip: 吹く (agseppeg) + 込む (sumorek).
+The stem form of 吹き込む (to blow into, breathe into, or sweep into).
+Memory Tip: 吹く (to blow) + 込む (into). Wind blowing into a space.
 Example: 風が部屋に吹き込んできた。(かぜがへやにふきこんできた。)
 -The wind blew into the room.
 }
-
 じっと-
 {
-じっと (じっと) - intently / motionlessly
-Adverb a mangipakitakit iti panagkitkita a saan nga aggun-gunay.
-Memory Tip: Panag-talinaed a kas iti estatwa!
+じっと (じっと) - intently / motionlessly / patiently
+An adverb describing staring fixedly without moving, or enduring quietly.
+Memory Tip: Standing motionless like a statue while watching closely!
 Example: 彼女は前をじっと見つめていた。(かのじょはまえをじっとみつめていた。)
 -She stared intently ahead.
 }
-
 急に-
 {
 急に (きゅうに) - suddenly / abruptly
-Adverb a mangipakitakit iti kellaat nga kasanayan.
-Memory Tip: 急 (kellaat/apura).
+An adverb describing a sudden, unexpected occurrence.
+Memory Tip: 急 means sudden, urgent, or steep.
 Example: 急に雨が降り出した。(きゅうにあめがふりだした。)
 -Suddenly it started raining.
 }
-
 激しい-
 {
-激しい (はげしい) - intense / violent
-I-adjective form ti 激しく; napigsa wenno nakaro.
-Memory Tip: 激 (napigsa/nakaro).
+激しい (はげしい) - intense / violent / severe
+An i-adjective describing something intense, strong, or fierce (wind, emotion, exercise).
+Memory Tip: Water hitting rocks with great force!
 Example: 激しい運動の後に水を飲む。(はげしいうんどうのあとにみずをのむ。)
 -Drink water after intense exercise.
 }
-
 夜が明ける-
 {
 夜が明ける (よがあける) - day breaks / dawn comes
-Verb phrase a mangipakitakit iti panag-agaw ti agsapa.
-Memory Tip: 夜 (rabii) + 明ける (aglukat). Aglukat ti agsapa!
+A verb phrase meaning dawn arrives or night turns into day.
+Memory Tip: 夜 (night) + 明ける (opens up/brightens). The night opens to day!
 Example: やがて夜が明けた。(やがてよがあけた。)
 -Before long, day broke.
 }
-
 日が昇って-
 {
 日が昇って (ひがのぼって) - the sun rises
-Verb phrase a mangipakitakit iti panagpangato ti init.
-Memory Tip: 日 (init) + 昇る (agpangato).
+The te-form verb phrase meaning the sun rising or ascending in the sky.
+Memory Tip: 日 (sun) + 昇る (to ascend).
 Example: 日が昇って明るくなった。(ひがのぼってあかるくなった。)
 -The sun rose and it became bright.
 }
-
 追いついて-
 {
 追いついて (おいついて) - catching up with
-Te-form ti 追いつく; panangsubli wenno pannakapantay iti kaltang.
-Memory Tip: 追う (agkamat) + つく (agdanon).
+The te-form of 追いつく (to catch up with someone/something ahead).
+Memory Tip: 追う (chase) + つく (reach/attach). Chasing until you reach them!
 Example: 走って友達に追いついた。(はしってともだちにおいついた。)
 -I ran and caught up with my friend.
 }
-
 結局-
 {
-結局 (けっきょく) - in the end / after all
-Adverb a mangipakitakit iti ingget a nagbanagan.
-Memory Tip: 結 (agbedbed) + 局 (paset). Saan nga agbaliw nga resulta.
+結局 (けっきょく) - in the end / after all / ultimately
+An adverb used when summarizing the final outcome after all is said and done.
+Memory Tip: 結 (bind/conclude) + 局 (phase). The final wrap-up!
 Example: 結局、彼は来なかった。(けっきょく、かれはこなかった。)
 -In the end, he didn't come.
 }
-
 一生懸命-
 {
-一生懸命 (いっしょうけんめい) - with utmost effort
-Adverbial phrase a mangipakitakit iti sibubulos nga kabaelan.
-Memory Tip: 一生 (biag) + 懸命 (ipuspuso). Isagut ti amin a kabaelan!
+一生懸命 (いっしょうけんめい) - with utmost effort / very hard
+An adverbial phrase meaning doing something with all one's power and dedication.
+Memory Tip: 一生 (one's entire life) + 懸命 (risking life). Giving 100% effort!
 Example: 一生懸命に勉強する。(いっしょうけんめいにべんきょうする。)
 -Study with all one's might.
 }
-
 当然-
 {
 当然 (とうぜん) - naturally / as a matter of course
-Noun/adverb a mangipakitakit iti banag a maiparbeng wenno natural.
-Memory Tip: 当 (maiparbeng) + 然 (kasta). Natural laeng!
+A noun/adverb meaning naturally, obviously, or rightfully as expected.
+Memory Tip: 当 (natural/proper) + 然 (so). It's only natural!
 Example: 頑張ったのだから当然の結果だ。(がんばったのだからとうぜんのけっかだ。)
 -It's a natural result since I worked hard.
 }
-
 似ていた-
 {
 似ていた (にていた) - looked like / resembled
-Past continuous form ti 似る (niru); pakaipada ti langa.
-Memory Tip: 似 (agpada).
+The past continuous form of 似る (to resemble or look similar to).
+Memory Tip: 似 means similar or resembling.
 Example: 二人はとても似ていた。(ふたりはとてもにていた。)
 -The two of them looked very similar.
 }
-
 隙間-
 {
 隙間 (すきま) - gap / crevice / opening
-Noun a mangipakitakit iti bassit nga abut wenno nagbaetan ti dua a banag.
-Memory Tip: 隙 (abut) + 間 (espasio).
+A noun referring to a small opening, crack, or space between objects.
+Memory Tip: 隙 (crevice/crack) + 間 (space). A small narrow gap!
 Example: ドアの隙間から光が入る。(どあのすきまからひかりがはいる。)
 -Light enters through the gap in the door.
 }
-
 ますます-
 {
-ますます (ますます) - more and more
-Adverb a mangipakitakit iti panag-ad-adu ti kasasaad.
-Memory Tip: 増す (ag-adu) doubled up!
+ますます (ますます) - more and more / increasingly
+An adverb used to show a state or condition continuously increasing over time.
+Memory Tip: Derived from 増す (to increase) doubled up!
 Example: ますます寒くなってきた。(ますますさむくなってきた。)
 -It is getting colder and colder.
 }
-
 立派-
 {
 立派 (りっぱ) - splendid / fine / respectable
-Na-adjective a mangipakitakit iti kinasayaat wenno kinatan-ok.
-Memory Tip: 立 (agpait) + 派 (sekta). Dakkel ken nasayaat.
+A na-adjective describing someone or something impressive, fine, or noble.
+Memory Tip: Standing tall and making a grand impression!
 Example: 彼は立派な大人になった。(かれはりっぱなおとなになった。)
 -He became a fine adult.
 }
-
 賑やか-
 {
-賑やか (にぎやか) - lively / bustling / noisy
-Na-adjective a mangipakitakit iti lugar a napano ti tao ken ragsak.
-Memory Tip: Napano ti tattao ken ragsak!
-Example: 街はとても賑やかだ。(まちはおもにぎやかだ。)
+賑やか (にぎやか) - lively / bustling / cheerful
+A na-adjective describing a place or atmosphere full of energy, activity, and people.
+Memory Tip: Packed with people, excitement, and cheerful commotion!
+Example: 街はとても賑やかだ。(まちはとてもにぎやかだ。)
 -The town is very lively.
 }
 延ばす-
