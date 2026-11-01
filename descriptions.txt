@@ -1,3 +1,1116 @@
+
+かがみこむ-
+{
+かがみこむ (かがみこむ) - to crouch down / to bend low
+A compound verb meaning to lean down deeply or crouch forward toward the ground.
+Memory Tip: かがむ (to bend/stoop) + こむ (deeply/fully into). Stooping low and curling up.
+Example: 鍵を探そうと地面にかがみこんだ。(かぎをさがそうとじめんにかがみこんだ。)
+-I crouched low to the ground trying to look for my key.
+}
+建てる-
+{
+建てる (たてる) - to build / to construct
+An ichidan transitive verb meaning to erect or construct a building or structure.
+Memory Tip: The kanji 建 contains 廴 (long stride/path) and 聿 (writing brush held straight), depicting drawing up plans and erecting upwards.
+Example: 将来、自分の家を建てたい。(しょうらい、じぶんのいえをたてたい。)
+-I want to build my own house in the future.
+}
+賑やか-
+{
+賑やか (にぎやか) - lively / bustling / bustling with activity
+A na-adjective describing a place or atmosphere that is busy, cheerful, and full of life.
+Memory Tip: 賑 has the shell radical 貝 (wealth) + 辰 (morning/activity), representing a bustling, prosperous marketplace.
+Example: 祭りの夜はとても賑やかだった。(まつりのよるはとてもにぎやかだった。)
+-The night of the festival was very lively.
+}
+燃える-
+{
+燃える (もえる) - to burn / to catch fire
+An ichidan intransitive verb meaning to be consumed by flame, or figuratively to burn with passion.
+Memory Tip: The fire radical 火 on the left side of 燃!
+Example: 薪がパチパチと音を立てて燃えている。(まきがぱちぱちとおとをたててもえている。)
+-The firewood is crackling and burning.
+}
+巣-
+{
+巣 (す) - nest / web / den / hive
+A noun referring to an animal's nest, dwelling, or lair.
+Memory Tip: The kanji depicts branches woven together with young birds perched inside.
+Example: 木の枝に小鳥が巣を作った。(きのえだにことりがすをつくった。)
+-A little bird built a nest on the tree branch.
+}
+払って-
+{
+払って (はらって) - paying / brushing away
+The te-form of the verb 払う (to pay money, or to wipe/brush off).
+Memory Tip: Hand radical 扌 on the left, wiping away or handing over cash.
+Example: レジで代金を払って店を出た。(れじでだいきんをはらってみせをでた。)
+-I paid at the cash register and left the shop.
+}
+ぜひ-
+{
+ぜひ (ぜひ) - by all means / certainly / definitely
+An adverb used to emphasize a strong desire, invitation, or request ("please do", "I'd love to").
+Memory Tip: Written in kanji as 是非 (right and wrong), implying "no matter what, whether right or wrong, do it."
+Example: ぜひ一度、日本に来てください。(ぜひいちど、にほんにきてください。)
+-Please by all means come visit Japan once.
+}
+畑-
+{
+畑 (はたけ) - field / vegetable plot / farm
+A noun meaning a cultivated plot of land for vegetables, grains, or crops (not flooded like a rice paddy).
+Memory Tip: Made of fire 火 + field 田 (land cleared by fire for cultivation).
+Example: 祖父の畑でトマトを収穫した。(そふのはたけでとまとをしゅうかくした。)
+-We harvested tomatoes in my grandfather's field.
+}
+悪戯-
+{
+悪戯 (いたずら) - prank / mischief / practical joke
+A noun/suru-verb referring to mischievous behavior, tricks, or harmless wrongdoing.
+Memory Tip: 悪 (bad/evil) + 戯 (play/amusement) = bad playful behavior.
+Example: 子供たちが猫に悪戯をして叱られた。(こどもたちがねこにいたずらをしてしかられた。)
+-The children were scolded for playing pranks on the cat.
+}
+おととい-
+{
+おととい (おととい) - the day before yesterday
+A temporal noun referring to two days ago (kanji: 一昨日).
+Memory Tip: Sounds like "oto-toi" — far back (遠い) by another day.
+Example: おととい降った雪がまだ残っている。(おとといふったゆきがまだのこっている。)
+-The snow that fell the day before yesterday is still on the ground.
+}
+散歩-
+{
+散歩 (さんぽ) - a walk / a stroll
+A noun/suru-verb meaning to take a relaxing walk or wander around.
+Memory Tip: 散 (scatter/disperse) + 歩 (walk) = walking casually to clear the mind.
+Example: 夕方に公園を散歩するのが日課だ。(ゆうがたにこうえんをさんぽするのがにっかだ。)
+-Taking a stroll in the park in the evening is my daily routine.
+}
+投げる-
+{
+投げる (なげる) - to throw / to cast / to pitch
+An ichidan transitive verb meaning to throw an object through the air.
+Memory Tip: Hand radical 扌 on the left of 投 — swinging the hand to toss something.
+Example: 彼は遠くまでボールを投げた。(かれはとおくまでぼーるをなげた。)
+-He threw the ball far away.
+}
+超えた-
+{
+超えた (こえた) - crossed / exceeded / surpassed
+The past tense of the verb 超える (to exceed, cross over, or surpass a limit).
+Memory Tip: 足/走 radical (running/walking) + 召 = moving past a designated line.
+Example: 気温が三十度を超えた。(きおんがさんじゅうどをこえた。)
+-The temperature exceeded thirty degrees.
+}
+湖-
+{
+湖 (みずうみ / こ) - lake
+A noun referring to an inland body of standing water.
+Memory Tip: Water radical 氵 + 胡 (ancient moon/barbarian) = a deep, calm body of water reflecting the sky.
+Example: 静かな湖のほとりにテントを張った。(しずかなみずうみのほとりにてんとをはった。)
+-We pitched a tent by the shore of the quiet lake.
+}
+ぶら下がって-
+{
+ぶら下がって (ぶらさがって) - hanging / dangling / swinging
+The te-form of ぶら下がる (to hang down or dangle loosely).
+Memory Tip: Onomatopoeia ぶらぶら (dangling loosely) + 下がる (to hang downward).
+Example: 猿が枝にぶら下がって遊んでいる。(さるがえだにぶらさがってあそんでいる。)
+-A monkey is hanging from the branch and playing.
+}
+噛み合わない-
+{
+噛み合わない (かみあわない) - not meshing / out of sync / disjointed
+The negative plain form of 噛み合う (to mesh, interlock, or make sense together).
+Memory Tip: 噛む (bite/gnaw) + 合う (fit together) + ない (not) = gears that fail to interlock.
+Example: 二人の会話が全く噛み合わない。(ふたりのかいわがまったくかみあわない。)
+-The conversation between the two makes no sense together at all.
+}
+こなかった-
+{
+こなかった (こなかった) - did not come
+The past negative form of the irregular verb 来る (くる).
+Memory Tip: The negative stem of くる changes sound to こ (来ない -> 来なかった).
+Example: 約束の時間になっても誰もこなかった。(やくそくのじかんになってもだれもこなかった。)
+-Even when the appointed time arrived, no one came.
+}
+煙-
+{
+煙 (けむり) - smoke / fumes
+A noun referring to the visible vapor or gas produced by burning material.
+Memory Tip: Fire radical 火 on the left, rising into a cloud of ash.
+Example: 煙突から黒い煙が立ち上っている。(えんとつからくろいけむりがたちのぼっている。)
+-Black smoke is rising from the chimney.
+}
+飛びかかる-
+{
+飛びかかる (とびかかる) - to pounce on / to swoop down upon / to leap at
+A compound verb meaning to launch oneself forward violently at a target.
+Memory Tip: 飛ぶ (to fly/jump) + かかる (to hang onto / bear down upon).
+Example: ライオンが獲物に飛びかかった。(らいおんがえものにとびかかった。)
+-The lion pounced onto its prey.
+}
+辿りつく-
+{
+辿りつく (たどりつく) - to struggle on and reach / to arrive at last
+A compound verb meaning to finally reach a destination after effort or wandering.
+Memory Tip: 辿る (to follow a path/trace) + 着く (to arrive). Tracing the long winding road until you get there.
+Example: 暗くなる前にようやく宿に辿りついた。(くらくなるまえによやくやどにたどりついた。)
+-We finally reached the inn before it grew dark.
+}
+してあげた-
+{
+してあげた (してあげた) - did (something) for someone
+A helping verb construction (て-form of する + あげた) indicating doing a favor for someone else.
+Memory Tip: する (to do) + 上げる (to give upward/bestow). Bestowing an action as a favor.
+Example: 困っていたので、荷物を持ってあげた。(こまっていたので、にもつをもってあげた。)
+-Since they were having trouble, I carried the luggage for them.
+}
+親切-
+{
+親切 (しんせつ) - kind / helpful / considerate
+A na-adjective meaning warm-hearted, attentive, and helpful toward others.
+Memory Tip: 親 (parent/close) + 切 (deep/urgent feeling). Treating someone with the care of a devoted parent.
+Example: 駅員さんがとても親切に道を教えてくれた。(えきいんさんがとてもしんせつにみちをおしえてくれた。)
+-The station clerk kindly taught me the directions.
+}
+引っ越す-
+{
+引っ越す (ひっこす) - to move residence / to relocate
+A compound godan verb meaning to change your home address or living quarters.
+Memory Tip: 引く (pull/drag belongings) + 越す (cross over/move across borders).
+Example: 来月、隣の町へ引っ越す予定です。(らいげつ、となりのまちえひっこすよていです。)
+-I plan to move to the neighboring town next month.
+}
+お喋り-
+{
+お喋り (おしゃべり) - chat / chitchat / talkative person
+A noun/suru-verb meaning casual talk or a person who talks a lot.
+Memory Tip: Polite prefix お + 喋る (to chatter/talk continuously).
+Example: 彼女とお茶を飲みながらお喋りを楽しんだ。(かのじょとおちゃをのみながらおしゃべりをたのしんだ。)
+-I enjoyed chatting with her over tea.
+}
+一晩中-
+{
+一晩中 (ひとばんじゅう) - all night long / throughout the night
+An adverbial noun meaning uninterruptedly from dusk to dawn.
+Memory Tip: 一 (one) + 晩 (evening/night) + 中 (throughout).
+Example: 一晩中本を読んでいて眠い。(ひとばんじゅうほんをよんでいてねむい。)
+-I was reading a book all night long, so I am sleepy.
+}
+頃-
+{
+頃 (ころ / ごろ) - around / about (time) / when
+A noun/suffix indicating an approximate time, era, or stage of life.
+Memory Tip: Often seen as a suffix (3時ごろ = around 3 o'clock; 子供の頃 = during childhood).
+Example: 夕暮れの頃、風が涼しくなった。(ゆうぐれのころ、かぜがすずしくなった。)
+-Around twilight, the breeze turned cool.
+}
+あっち-
+{
+あっち (あっち) - over there / that way
+A casual demonstrative pronoun indicating a direction or location far from both speaker and listener.
+Memory Tip: Casual spoken form of あちら (achira). Pointing way out "over there."
+Example: あっちに行ってみよう。(あっちにいってみよう。)
+-Let's try going over that way.
+}
+アヒル-
+{
+アヒル (あひる) - domestic duck
+A noun referring to the domesticated duck (often written in katakana).
+Memory Tip: Short for 家鴨 (literally "house duck", distinct from the wild duck 鴨/かも).
+Example: 池で白いアヒルが泳いでいる。(いけでしろいあひるがおよいでいる。)
+-A white domestic duck is swimming in the pond.
+}
+虹-
+{
+虹 (にじ) - rainbow
+A noun referring to the multicolored arc in the sky caused by refraction of light in water droplets.
+Memory Tip: Contains the insect/creature radical 虫 (ancient myth viewed rainbows as celestial dragons/serpents).
+Example: 雨上がりの空にきれいな虹がかかった。(あめあがりのそらにきれいなにじがかかった。)
+-A beautiful rainbow appeared across the sky after the rain.
+}
+ちょうどいい-
+{
+ちょうどいい (ちょうどいい) - just right / perfect / ideal
+An i-adjective phrase meaning exact in size, temperature, timing, or quantity.
+Memory Tip: ちょうど (exactly/just) + いい (good).
+Example: この部屋の温度はちょうどいい。(このへやのおんどはちょうどいい。)
+-The temperature in this room is just right.
+}
+丘に-
+{
+丘に (おかに) - on the hill / to the hill
+A noun + particle combination indicating location or target on a hill or mound.
+Memory Tip: 丘 depicts an elevated knoll + particle に (at/on).
+Example: 緑の丘に登って景色を眺めた。(みどりのおかにのぼってけしきをながめた。)
+-I climbed up onto the green hill and looked at the scenery.
+}
+汚染-
+{
+汚染 (おせん) - pollution / contamination
+A noun/suru-verb referring to the defilement or fouling of air, water, or soil.
+Memory Tip: 汚 (dirty) + 染 (stain/dye) = stained with dirty toxins.
+Example: 工場排水による川の汚染が問題になっている。(こうじょうはいすいによるかわのおせんがもんだいになっている。)
+-River pollution caused by industrial wastewater has become an issue.
+}
+千人ずつ-
+{
+千人ずつ (せんにんずつ) - a thousand people at a time
+A counter phrase made of 千人 (1,000 people) + ずつ (each / by increments of).
+Memory Tip: ずつ distributes numbers into equal batches.
+Example: 観客は千人ずつ会場に案内された。(かんきゃくはせんにんずつかいじょうにあんないされた。)
+-Spectators were guided into the venue a thousand at a time.
+}
+飛び降り-
+{
+飛び降り (とびおり) - jumping down / leaping off
+The stem/noun form of the compound verb 飛び降りる (to jump down from a high place).
+Memory Tip: 飛ぶ (fly/leap) + 降りる (descend).
+Example: 電車から飛び降りるのは危険です。(でんしゃからとびおりるのはきけんです。)
+-Jumping down from a train is dangerous.
+}
+渡りたかった-
+{
+渡りたかった (わたりたかった) - wanted to cross
+The past form of the desire auxiliary ~たい attached to 渡る (to cross over a bridge, river, or sea).
+Memory Tip: 渡る (to cross) + たかった (wanted to).
+Example: 向こう岸へ橋を渡りたかったが、通行止めだった。(むこうぎしえはしをわたりたかったが、つうこうどめだった。)
+-I wanted to cross the bridge to the other bank, but it was closed.
+}
+通りにする-
+{
+通りにする (とおりにする) - to do according to / to do as stated
+A verbal phrase meaning to carry out an action exactly in accordance with instructions or plans.
+Memory Tip: 通り (path/way as prescribed) + にする (to decide on / execute as).
+Example: 指示された通にする。(しじされたとおりにする。)
+-I will do it exactly as instructed.
+}
+くる日もくる日も-
+{
+くる日もくる日も (くるひもくるひも) - day after day / day in and day out
+An idiomatic adverbial phrase describing an action repeating relentlessly every single day.
+Memory Tip: 来る日 (the day that comes) repeated twice with も (also). Day after day arriving.
+Example: くる日もくる日も、彼は練習を続けた。(くるひもくるひも、かれはれんしゅうをつづけた。)
+-Day in and day out, he continued to practice.
+}
+くぐって-
+{
+くぐって (くぐって) - passing under / slipping through
+The te-form of the godan verb くぐる (to pass through under an arch, tunnel, or low obstacle).
+Memory Tip: Ducking your head down low to go underneath a hanging cloth or torii gate.
+Example: のれんをくぐって店に入った。(のれんをくぐってみせにはいった。)
+-I ducked under the shop curtain and entered the store.
+}
+市外-
+{
+市外 (しがい) - outside the city / suburbs / out-of-town
+A noun referring to the area beyond the administrative boundaries of a city.
+Memory Tip: 市 (city) + 外 (outside).
+Example: 市外局番を忘れずに入力してください。(しがいきょくばんをわすれずににゅうりょくしてください。)
+-Please do not forget to enter the outside-city area code.
+}
+牧場-
+{
+牧場 (ぼくじょう / まきば) - ranch / farm / pasture
+A noun referring to fenced land where livestock like cattle, horses, or sheep graze.
+Memory Tip: 牧 (shepherd/herding) + 場 (place/grounds).
+Example: 牧場で新鮮な牛乳を飲んだ。(ぼくじょうでしんせんなぎゅうにゅうをのんだ。)
+-I drank fresh milk at the ranch.
+}
+鍛冶屋-
+{
+鍛冶屋 (かじや) - blacksmith / smithy / forge
+A noun referring to a person who works metal with hammer and fire, or their workshop.
+Memory Tip: 鍛 (forge metal) + 冶 (smelt/temper) + 屋 (shop/tradesman).
+Example: 鍛冶屋が槌を振るって鋭い剣を打っている。(かじやがつちをふるってするどいけんをうっている。)
+-The blacksmith is swinging a hammer and forging a sharp sword.
+}
+鍛冶-
+{
+鍛冶 (かじ) - smithing / forging / ironworking
+A noun referring to the craft of forging metal items.
+Memory Tip: Both kanji contain 金 (metal/gold) — shaping heated metal into tools.
+Example: 古代の鍛冶技術は非常に優れていた。(こだいのかじぎじゅつはひじょうにすぐれていた。)
+-Ancient metal-smithing techniques were remarkably advanced.
+}
+技術-
+{
+技術 (ぎじゅつ) - technique / technology / skill / craft
+A noun referring to technical skill, practical mastery, or engineering technology.
+Memory Tip: 技 (deed/craft) + 術 (method/art).
+Example: 日本の先端技術は世界で評価されている。(にほんのせんたんぎじゅつはせかいでひょうかされている。)
+-Japan's cutting-edge technology is acclaimed around the world.
+}
+市民-
+{
+市民 (しみん) - citizen / city resident / townspeople
+A noun meaning people who reside in a specific city or town.
+Memory Tip: 市 (city) + 民 (people/populace).
+Example: 多くの市民が広場に集まった。(おおくのしみんがひろばにあつまった。)
+-Many citizens gathered in the town square.
+}
+守らねばならない-
+{
+守らねばならない (まもらねばならない) - must protect / must obey
+A strong formal obligation structure meaning one must guard, adhere to, or obey.
+Memory Tip: 守る (protect/obey) + ねばならない (archaic/formal "must").
+Example: 私たちは国の法律を守らねばならない。(わたしたちはくにのほうりつをまもらねばならない。)
+-We must abide by the laws of the land.
+}
+おきて-
+{
+おきて (おきて) - law / decree / code / rule of conduct
+A noun (often written 掟) referring to an unwritten rule, sacred code, or strict tribal law.
+Memory Tip: From the verb 掟てる (to establish/rule firmly).
+Example: 一族の厳しいおきてを守り抜く。(いちぞくのきびしいおきてをまもりぬく。)
+-To uphold the clan's strict code to the end.
+}
+破ろう-
+{
+破ろう (やぶろう) - let's break / intending to break / about to break
+The volitional form of the godan verb 破る (to tear, break a contract, or breach a rule).
+Memory Tip: 破 has the stone radical 石 — breaking or shattering a pact.
+Example: 約束を破ろうとする者には罰が下る。(やくそくをやぶろうとするものにはばつがくだる。)
+-Punishment falls upon those who intend to break a promise.
+}
+たびに-
+{
+たびに (たびに) - each time / every time
+A grammatical particle phrase meaning "every single time that (action occurs)."
+Memory Tip: 度 (occurrence/time) + particle に. Each turn around the clock.
+Example: この曲を聴くたびに、学生時代を思い出す。(このきょくをきくたびに、がくせいじだいをおもいだす。)
+-Every time I listen to this song, I remember my school days.
+}
+大人しい-
+{
+大人しい (おとなしい) - quiet / gentle / mild-mannered / docile
+An i-adjective describing a calm, subdued, or obedient temperament.
+Memory Tip: 大人 (adult) + しい (characteristic of). Acting quietly like a mature adult rather than a loud child.
+Example: その犬はとても大人しくて吠えない。(そのいぬはとてもおとなしくてほえない。)
+-That dog is very gentle and never barks.
+}
+必死-
+{
+必死 (ひっし) - desperate / frantic / with all one's might
+A na-adjective/adverbial noun describing an effort made as if one's life depended on it.
+Memory Tip: 必 (certain) + 死 (death) = struggling so hard it's literally a matter of life or death.
+Example: 彼は必死に走ってバスに間に合った。(かれはひっしにはしってばすにまにあった。)
+-He ran desperately and caught the bus in time.
+}
+訴える-
+{
+訴える (うったえる) - to appeal / to sue / to bring a complaint
+An ichidan transitive verb meaning to plead, report a grievance, or press legal charges.
+Memory Tip: Words radical 言 on the left — speaking up forcefully about an injustice.
+Example: 彼女は痛みを必死に訴えた。(かのじょはいたみをひっしにうったえた。)
+-She desperately appealed about her severe pain.
+}
+おきてやぶり-
+{
+おきてやぶり (おきてやぶり) - rule breaker / breach of custom (掟破り)
+A noun referring to an act that breaks the sacred code, or the person doing so.
+Memory Tip: 掟 (code/custom) + 破り (breaker/violator).
+Example: そんな行動は村のおきてやぶりだ。(そんなこうどうはむらのおきてやぶりだ。)
+-Such an act is a direct breach of the village code.
+}
+追放される-
+{
+追放される (ついほうされる) - to be exiled / to be banished / to be expelled
+The passive form of the suru-verb 追放する (to banish or deport).
+Memory Tip: 追 (chase) + 放 (release/cast out) + される (passive). Chased and expelled outward.
+Example: 罪を犯した男は国から追放された。(つみをおかしたおとこはくにからついほうされた。)
+-The man who committed the crime was banished from the country.
+}
+引き離される-
+{
+引き離される (ひきはなされる) - to be pulled apart / to be separated by force
+The passive form of the compound verb 引き離す (to pull apart / sever / separate).
+Memory Tip: 引く (pull) + 離す (separate) + される (passive).
+Example: 親と無理やり引き離される悲しみ。(おやとむりやりひきはなされるかなしみ。)
+-The sorrow of being forcibly torn away from one's parents.
+}
+好奇心-
+{
+好奇心 (こうきしん) - curiosity / inquisitive spirit
+A noun referring to the desire to learn, explore, or discover new things.
+Memory Tip: 好 (fondness) + 奇 (strange/rare) + 心 (heart/mind) = a heart that loves unusual novelties.
+Example: 好奇心旺盛な子供は何にでも質問する。(こうきしんおうせいなこどもはなんにでもしつもんする。)
+-A child full of curiosity asks questions about everything.
+}
+押さえつけ-
+{
+押さえつけ (おさえつけ) - pinning down / suppressing / holding back
+The stem/conjunctive form of 押さえつける (to pin someone down or suppress desires).
+Memory Tip: 押さえる (to press/hold down) + つける (firmly against).
+Example: 感情を押さえつけ、じっと耐えた。(かんじょうをおさえつけ、じっとたえた。)
+-Suppressing their emotions, they endured quietly.
+}
+我慢してきた-
+{
+我慢してきた (がまんしてきた) - have been enduring / have put up with
+A compound phrase combining 我慢する (to endure/perseuve) with the past continuous ~てきた.
+Memory Tip: 我慢 (patience/restraint) + てきた (brought forward until now).
+Example: ずっと不満を我慢してきたが限界だ。(ずっとふまんをがまんしてきたがげんかいだ。)
+-I have been enduring dissatisfaction all along, but I've reached my limit.
+}
+いまだに-
+{
+いまだに (いまだに) - even now / still / to this day
+An adverb used to emphasize that an past state still continues into the present (often with negative nuance).
+Memory Tip: Kanji 未だ (not yet) + に. Literally "as of not yet."
+Example: あの事件の謎はいまだに解けていない。(あのじけんのなぞはいまだにとけていない。)
+-The mystery of that incident is still not solved to this day.
+}
+不意に-
+{
+不意に (ふいに) - abruptly / unexpectedly / suddenly
+An adverb indicating something happened without any warning or forethought.
+Memory Tip: 不 (not) + 意 (intent/mind) = happening before your mind could anticipate it.
+Example: 不意に名前を呼ばれて驚いた。(ふいになまえをよばれておどろいた。)
+-I was surprised when my name was called out abruptly.
+}
+我に返った-
+{
+我に返った (われにかえった) - came to one's senses / regained composure
+The past tense of the idiom 我に返る (to snap out of a daze and return to one's senses).
+Memory Tip: 我 (myself) + に (back to) + 返る (return). Returning back to your own consciousness.
+Example: 大きな音を聞いて、ハッと我に返った。(おおきなおとをきいて、はっとわれにかえった。)
+-Hearing a loud sound, I snapped back to my senses with a start.
+}
+一斉に-
+{
+一斉に (いっせいに) - all at once / simultaneously / in unison
+An adverb meaning many individuals doing the same action at the exact same moment.
+Memory Tip: 一 (one) + 斉 (alike/together) + に = acting uniformly as one single unit.
+Example: チャイムが鳴ると、生徒たちは一斉に教室を出た。(ちゃいむがなると、せいとたちはいっせいにきょうしつをでた。)
+-When the chime sounded, the students exited the classroom all at once.
+}
+制服-
+{
+制服 (せいふく) - uniform
+A noun referring to the standardized clothing worn by school students, soldiers, or employees.
+Memory Tip: 制 (regulation/rule) + 服 (clothes) = regulated attire.
+Example: 高校生たちが制服を着て登校している。(こうこうせいたちがせいふくをきてとうこうしている。)
+-High school students are heading to school wearing uniforms.
+}
+に列-
+{
+に列 (にれつ) - two lines / two rows (二列)
+A counter phrase indicating objects or people organized into two parallel rows.
+Memory Tip: 二 (two) + 列 (row/queue).
+Example: 出口の前で二列に並んで待ってください。(でぐちのまえでにれつにならんでまってください。)
+-Please line up in two rows and wait in front of the exit.
+}
+可哀想な-
+{
+可哀想な (かわいそうな) - pitiable / poor / unfortunate
+A na-adjective expressing pity, sorrow, or sympathy for someone suffering.
+Memory Tip: 可 (can) + 哀 (sorrow) + 想 (think) = making one think of deep sorrow.
+Example: 雨に濡れた可哀想な子猫を保護した。(あめにぬれたかわいそうなこねこをほごした。)
+-I took in a poor little kitten drenched in the rain.
+}
+紫-
+{
+紫 (むらさき) - purple / violet
+A noun/color referring to the rich shade between red and blue, historically linked to nobility.
+Memory Tip: Silk radical 糸 at the base of 紫 — dyed luxury fabric.
+Example: 日没時の空が綺麗な紫色に染まった。(にちぼつじのそらがきれいなむらさきいろにそまった。)
+-The sky at sunset dyed into a beautiful purple color.
+}
+おおわれた-
+{
+おおわれた (おおわれた) - was covered / shrouded / enveloped (覆われた)
+The past passive form of the transitive verb 覆う (おおう, to cover, veil, or mantle).
+Memory Tip: 覆 depicts spreading a sheet or cloth entirely over an object.
+Example: 山の頂上は白い雪でおおわれていた。(やまのちょうじょうはしろいゆきでおおわれていた。)
+-The summit of the mountain was covered in white snow.
+}
+ワシ-
+{
+ワシ (わし) - eagle
+A noun referring to large birds of prey in the Accipitridae family (kanji: 鷲).
+Memory Tip: Distinct from smaller hawks (鷹/タカ); ワシ is large and majestic.
+Example: 高い空を大きなワシが旋回している。(たかいそらをおおきなわしがせんかいしている。)
+-A large eagle is circling high up in the sky.
+}
+瞳-
+{
+瞳 (ひとみ) - pupil (of the eye) / eye
+A noun referring poetically to the iris/pupil or the eye itself.
+Memory Tip: Eye radical 目 on the left + 童 (child) = the miniature reflection of yourself in someone's pupil.
+Example: 彼女の澄んだ瞳が印象的だった。(かのじょのすんだひとみがいんしょうてきだった。)
+-Her clear, bright eyes were memorable.
+}
+沈んでいる-
+{
+沈んでいる (しずんでいる) - sinking / submerged / feeling depressed
+The continuous form of 沈む (to sink below water/horizon, or to feel gloomy).
+Memory Tip: Water radical 氵 on the left, going deep down below the surface.
+Example: 太陽が水平線にゆっくり沈んでいる。(たいようがすいへいせんにゆっくりしずんでいる。)
+-The sun is sinking slowly into the horizon.
+}
+襟-
+{
+襟 (えり) - collar / neckband / lapel
+A noun referring to the folded part around the neck of a coat, shirt, or kimono.
+Memory Tip: Clothing radical 衤 on the left of 襟.
+Example: 寒かったのでコートの襟を立てた。(さむかったのでこーとのえりをたてた。)
+-Because it was cold, I pulled up the collar of my coat.
+}
+いかにも-
+{
+いかにも (いかにも) - truly / indeed / so typical of / as if
+An adverb used to stress that someone or something fits an archetype or description perfectly.
+Memory Tip: 如何 (how) + も = "in whatever way you look at it, it really is so."
+Example: 彼はいかにも学者らしい落ち着いた話し方をする。(かれはいかにもがくしゃらしいおちついたはなしかたをする。)
+-He speaks in a calm way that is so typical of a true scholar.
+}
+青ざめて-
+{
+青ざめて (あおざめて) - turning pale / blanching
+The te-form of the verb 青ざめる (to lose facial color from fear, shock, or illness).
+Memory Tip: 青 (blue/pale) + ざめる (from 冷める, growing cold).
+Example: 事故の知らせを聞いて、彼の顔は青ざめていた。(じこのしらせをきいて、かれのかおはあおざめていた。)
+-Upon hearing news of the accident, his face turned pale.
+}
+教えこまれた-
+{
+教えこまれた (おしえこまれた) - was drilled into / was ingrained with
+The past passive form of the compound verb 教え込む (to drill, instill, or train thoroughly).
+Memory Tip: 教える (teach) + 込む (deeply into) + された (passive). Hammered deeply into one's mind.
+Example: 子供の頃から礼儀を厳しく教えこまれた。(こどものころかられいぎをきびしくおしえこまれた。)
+-Manners were strictly drilled into me ever since I was a child.
+}
+勇敢-
+{
+勇敢 (ゆうかん) - brave / heroic / courageous
+A na-adjective describing someone bold and willing to face danger without backing down.
+Memory Tip: 勇 (bravery) + 敢 (daring).
+Example: 勇敢な兵士たちが城を守り抜いた。(ゆうかんなへいしたちがしろをまもりぬいた。)
+-The brave soldiers defended the castle to the very end.
+}
+ために-
+{
+ために (ために) - for the sake of / in order to / because of
+A particle phrase indicating purpose (in order to achieve X) or cause (due to X).
+Memory Tip: Kanji 為 (purpose/action) + に = towards that aim.
+Example: 家族の幸せのために一生懸命働く。(かぞくのしあわせのためにいっしょうけんめいはたらく。)
+-I work with all my might for the sake of my family's happiness.
+}
+瞬間-
+{
+瞬間 (しゅんかん) - moment / instant / split second
+A noun referring to an extremely brief period of time.
+Memory Tip: 瞬 (blink of an eye with 目 radical) + 間 (interval). As fast as a blink.
+Example: ドアが開いた瞬間に猫が飛び出した。(どあがあいたしゅんかんにねこがとびだした。)
+-The instant the door opened, the cat darted outside.
+}
+王位-
+{
+王位 (おうい) - the throne / crown / royal status
+A noun referring to the sovereign rank or seat of a king or queen.
+Memory Tip: 王 (king) + 位 (rank/station/seat).
+Example: 王子は若くして王位を継承した。(おうじはわかくしておういをけいしょうした。)
+-The prince succeeded to the throne at a young age.
+}
+自ら-
+{
+自ら (みずから) - oneself / personally / in person
+An adverbial noun meaning taking personal initiative rather than relying on others.
+Memory Tip: The kanji 自 stands for self/nose; doing it by one's own hand.
+Example: 彼は自ら進んで困難な任務を引き受けた。(かれはみずからすすんでこんなんなにんむをひきうけた。)
+-He stepped forward himself and took on the difficult mission.
+}
+義務-
+{
+義務 (ぎむ) - duty / obligation / responsibility
+A noun referring to a mandatory moral or legal requirement.
+Memory Tip: 義 (righteousness/justice) + 務 (task/labor). Rightful tasks you must perform.
+Example: 税金を納めることは国民の義務です。(ぜいきんをおさめることはこくみんのぎむです。)
+-Paying taxes is a citizen's duty.
+}
+事あるごとに-
+{
+事あるごとに (ことあるごとに) - on every occasion / whenever anything happens
+An idiomatic phrase meaning at every single turn or whenever an opportunity arises.
+Memory Tip: 事 (incident/matter) + ある (there is) + ごとに (each time).
+Example: 彼は事あるごとに文句ばかり言っている。(かれはことあるごとにもんくばかりいっている。)
+-He complains whenever anything happens.
+}
+とはいえ-
+{
+とはいえ (とはいえ) - nonetheless / that being said / although
+A conjunction used to introduce a qualifying statement that softens or counters what preceded.
+Memory Tip: と (quotation) + は + 言え (even if one says). "Even having said that..."
+Example: 景気は回復傾向にある。とはいえ、油断はできない。(けいきはかいふくけいこうにある。とはいえ、ゆだんはできない。)
+-The economy is on a recovery trend. That being said, we cannot let our guard down.
+}
+体格-
+{
+体格 (たいかく) - physique / build / frame
+A noun referring to the size and physical structure of a person's body.
+Memory Tip: 体 (body) + 格 (standard/framework). The structural frame of the body.
+Example: 彼は立派な体格をしており、ラグビー選手に向いている。(かれはりっぱなたいかくをしており、らぐびーせんしゅにむいている。)
+-He has an impressive physique and is well-suited to be a rugby player.
+}
+健康-
+{
+健康 (けんこう) - health / healthy / sound
+A noun and na-adjective meaning free from illness and in good physical condition.
+Memory Tip: 健 (vigorous/sound) + 康 (peaceful/wholesome).
+Example: 健康のために毎朝ジョギングをしている。(けんこうのためにまいあさじょぎんぐをしている。)
+-I jog every morning for the sake of my health.
+}
+長生き-
+{
+長生き (ながいき) - longevity / living a long life
+A noun/suru-verb referring to living for many years.
+Memory Tip: 長い (long) + 生きる (to live).
+Example: 祖母にはいつまでも長生きしてほしい。(そぼにはいつまでもながいきしてほしい。)
+-I want my grandmother to live a long life forever.
+}
+玉座-
+{
+玉座 (ぎょくざ) - imperial throne / regal seat
+A noun referring to the majestic physical throne where a monarch sits.
+Memory Tip: 玉 (jewel/jade/imperial) + 座 (seat). The jade throne.
+Example: 王は厳かに玉座へと腰を下ろした。(おうはおごそかにぎょくざえとこしをおろした。)
+-The king solemnly seated himself upon the throne.
+}
+囁いた-
+{
+囁いた (ささやいた) - whispered / murmured
+The past tense of the verb 囁く (to speak in a soft, low hush).
+Memory Tip: Kanji 囁 has three mouth radicals 口 stacked together, mimicking muted chattering lips.
+Example: 彼女は私の耳元で秘密を囁いた。(かのじょはわたしのみみもとでひみつをささやいた。)
+-She whispered a secret close to my ear.
+}
+あの方-
+{
+あの方 (あのかた) - that person (polite) / that gentleman or lady
+A respectful third-person pronoun referring to someone at a distance.
+Memory Tip: あの (that over there) + 方 (polite noun for a person).
+Example: あの方はわが社の新しい社長です。(あのかたはわがしゃのあたらしいしゃちょうです。)
+-That person is the new president of our company.
+}
+正式-
+{
+正式 (せいしき) - formal / official / legitimate
+A noun and na-adjective indicating proper compliance with established rules and forms.
+Memory Tip: 正 (correct/proper) + 式 (form/ceremony). In the correct ritual manner.
+Example: 来週、正式な契約を結ぶ予定です。(らいしゅう、せいしきなけいやくをむすぶよていです。)
+-We plan to sign the official contract next week.
+}
+世継ぎ-
+{
+世継ぎ (よつぎ) - heir / successor to the lineage
+A noun referring to the person slated to inherit a family name, estate, or kingdom.
+Memory Tip: 世 (generation/lineage) + 継ぎ (continuation/grafting). Continuing the generation forward.
+Example: 国王は国を託す世継ぎの誕生を待ち望んでいた。(こくおうはくにをたくすよつぎのたんじょうをまちのぞんでいた。)
+-The king eagerly awaited the birth of an heir to entrust with the kingdom.
+}
+落ち着かない-
+{
+落ち着かない (おちつかない) - restless / uneasy / fidgety
+The negative form of 落ち着く (to calm down, settle down, or compose oneself).
+Memory Tip: 落ちる (drop down) + 着く (reach ground) + ない (not) = unable to ground oneself.
+Example: 試験の結果が出るまでは落ち着かない。(しけんのけっかがでるまではおちつかない。)
+-I feel restless until the exam results come out.
+}
+眼差して-
+{
+眼差して (まなざして) - looking with a gaze / directing a glance (眼差し)
+A verbalized or participial form derived from 眼差し (a focused look, eye contact, or gaze).
+Memory Tip: 眼 (eye) + 差す (to direct or shine upon). Directing an eye's ray toward someone.
+Example: 優しい眼差しで見つめ返した。(やさしいまなざしでみつめかえした。)
+-Met their look with a gentle gaze.
+}
+知らなかった-
+{
+知らなかった (しらなかった) - did not know / was unaware of
+The past negative form of the godan verb 知る (to know / to be aware of).
+Memory Tip: 知る (to know) -> negative past stem 知らなかった.
+Example: そんな重要な事実を知らなかった。(そんなじゅうようなじじつをしらなかった。)
+-I did not know such an important fact.
+}
+資源-
+{
+資源 (しげん) - resources (natural, energy, or economic)
+A noun referring to raw materials, minerals, or energy wealth found in nature.
+Memory Tip: 資 (capital/property) + 源 (source/origin of water). The source of wealth.
+Example: 日本は天然資源の多くを輸入に頼っている。(にほんはてんねんしげんのおおくをゆにゅうにたよっている。)
+-Japan relies on imports for most of its natural resources.
+}
+横-
+{
+横 (よこ) - side / horizontal / flank
+A noun referring to the side or horizontal breadth of an object.
+Memory Tip: Tree radical 木 + 黄 (yellow/broad); stretching sideways across.
+Example: 私のすぐ横に座ってください。(わたしのすぐよこにすわってください。)
+-Please sit right by my side.
+}
+外す-
+{
+外す (はずす) - to take off / to unfasten / to remove / to miss
+A transitive godan verb meaning to detach an accessory, remove clothing, or step away.
+Memory Tip: 外 (outside) — shifting something away outside of its frame.
+Example: 食事の前にマスクを外した。(しょくじのまえにますくをはずした。)
+-I took off my mask before eating.
+}
+輝く-
+{
+輝く (かがやく) - to shine / to sparkle / to glitter
+An intransitive godan verb meaning to radiate bright light or brilliance.
+Memory Tip: Radical 光 (light) embedded inside 輝; beaming with radiant brilliance.
+Example: 夜空に無数の星が輝いている。(よぞらにむすうのほしがかがやいている。)
+-Countless stars are shining in the night sky.
+}
+群衆-
+{
+群衆 (ぐんしゅう) - crowd / mob / throng of people
+A noun referring to a massive flock or gathering of people.
+Memory Tip: 群 (flock/herd) + 衆 (multitude of people).
+Example: 広場は集まった群衆で埋め尽くされていた。(ひろばはあつまったぐんしゅうでうめつくされていた。)
+-The square was completely packed with the gathered crowd.
+}
+秘宝-
+{
+秘宝 (ひほう) - hidden treasure / secret heirloom
+A noun referring to a precious treasure kept secret and guarded from the public.
+Memory Tip: 秘 (secret/hidden) + 宝 (treasure).
+Example: 伝説の秘宝を探すため洞窟に入った。(でんせつのひほうをさがすためどうくつにはいった。)
+-We entered the cavern in search of the legendary hidden treasure.
+}
+神々しい-
+{
+神々しい (こうごうしい) - divine / sublime / sacred / majestic
+An i-adjective describing an aura or sight so radiant and awe-inspiring it feels godly.
+Memory Tip: 神 (god/deity) doubled with repetition mark 々 = god upon god, overflowing with sacred grace.
+Example: 朝日に照らされた富士山は神々しい。(あさひにてらされたふじさんはこうごうしい。)
+-Mount Fuji illuminated by the morning sunrise looks utterly divine.
+}
+支配-
+{
+支配 (しはい) - rule / domination / control / governance
+A noun/suru-verb meaning exercising power, authority, and control over people or land.
+Memory Tip: 支 (support/branch) + 配 (distribute). Managing and directing the whole domain.
+Example: 独裁者が国全体を支配していた。(どくさいしゃがくにぜんたいをしはいしていた。)
+-A dictator was ruling over the entire country.
+}
+侵略-
+{
+侵略 (しんりゃく) - invasion / aggression / raid
+A noun/suru-verb meaning encroaching unlawfully into another nation's territory by force.
+Memory Tip: 侵 (invade/trespass) + 略 (plunder/capture land).
+Example: 隣国への武力侵略は許されない。(りんごくえのぶりょくしんりゃくはゆるされない。)
+-Armed invasion of a neighboring country cannot be permitted.
+}
+全能-
+{
+全能 (ぜんのう) - omnipotent / all-powerful / almighty
+A noun and na-adjective meaning possessing unlimited power and ability.
+Memory Tip: 全 (all/entire) + 能 (ability/power) = capacity to do everything.
+Example: 神は全知全能の存在とされる。(かみはぜんちぜんのうのそんざいとされる。)
+-God is said to be an omniscient and omnipotent being.
+}
+見事-
+{
+見事 (みごと) - splendid / magnificent / flawless
+A na-adjective describing something executed with masterful beauty or excellence.
+Memory Tip: 見 (looking) + 事 (thing/matter) = a sight so marvelous it commands admiration.
+Example: 彼女は見事な演奏を披露した。(かのじょはみごとなえんそうをひろうした。)
+-She gave a magnificent musical performance.
+}
+一見-
+{
+一見 (いっけん) - at first glance / seemingly / apparently
+An adverbial noun meaning the impression one gets upon seeing something briefly at first.
+Memory Tip: 一 (one) + 見 (glance/look). Just one look.
+Example: 一見簡単そうに見えるが、実は難しい。(いっけんかんたんそうにみえるが、じつはむずかしい。)
+-At first glance it looks easy, but it is actually difficult.
+}
+鋼-
+{
+鋼 (はがね) - steel
+A noun referring to strong, tempered iron-carbon alloy used for blades and tools.
+Memory Tip: Metal radical 金 + 岡 (ridge/hard hill). High-strength metal.
+Example: 鋼の刃は岩をも切り裂くと言われる。(はがねのやいばはいわをもきりさくといわれる。)
+-A blade of steel is said to cut even through stone.
+}
+このうえなく-
+{
+このうえなく (このうえなく) - exceedingly / unsurpassably / supremely (この上なく)
+An adverbial phrase meaning nothing could possibly exceed this degree.
+Memory Tip: この (this) + 上 (above) + なく (without). "Without anything above this."
+Example: このうえなく幸せな時間を過ごした。(このうえなくしあわせなじかんをすごした。)
+-I spent an exceedingly blissful time.
+}
+黄金色-
+{
+黄金色 (こがねいろ / おうごんしょく) - golden color / hue of gold
+A noun referring to a rich, warm yellow-gold tone (such as ripe autumn rice fields).
+Memory Tip: 黄金 (gold/pure money) + 色 (color).
+Example: 秋になると稲穂が黄金色に輝く。(あきになるといなほがこがねいろにかがやく。)
+-Come autumn, the ears of rice glisten with a golden color.
+}
+咲く-
+{
+咲く (さく) - to bloom / to blossom
+An intransitive godan verb meaning flowers opening their petals.
+Memory Tip: Mouth radical 口 on the left — flowers opening their mouths wide into a smile.
+Example: 春になると桜が一斉に咲く。(はるになるとさくらがいっせいにさく。)
+-When spring comes, the cherry blossoms bloom all at once.
+}
+スミレ-
+{
+スミレ (すみれ) - violet (flower)
+A noun referring to the small, delicate purple wildflower (often written 菫 in kanji).
+Memory Tip: Said to resemble an ink-line marker (墨入れ / sumi-ire) used by carpenters.
+Example: 道端に可憐なスミレが咲いていた。(みちばたにかれんなすみれがさいていた。)
+-A lovely little violet was blooming by the roadside.
+}
+表す-
+{
+表す (あらわす) - to express / to signify / to symbolize
+A transitive godan verb meaning to reveal thoughts, emotions, or meaning through words or symbols.
+Memory Tip: 表 (surface/outside). Bringing internal meaning outward onto the surface.
+Example: この記号は危険を表している。(このきごうはきけんをあらわしている。)
+-This sign represents danger.
+}
+点々-
+{
+点々 (てんてん) - scattered dots / dotted spots / here and there
+A noun and adverbial phrase referring to small spots, drops, or marks scattered around.
+Memory Tip: 点 (dot/spot) repeated with iteration mark 々.
+Example: 雪の上に足跡が点々と続いている。(ゆきのうえにあしあとがてんてんとつづいている。)
+-Footprints continue dotted across the snow.
+}
+新緑-
+{
+新緑 (しんりょく) - fresh green foliage / new springtime leaves
+A noun referring to the bright, tender green leaves that sprout in early summer.
+Memory Tip: 新 (new) + 緑 (green).
+Example: 初夏の新緑が目に鮮やかだ。(しょかのしんりょくがめにあざやかだ。)
+-The fresh green foliage of early summer is brilliant to the eyes.
+}
+象徴-
+{
+象徴 (しょうちょう) - symbol / emblem / representation
+A noun/suru-verb referring to a concrete object representing an abstract concept.
+Memory Tip: 象 (elephant/image/figure) + 徴 (sign/indication) = an image serving as a sign.
+Example: 鳩は平和の象徴とされている。(はとはへいわのしょうちょうとされている。)
+-The dove is considered a symbol of peace.
+}
+幸福-
+{
+幸福 (こうふく) - happiness / bliss / blessedness
+A noun and na-adjective denoting deep contentment, well-being, and good fortune.
+Memory Tip: 幸 (good fortune/joy) + 福 (blessing). Two kanji of ultimate good luck combined.
+Example: 家族と穏やかに暮らすことが私の幸福だ。(かぞくとおだやかにくらすことがわたしのこうふくだ。)
+-Living peacefully with my family is my happiness.
+}
+印-
+{
+印 (しるし) - mark / sign / token / symbol
+A noun referring to a visible indicator, badge, or evidence of something.
+Memory Tip: Depicts a royal stamp pressed down onto parchment.
+Example: 感謝の印としてこの花束を贈ります。(かんしゃのしるしとしてこのはなたばをおくります。)
+-I present this bouquet as a token of my gratitude.
+}
+いよいよ-
+{
+いよいよ (いよいよ) - at last / finally / more and more
+An adverb signaling that an anticipated climax, event, or critical moment has arrived.
+Memory Tip: Double repetition of 弥 (more and more / increasingly). "The moment is finally upon us."
+Example: いよいよ明日から新しい生活が始まる。(いよいよあしたからあたらしいせいかつがはじまる。)
+-At last, my new life begins tomorrow.
+}
+留め金-
+{
+留め金 (とめがね) - clasp / latch / catch / fastener
+A noun referring to a metal clasp or buckle that fastens a box, belt, or cloak.
+Memory Tip: 留め (fastener from 留める) + 金 (metal). A metal clip that locks into place.
+Example: 古い宝箱の留め金を外した。(ふるいたからばこのとめがねをはずした。)
+-I unfastened the clasp on the old treasure chest.
+}
+炎-
+{
+炎 (ほのお) - flame / blaze
+A noun referring to intense tongue of fire or burning blaze.
+Memory Tip: Fire 火 stacked upon another fire 火 — double flames leaping high.
+Example: キャンプファイヤーの炎が夜空を焦がす。(きゃんぷふぁいやーのほのおがよぞらをこがす。)
+-The flames of the campfire scorch the night sky.
+}
+首を傾げた-
+{
+首を傾げた (くびをかしげた) - tilted one's head in puzzlement
+The past tense of the idiom 首を傾げる (to tilt one's head to indicate doubt or curiosity).
+Memory Tip: 首 (neck) + 傾げる (to slant/tilt). Cocking your head sideways when curious.
+Example: 予期せぬ質問に、彼は首を傾げた。(よきせぬしつもんに、かれはくびをかしげた。)
+-He tilted his head in puzzlement at the unexpected question.
+}
+目のくらむような-
+{
+目のくらむような (めのくらむような) - dazzling / dizzying / blinding
+An adjectival phrase describing light, height, or wealth so intense it causes vertigo or blindness.
+Memory Tip: 目 (eye) + 眩む (to grow dizzy/dark) + ような (such as). Blinding to the senses.
+Example: 目のくらむような宝石の輝きに圧倒された。(めのくらむようなほうせきのかがやきにあっとうされた。)
+-I was overwhelmed by the dazzling brilliance of the jewels.
+}
+放出-
+{
+放出 (ほうしゅつ) - release / discharge / emit / dump
+A noun/suru-verb meaning expelling or releasing stored energy, gas, or goods outward.
+Memory Tip: 放 (release/let loose) + 出 (exit/out). Discharging out into the open.
+Example: 原子炉から熱が放出される。(げんしろからねつがほうしゅつされる。)
+-Heat is discharged from the nuclear reactor.
+}
+とびすさる-
+{
+とびすさる (とびすさる) - to leap back / to spring backward (飛び退る)
+A compound verb meaning to quickly jump backward in surprise or evasive defense.
+Memory Tip: 飛び (flying/jumping) + 退る (to retreat/step back). Leaping in reverse.
+Example: 危険を察知して咄嗟にとびすさった。(きけんをさっちしてとっさにとびすさった。)
+-Sensing danger, I instantly leapt backward.
+}
+照らしだした-
+{
+照らしだした (てらしだした) - illuminated / highlighted / brought to light
+The past tense of the compound verb 照らし出す (to shine light upon and expose clearly).
+Memory Tip: 照らす (shine light) + 出す (bring forth out into view).
+Example: 懐中電灯が洞窟の奥を照らしだした。(かいちゅうでんとうがどうくつのおくをてらしだした。)
+-The flashlight illuminated the depths of the cave.
+}
+攻めこむ-
+{
+攻めこむ (せめこむ) - to invade / to charge into / to mount an assault
+A compound godan verb meaning to attack deeply into enemy territory.
+Memory Tip: 攻める (to attack) + 込む (deeply into). Breaching the defenses inward.
+Example: 軍勢は一気に敵の本拠地へ攻めこんだ。(ぐんぜいはせつなにてきのほんきょちえせめこんだ。)
+-The army charged straight into the heart of the enemy's stronghold.
+}
+逸らす-
+{
+逸らす (そらす) - to avert / to divert / to turn away
+A transitive godan verb meaning to divert one's eyes, turn aside a blow, or change the subject.
+Memory Tip: Kanji 逸 contains 辶 (walk) and 免 (evade) — slipping away from direct confrontation.
+Example: 彼は気まずそうに視線を逸らした。(かれはきまずそうにしせんをそらした。)
+-He awkwardly averted his gaze.
+}
+認めた-
+{
+認めた (みとめた) - recognized / acknowledged / admitted
+The past tense of the verb 認める (to recognize, approve, or confess).
+Memory Tip: 言 (speech) + 忍 (endure/persevere). Stating and acknowledging a fact.
+Example: 彼は自分の過ちを正直に認めた。(かれはじぶんのあやまちをしょうじきにみとめた。)
+-He honestly admitted his own mistake.
+}
+輝き-
+{
+輝き (かがやき) - radiance / sparkle / brilliant gleam
+The noun form of the verb 輝く (to shine), referring to the quality of brilliant light.
+Memory Tip: Radical 光 (light); the tangible brilliance emanating from a source.
+Example: そのダイヤモンドは息をのむ輝きを放っている。(そのだいやもんどはいきをのむかがやきをはなっている。)
+-That diamond emits a breathtaking radiance.
+}
+疑問-
+{
+疑問 (ぎもん) - question / doubt / suspicion
+A noun referring to an uncertainty or point of inquiry.
+Memory Tip: 疑 (doubt) + 問 (question). Asking something because you are uncertain.
+Example: 彼の説明には多くの疑問が残る。(かれのせつめいにはおおくのぎもんがのこる。)
+-Many questions remain regarding his explanation.
+}
+認めたのだ-
+{
+認めたのだ (みとめたのだ) - had acknowledged it / was that he admitted it
+The past form 認めた paired with explanatory のだ (んだ), emphasizing an explanation or realization.
+Memory Tip: 認めた (admitted) + のだ (assertive/explanatory wrap: "the reality is that...").
+Example: 彼はついに敗北を認めたのだ。(かれはついにはいぼくをみとめたのだ。)
+-He had finally conceded defeat.
+}
+駆使し-
+{
+駆使し (くしし) - utilizing fully / making full use of
+The conjunctive form of the suru-verb 駆使する (to command and make masterful use of tools or skills).
+Memory Tip: 駆 (gallop/spur forward like horses) + 使 (use). Spurring all resources to maximum use.
+Example: 最新の技術を駆使し、新製品を開発した。(さいしんのぎじゅつをくしし、しんせいひんをかいはつした。)
+-Making full use of cutting-edge technology, they developed a new product.
+}
+唯一-
+{
+唯一 (ゆいいつ) - only / sole / unique
+A noun and adverbial modifier meaning the single, one-and-only thing of its kind.
+Memory Tip: 唯 (only/solely) + 一 (one).
+Example: それが私に残された唯一の希望だった。(それがわたしにのこされたゆいいつのきぼうだった。)
+-That was the sole hope left for me.
+}
+定められた-
+{
+定められた (さだめられた) - prescribed / decreed / determined by rule
+The past passive form of 定める (to establish, decide, or ordain).
+Memory Tip: 宀 (roof) + 疋/正 (straight/correct) = laws fixed firmly under the palace roof.
+Example: 定められた規則に従って行動する。(さだめられたきそくにしたがってこうどうする。)
+-Act in accordance with the prescribed rules.
+}
+塔-
+{
+塔 (とう) - tower / pagoda / steeple
+A noun referring to a tall, slender vertical structure or monument.
+Memory Tip: Earth radical 土 on the left + 合 (joined) = stone and earth built high into the air.
+Example: 古い教会の塔から鐘の音が響いた。(ふるいきょうかいのとうからかねのおとがひびいた。)
+-The sound of bells chimed from the old church tower.
+}
+最上階-
+{
+最上階 (さいじょうかい) - top floor / penthouse / highest story
+A noun referring to the uppermost floor of a multi-story building.
+Memory Tip: 最 (most) + 上 (top) + 階 (floor/story) = the absolute highest level.
+Example: ホテルの最上階にあるレストランを予約した。(ほてるのさいじょうかいにあるれすとらんをよやくした。)
+-I reserved a table at the restaurant on the hotel's top floor.
+}
+錠-
+{
+錠 (じょう) - lock / padlock / pill-tablet
+A noun referring to a locking mechanism (or a medicinal tablet).
+Memory Tip: Metal radical 金 + 定 (fixed). A metal piece fixed to keep doors closed.
+Example: 頑丈な錠が扉にかけられている。(がんじょうなじょうがとびらにかけられている。)
+-A sturdy lock is fastened to the door.
+}
+日々-
+{
+日々 (ひび) - days / every day / daily life
+A noun/adverbial noun referring to the passage of days or everyday existence.
+Memory Tip: 日 (day) duplicated with 々 = day after day.
+Example: 平穏な日々を過ごすことが一番大切だ。(へいおんなひびをすごすことがいちばんたいせつだ。)
+-Spending peaceful days is what matters most.
+}
+切り回す-
+{
+切り回す (きりまわす) - to manage skillfully / to handle / to run the show
+A compound godan verb meaning to manage, oversee, or maneuver complex affairs smoothly.
+Memory Tip: 切る (cut/direct) + 回す (turn/spin wheels). Steering the ship deftly in all directions.
+Example: 彼女は大家族の家計を一人で切り回している。(かのじょはだいかぞくのかけいをついたりできりまわしている。)
+-She manages the large family's household budget single-handedly.
+}
+道化師-
+{
+道化師 (どうけし) - clown / jester / buffoon
+A noun referring to an entertainer who wears makeup and performs comedic, playful antics.
+Memory Tip: 道化 (buffoonery/farce) + 師 (master/professional performer).
+Example: 道化師が観客を大いに笑わせた。(どうけしがかんきゃくをおおいによらわせた。)
+-The clown made the audience laugh heartily.
+}
+書類-
+{
+書類 (しょるい) - documents / official papers
+A noun referring to written records, forms, and official paperwork.
+Memory Tip: 書 (writing) + 類 (category/kinds). Assorted written files.
+Example: 必要な書類にサインをして提出した。(ひつようなしょるいにさいんをしてていしゅつした。)
+-I signed and submitted the necessary documents.
+}
 暮らしている-
 {
 暮らしている (くらしている) - living / residing
