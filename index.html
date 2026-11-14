@@ -40,7 +40,7 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
 #session-tools { flex-shrink: 0; display: flex; align-items: center; gap: 0.5rem; padding-left: 0.5rem; }
 #voice-select { background: #1e293b; border: none; border-radius: 0.4rem; padding: 0.2rem 0.35rem; font-size: 0.7rem; max-width: 100px; color: #d1d5db; }
 
-/* Main Card Display - Dark Red/Brown Pill Box */
+/* Main Card Display - Dynamic Harmonic Pill Box */
 #japanese-word-box {
   width: 88%;
   max-width: 360px;
@@ -56,6 +56,7 @@ body{font-family:'Inter',sans-serif;background-color:var(--bg-primary);color:var
   line-height: 1.1;
   font-size: clamp(2.4rem, 10vw, 4.2rem);
   text-align: center;
+  text-shadow: 0px 3px 12px rgba(0, 0, 0, 0.92);
 }
 #kana-reading{font-size:clamp(1.1rem,4.5vw,1.75rem);line-height:1.2;color:var(--text-secondary);margin-top:.2rem}
 
@@ -427,6 +428,10 @@ function speak(txt){
 const WORD_COLORS = ['hsl(0,85%,65%)', 'hsl(23,85%,65%)', 'hsl(45,85%,65%)', 'hsl(68,85%,65%)', 'hsl(90,85%,65%)', 'hsl(113,85%,65%)', 'hsl(135,85%,65%)', 'hsl(158,85%,65%)', 'hsl(180,85%,65%)', 'hsl(203,85%,65%)', 'hsl(225,85%,65%)', 'hsl(248,85%,65%)', 'hsl(270,85%,65%)', 'hsl(293,85%,65%)', 'hsl(315,85%,65%)', 'hsl(338,85%,65%)'];
 function wordColorIndex(word) { let hash = 5381; for (let i = 0; i < word.length; i++) { hash = ((hash << 5) + hash) ^ word.charCodeAt(i); hash = hash >>> 0; } return hash % WORD_COLORS.length; }
 function getWordColor(word) { return WORD_COLORS[wordColorIndex(word)]; }
+function getFrameColor(word) {
+  const baseHue = parseInt(getWordColor(word).slice(4), 10) || 0;
+  return `hsl(${(baseHue + 44) % 360}, 23%, 27%)`;
+}
 
 function parseDescriptionsFile(text) {
   const map = new Map();
@@ -574,8 +579,8 @@ function getReadingFromDescription(word, description) { const match = descriptio
     
 function displayCardFront(){
   dom.japaneseWord.textContent = currentWord.displayWord;
-  dom.japaneseWord.style.color = getWordColor(currentWord.displayWord); // Dynamic vocab colors
-  dom.japaneseWordBox.style.backgroundColor = "#5c2406";
+  dom.japaneseWord.style.color = getWordColor(currentWord.displayWord);
+  dom.japaneseWordBox.style.backgroundColor = getFrameColor(currentWord.displayWord);
   dom.kanaReading.classList.add("hidden");
   dom.englishTranslationTop.classList.add("hidden");
   dom.englishTranslationBottom.classList.add("hidden");
